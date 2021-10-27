@@ -4,14 +4,9 @@ from enum import Enum
 from dataclasses import dataclass
 import requests
 import json
-from collections import defaultdict
-import nbt
+from nbt.nbt import NBTFile
 import io
 import base64
-
-
-def decode_nbt(raw):  # may be used in the future
-    return nbt.nbt.NBTFile(fileobj=io.BytesIO(base64.b64decode(raw)))
 
 
 def main():
@@ -78,13 +73,15 @@ def get_data():  # create a dict with all items, their value and rarity
     # auction items
     with ThreadPoolExecutor() as executor:
         items = {
-            recieve_item_id(auction["item_bytes"]): {"tier": auction["tier"], "value": [auction["starting_bid"]]}
+            receive_item_id(auction["item_bytes"]):
+                {"tier": auction["tier"],
+                 "value": [auction["starting_bid"]]}
             for page in executor.map(requests.get, urls)
             for auction in page.json().get("auctions", ())
             if "bin" in auction
         }
 
-    #
+    # this is needed because the bazaar api does not include rarity
     tiers = {}
     for item in ressource_data['items']:
         if 'tier' in item:
@@ -94,28 +91,27 @@ def get_data():  # create a dict with all items, their value and rarity
 
     # bazaar items
     for product_data in bz_data['products'].values():
-        if 1 == 1:
+        if product_data['quick_status']['productId'] != 'BAZAAR_COOKIE':
             items.update({
                 product_data['quick_status']['productId']:
-                    {"tier": tiers[product_data['quick_status']['productId']], "value": [product_data['quick_status']['buyPrice'] + 0.1]}
+                {"tier": tiers[product_data['quick_status']['productId']],
+                 "value": [product_data['quick_status']['buyPrice'] + 0.1]}
             })
-    with open('items.txt', 'w', encoding="utf-8") as f:
-        json.dump(items, f, indent=4, sort_keys=True)
 
     # adds npc_sell_price
     for item in ressource_data["items"]:
         if item["id"] in items:
-
             if "npc_sell_price" in item:
-                items[item["id"]][tiers[item["id"]]].append(item["npc_sell_price"])
+                items[item["id"]].update({"npc_sell_price": item["npc_sell_price"]})
+            elif "tier" in items[item['id']]:
+                items[item["id"]].update({"npc_sell_price": 0})
             else:
-                if 'VANILLA' in items[item['id']]:
-                    items[item["id"]]['COMMON'].append(0)
-                else:
-                    items[item["id"]][item['tier']].append(0)
+                print(item)
+                print(item["id"])
+                raise KeyError("ouch")
 
     # filler item
-    items.update({"None": {'COMMON': 0}})
+    items.update({"filler": {"tier": "COMMON", "value": 0}})
 
     # currently just for debug
     with open('items.txt', 'w', encoding="utf-8") as f:
@@ -131,11 +127,11 @@ class Pet:
     cost: int | float
     item_needed: str
     item_amount: int
+    name_formatted: str = f"[Lvl {{}}] {name_raw}"
 
     def pets_profit_calc(self, items_dict):
-        name_formatted = f"[Lvl {{}}] {self.name_raw}"
-        rarity2_higher_cost = Pet.pets_lowest_bin(self, items_dict, self.rarity.next_tier(), name_formatted)
-        rarity_lower_cost = Pet.pets_lowest_bin(self, items_dict, self.rarity, name_formatted)
+        rarity2_higher_cost = Pet.pets_lowest_bin(self, items_dict, self.rarity.next_tier())
+        rarity_lower_cost = Pet.pets_lowest_bin(self, items_dict, self.rarity)
         kat_flower_cost = items_dict['Kat Flower']['SPECIAL'] * self.kat_flowers_needed
         coins_needed = self.cost
         item_price_n_quantity = items_dict[self.item_needed]['COMMON'] * self.item_amount
@@ -146,25 +142,19 @@ class Pet:
                 + coins_needed
                 + item_price_n_quantity
         )
-        print(f"{name_formatted.format(1)}, {self.rarity} to {self.rarity.next_tier()}: {pet_rarity1_to_rarity2}")
+        print(f"{self.name_formatted.format(1)}, {self.rarity} to {self.rarity.next_tier()}: {pet_rarity1_to_rarity2}")
 
-    def pets_lowest_bin(self, items_dict, rarity, name_formatted):
+    def pets_lowest_bin(self, items_dict, rarity):
         return min(
-            items_dict[name_formatted.format(level)][rarity]
+            items_dict[self.name_formatted.format(level)][rarity]
             for level in range(100)
             if
-            name_formatted.format(level) in items_dict and items_dict[name_formatted.format(level)] == rarity
+            self.name_formatted.format(level) in items_dict and items_dict[self.name_formatted.format(level)] == rarity
         )
 
 
-def recieve_item_id(raw):
-    item_nbt = decode_nbt(raw)
-    print(item_nbt)
-    return item_nbt[0][0][2][3][2]
-
-
-def decode_nbt(raw):  # may be used in the future
-    return nbt.nbt.NBTFile(fileobj=io.BytesIO(base64.b64decode(raw)))
+def receive_item_id(raw):
+    return str(NBTFile(fileobj=io.BytesIO(base64.b64decode(raw)))["i"][0]["tag"]["ExtraAttributes"]["id"])
 
 
 if __name__ == '__main__':
