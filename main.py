@@ -1,7 +1,7 @@
 from concurrent.futures import ThreadPoolExecutor
 from timeit import timeit
 from enum import Enum
-from dataclasses import dataclass
+from dataclasses import dataclass, InitVar
 import requests
 import json
 from nbt.nbt import NBTFile
@@ -12,8 +12,8 @@ import base64
 def main():
     items_dict = get_data()
     # Pets crafting (in Progress) # Pet('', Rarity.EPIC, 10, 1e+1, 'None', 0).pets_profit_calc(items_dict)
-    # Pet('Armadillo', Rarity.COMMON, 1, 1e+4, 'None', 0).pets_profit_calc(items_dict)
-    '''Pet('Armadillo', Rarity.UNCOMMON, 1, 3e+4, 'None', 0).pets_profit_calc(items_dict)
+    Pet(Rarity.COMMON, 1, 1e+4, 'None', 0, 'Armadillo').pets_profit_calc(items_dict)
+    Pet('Armadillo', Rarity.UNCOMMON, 1, 3e+4, 'None', 0).pets_profit_calc(items_dict)
     Pet('Armadillo', Rarity.RARE, 2, 25e+4, 'None', 0).pets_profit_calc(items_dict)
     Pet('Armadillo', Rarity.EPIC, 5, 1e+6, 'None', 0).pets_profit_calc(items_dict)
     Pet('Baby Yeti', Rarity.EPIC, 12, 2e+7, 'ENCHANTED_RAW_SALMON', 16).pets_profit_calc(items_dict)
@@ -34,7 +34,7 @@ def main():
     Pet('Chicken', Rarity.EPIC, 10, 1e+1, 'None', 0).pets_profit_calc(items_dict)
 
     Pet('Elephant', Rarity.EPIC, 10, 14e+6, 'None', 0).pets_profit_calc(items_dict)
-    Pet('Wither Skeleton', Rarity.EPIC, 5, 25e+4, 'ENCHANTED_COAL_BLOCK', 8).pets_profit_calc(items_dict)'''
+    Pet('Wither Skeleton', Rarity.EPIC, 5, 25e+4, 'ENCHANTED_COAL_BLOCK', 8).pets_profit_calc(items_dict)
     # BZ to NPC (in Progress)
 
 
@@ -121,13 +121,16 @@ def get_data():  # create a dict with all items, their value and rarity
 
 @dataclass
 class Pet:
-    name_raw: str
     rarity: Rarity
     kat_flowers_needed: int
     cost: int | float
     item_needed: str
     item_amount: int
-    name_formatted: str = f"[Lvl {{}}] {name_raw}"
+    name_raw: InitVar[str]
+    name: str = None
+
+    def __post_init__(self, name_raw):
+        self.name = f"[Lvl {{}}] {name_raw}"
 
     def pets_profit_calc(self, items_dict):
         rarity2_higher_cost = Pet.pets_lowest_bin(self, items_dict, self.rarity.next_tier())
@@ -142,14 +145,14 @@ class Pet:
                 + coins_needed
                 + item_price_n_quantity
         )
-        print(f"{self.name_formatted.format(1)}, {self.rarity} to {self.rarity.next_tier()}: {pet_rarity1_to_rarity2}")
+        print(f"{self.name.format(1)}, {self.rarity} to {self.rarity.next_tier()}: {pet_rarity1_to_rarity2}")
 
     def pets_lowest_bin(self, items_dict, rarity):
         return min(
-            items_dict[self.name_formatted.format(level)][rarity]
+            items_dict[self.name.format(level)][rarity]
             for level in range(100)
             if
-            self.name_formatted.format(level) in items_dict and items_dict[self.name_formatted.format(level)] == rarity
+            self.name.format(level) in items_dict and items_dict[self.name.format(level)] == rarity
         )
 
 
