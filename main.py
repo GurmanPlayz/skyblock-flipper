@@ -1,7 +1,7 @@
 from concurrent.futures import ThreadPoolExecutor
 from timeit import timeit
 from enum import Enum
-from dataclasses import dataclass, InitVar
+from dataclasses import dataclass, InitVar, field
 import requests
 import json
 from nbt.nbt import NBTFile
@@ -11,8 +11,8 @@ import base64
 
 def main():
     items_dict = get_data()
-    # Pets crafting (in Progress) # Pet('', Rarity.EPIC, 10, 1e+1, 'None', 0).pets_profit_calc(items_dict)
-    Pet(Rarity.COMMON, 1, 1e+4, 'None', 0, 'Armadillo').pets_profit_calc(items_dict)
+    # Pets crafting (in Progress) # Pet(Rarity.EPIC, 10, 1e+4, 'None', 0, '').pets_profit_calc(items_dict)
+    Pet('Armadillo', Rarity.COMMON, 1, 1e+4, 'None', 0, ).pets_profit_calc(items_dict)
     Pet('Armadillo', Rarity.UNCOMMON, 1, 3e+4, 'None', 0).pets_profit_calc(items_dict)
     Pet('Armadillo', Rarity.RARE, 2, 25e+4, 'None', 0).pets_profit_calc(items_dict)
     Pet('Armadillo', Rarity.EPIC, 5, 1e+6, 'None', 0).pets_profit_calc(items_dict)
@@ -62,20 +62,24 @@ class Rarity(str, Enum):
         return next_tiers[self]
 
 
-def get_data():  # create a dict with all items, their value and rarity
-    # CLEAN UP THIS MESS
+def get_data():  #
+    """
+    create a dict with all items, their value and rarity
+    """
     # gets all data needed from the api
     pages = requests.get("https://api.hypixel.net/skyblock/auctions").json()["totalPages"]
     urls = [f"https://api.hypixel.net/skyblock/auctions?page={i}" for i in range(pages)]
     bz_data = requests.get("https://api.hypixel.net/skyblock/bazaar").json()
-    ressource_data = requests.get("https://api.hypixel.net/resources/skyblock/items").json()
+    resource_data = requests.get("https://api.hypixel.net/resources/skyblock/items").json()
 
-    # auction items
+    # auction items # ONLY 1 PET RARITY SAVED
+
     with ThreadPoolExecutor() as executor:
         items = {
             receive_item_id(auction["item_bytes"]):
                 {"tier": auction["tier"],
-                 "value": [auction["starting_bid"]]}
+                 "value": auction["starting_bid"],
+                 "name": auction["item_name"]}
             for page in executor.map(requests.get, urls)
             for auction in page.json().get("auctions", ())
             if "bin" in auction
@@ -83,7 +87,7 @@ def get_data():  # create a dict with all items, their value and rarity
 
     # this is needed because the bazaar api does not include rarity
     tiers = {}
-    for item in ressource_data['items']:
+    for item in resource_data['items']:
         if 'tier' in item:
             tiers.update({item['id']: item['tier']})
         else:
@@ -94,12 +98,12 @@ def get_data():  # create a dict with all items, their value and rarity
         if product_data['quick_status']['productId'] != 'BAZAAR_COOKIE':
             items.update({
                 product_data['quick_status']['productId']:
-                {"tier": tiers[product_data['quick_status']['productId']],
-                 "value": [product_data['quick_status']['buyPrice'] + 0.1]}
+                    {"tier": tiers[product_data['quick_status']['productId']],
+                     "value": product_data['quick_status']['buyPrice'] + 0.1}
             })
 
     # adds npc_sell_price
-    for item in ressource_data["items"]:
+    for item in resource_data["items"]:
         if item["id"] in items:
             if "npc_sell_price" in item:
                 items[item["id"]].update({"npc_sell_price": item["npc_sell_price"]})
@@ -121,23 +125,25 @@ def get_data():  # create a dict with all items, their value and rarity
 
 @dataclass
 class Pet:
+    name_raw: InitVar[str]
     rarity: Rarity
     kat_flowers_needed: int
     cost: int | float
     item_needed: str
     item_amount: int
-    name_raw: InitVar[str]
-    name: str = None
+    next_rarity: Rarity = field(init=False)
+    name: str = field(init=False)
 
     def __post_init__(self, name_raw):
+        self.next_rarity = self.rarity.next_tier()
         self.name = f"[Lvl {{}}] {name_raw}"
 
     def pets_profit_calc(self, items_dict):
-        rarity2_higher_cost = Pet.pets_lowest_bin(self, items_dict, self.rarity.next_tier())
+        rarity2_higher_cost = Pet.pets_lowest_bin(self, items_dict, self.next_rarity)
         rarity_lower_cost = Pet.pets_lowest_bin(self, items_dict, self.rarity)
-        kat_flower_cost = items_dict['Kat Flower']['SPECIAL'] * self.kat_flowers_needed
+        kat_flower_cost = items_dict['Kat Flower']['value'] * self.kat_flowers_needed
         coins_needed = self.cost
-        item_price_n_quantity = items_dict[self.item_needed]['COMMON'] * self.item_amount
+        item_price_n_quantity = items_dict[self.item_needed]['value'] * self.item_amount
 
         pet_rarity1_to_rarity2 = rarity2_higher_cost - (
                 rarity_lower_cost
@@ -145,14 +151,17 @@ class Pet:
                 + coins_needed
                 + item_price_n_quantity
         )
-        print(f"{self.name.format(1)}, {self.rarity} to {self.rarity.next_tier()}: {pet_rarity1_to_rarity2}")
+        print(f"{self.name.format(1)}, {self.rarity} to {self.next_rarity}: {pet_rarity1_to_rarity2}")
 
     def pets_lowest_bin(self, items_dict, rarity):
+        """
+        :returns the lowest bin of a pet of a specific rarity
+        not done!!!
+        """
         return min(
-            items_dict[self.name.format(level)][rarity]
+            items_dict[self.name.format(level)]["value"]
             for level in range(100)
-            if
-            self.name.format(level) in items_dict and items_dict[self.name.format(level)] == rarity
+            if self.name.format(level) in items_dict and items_dict[self.name.format(level)] == rarity
         )
 
 
