@@ -7,7 +7,7 @@ import json
 from nbt.nbt import NBTFile
 import io
 import base64
-from collections import defaultdict
+
 
 def main():
     items = get_data()
@@ -40,7 +40,7 @@ def main():
 class Rarity(str, Enum):
     VERY_SPECIAL = "VERY_SPECIAL"
     SPECIAL = "SPECIAL"
-    DIVINE = "DIVINE"
+    SUPREME = "SUPREME"
     MYTHIC = "MYTHIC"
     LEGENDARY = "LEGENDARY"
     EPIC = "EPIC"
@@ -48,20 +48,21 @@ class Rarity(str, Enum):
     UNCOMMON = "UNCOMMON"
     COMMON = "COMMON"
 
+    # SUPREME IS SUPPOSED TO BE
     def next_tier(self):
         next_tiers = {
             Rarity.COMMON: Rarity.UNCOMMON,
             Rarity.UNCOMMON: Rarity.RARE,
             Rarity.RARE: Rarity.EPIC,
             Rarity.EPIC: Rarity.LEGENDARY,
-            Rarity.LEGENDARY: Rarity.DIVINE,
-            Rarity.DIVINE: Rarity.SPECIAL,
+            Rarity.LEGENDARY: Rarity.SUPREME,
+            Rarity.SUPREME: Rarity.SPECIAL,
             Rarity.SPECIAL: Rarity.VERY_SPECIAL
         }
         return next_tiers[self]
 
 
-def get_data():  #
+def get_data():
     """
     create a dict with all items, their value and rarity
     """
@@ -77,13 +78,9 @@ def get_data():  #
         for page in executor.map(requests.get, urls):
             for auction in page.json().get("auctions", ()):
                 if "bin" in auction:
-                    items[auction["tier"]].update({
-                            receive_item_id(auction["item_bytes"]): {
-                                "value": auction["starting_bid"], "name": auction["item_name"]
-                            }
-                    })
-    with open('items.txt', 'w', encoding="utf-8") as f:
-        json.dump(items, f, indent=4, sort_keys=True)
+                    items[Rarity[auction["tier"]]][receive_item_id(auction["item_bytes"])] = {
+                        "value": auction["starting_bid"], "name": auction["item_name"]
+                    }
 
     # this is needed because the bazaar api does not include rarity
     tiers = {}
@@ -97,21 +94,28 @@ def get_data():  #
     for product_data in bz_data['products'].values():
         if product_data['quick_status']['productId'] != 'BAZAAR_COOKIE':
             items[tiers[product_data['quick_status']['productId']]].update({
-                    product_data['quick_status']['productId']: {
-                        "value": product_data['quick_status']['buyPrice'] + 0.1
-                    }
+                product_data['quick_status']['productId']: {
+                    "value": product_data['quick_status']['buyPrice'] + 0.1
+                }
             })
+    with open('items.txt', 'w', encoding="utf-8") as f:
+        json.dump(items, f, indent=4, sort_keys=True)
 
     # adds npc_sell_price to all items
     for item in resource_data["items"]:
-        if item["id"] in items:
+        if item["id"] in items[Rarity[auction["tier"]]]:
             if "npc_sell_price" in item:
-                items[item["tier"]][item["id"]].update({"npc_sell_price": item["npc_sell_price"]})
-            elif "tier" in items[item['id']]:
-                items[item["tier"]][item["id"]].update({"npc_sell_price": 0})
-            else:
-                raise KeyError(f"{item['id']} is not in items")
+                items[Rarity[auction["tier"]]][item["id"]] = {"npc_sell_price": item["npc_sell_price"]}
 
+    '''if item["id"] in items[tiers[item["id"]]]:
+            print(items[tiers[item["id"]]])
+            print(item['id'])
+            if "npc_sell_price" in item:
+                items[item["tier"]][item["id"]]["npc_sell_price"] = item["npc_sell_price"]
+            elif "tier" in items[tiers[item["id"]]]:
+                items[item["tier"]][item["id"]]["npc_sell_price"] = 0
+            else:
+                items["COMMON"][item["id"]]["npc_sell_price"] = 0'''
     # filler item
     items.update({"COMMON": {"filler": {"value": 0}}})
 
@@ -139,10 +143,9 @@ class Pet:
     def pets_profit_calc(self, items):
         rarity2_higher_cost = Pet.pets_lowest_bin(self, items, self.next_rarity)
         rarity_lower_cost = Pet.pets_lowest_bin(self, items, self.rarity)
-        kat_flower_cost = items['Kat Flower']['value'] * self.kat_flowers_needed
+        kat_flower_cost = items["SPECIAL"]['Kat Flower']['value'] * self.kat_flowers_needed
         coins_needed = self.cost
-        item_price_n_quantity = items[self.item_needed]['value'] * self.item_amount
-
+        item_price_n_quantity = [self.item_needed]['value'] * self.item_amount
         pet_rarity1_to_rarity2 = rarity2_higher_cost - (
                 rarity_lower_cost
                 + kat_flower_cost
