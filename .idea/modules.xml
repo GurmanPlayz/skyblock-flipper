@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/kat_calculator.iml" filepath="$PROJECT_DIR$/kat_calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/skyblock-flipper.iml" filepath="$PROJECT_DIR$/skyblock-flipper.iml" />
     </modules>
   </component>
 </project>
