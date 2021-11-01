@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42bc73f0-d789-484c-8ad3-e28e416da06e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/items.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skyblock-flipper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/skyblock-flipper.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,14 +127,14 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="kat_calculator" />
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="skyblock-flipper" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Program Files\Python310\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\theod\OneDrive\Dokumente\GitHub\skyblock-flipper\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -152,9 +149,14 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.3a + 1" />
+      <item itemvalue="Python.Bazaar_to_NPC_Calculator" />
+      <item itemvalue="Python.konkat" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
         <item itemvalue="Python.konkat" />
         <item itemvalue="Python.Bazaar_to_NPC_Calculator" />
         <item itemvalue="Python.3a + 1" />
@@ -187,6 +189,7 @@
       <workItem from="1635600061733" duration="28000" />
       <workItem from="1635600098432" duration="36601000" />
       <workItem from="1635702632843" duration="6001000" />
+      <workItem from="1635757409195" duration="223000" />
     </task>
     <servers />
   </component>
@@ -214,7 +217,7 @@
     <SUITE FILE_PATH="coverage/kat_calculator$main.coverage" NAME="main Coverage Results" MODIFIED="1635362716962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/skyblock_flipper$main.coverage" NAME="main Coverage Results" MODIFIED="1635512683912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/kat_calculator$konkat.coverage" NAME="konkat Coverage Results" MODIFIED="1634724798530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/Users/theodor/Documents/NetBeansProjects/konkat" />
-    <SUITE FILE_PATH="coverage/workspace_xml$main.coverage" NAME="main Coverage Results" MODIFIED="1635710207984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/workspace_xml$main.coverage" NAME="main Coverage Results" MODIFIED="1635757632991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/kat_calculator$Bazaar_to_NPC_Calculator.coverage" NAME="Bazaar_to_NPC_Calculator Coverage Results" MODIFIED="1634759807270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/Users/theodor/Documents/NetBeansProjects/Bazaar_to_NPC_Calculator" />
   </component>
 </project>

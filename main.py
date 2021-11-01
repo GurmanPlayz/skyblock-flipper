@@ -146,14 +146,16 @@ def main():
     bz_to_npc = []
     for rarity in items:
         for item in rarity:
+            print(item)
             if "value" and "npc_sell_price" in item:
                 bz_to_npc.append(item)
                 bz_to_npc.append(item["npc_sell_price"] - item["value"])
     for item, potential in bz_to_npc:
-        if potential > 0:
-            print(f"for selling {item} to npc you earn {potential} per")
+    #    if potential > 0:
+        print(f"for selling {item} to npc you earn {potential} per")
 
-    # ForgeResult("", [["", 2]], (0, 0, 0)).calculate(items, tiers)
+
+    print("Forge Profits: ")# ForgeResult("", [["", 2]], (0, 0, 0)).calculate(items, tiers)
     ForgeResult("REFINED_DIAMOND", [["ENCHANTED_DIAMOND_BLOCK", 2]], (6, 43, 12)).calculate(items, tiers)
     
     # Hyper Catalyst
