@@ -22,7 +22,7 @@ def main():
         with open('tiers.json', 'r', encoding="utf-8") as f:
             tiers = json.load(f)
 
-    print("Pet crafting:")
+    print("--------- PET CRAFTING: ---------")
     Pet('Armadillo', Rarity.COMMON, 1, 1e+4, 'None', 0, ).pets_profit_calc(items, tiers)
     Pet('Armadillo', Rarity.UNCOMMON, 1, 3e+4, 'None', 0).pets_profit_calc(items, tiers)
     Pet('Armadillo', Rarity.RARE, 2, 25e+4, 'None', 0).pets_profit_calc(items, tiers)
@@ -142,25 +142,25 @@ def main():
     Pet('Wolf', Rarity.EPIC, 5, 25e+4, 'ENCHANTED_SPRUCE_LOG', 512).pets_profit_calc(items, tiers)
     Pet('Zombie', Rarity.EPIC, 10, 25e+4, 'ZOMBIE_HEART', 8).pets_profit_calc(items, tiers)
 
-    print("Bazaar to npc:")  # not sure if it not works or if it is useless
+    print("--------- BAZAAR TO NPC: ---------")
     bz_to_npc = []
-    for rarity in items:
-        for item in rarity:
-            print(item)
+    for rarity in items.values():
+        for item in rarity.values():
             if "value" and "npc_sell_price" in item:
-                bz_to_npc.append(item)
-                bz_to_npc.append(item["npc_sell_price"] - item["value"])
+                bz_to_npc.append([item, item["npc_sell_price"] - item["value"]])
+
     for item, potential in bz_to_npc:
-    #    if potential > 0:
-        print(f"for selling {item} to npc you earn {potential} per")
+        if potential > 0:
+            print(f"for selling {item['name']} to npc you earn {potential:.1f} per")
 
-
-    print("Forge Profits: ")# ForgeResult("", [["", 2]], (0, 0, 0)).calculate(items, tiers)
+    print("------- FORGE PROFIT: -------")  # ForgeResult("", [["", 2]], (0, 0, 0)).calculate(items, tiers)
     ForgeResult("REFINED_DIAMOND", [["ENCHANTED_DIAMOND_BLOCK", 2]], (6, 43, 12)).calculate(items, tiers)
-    
+
     # Hyper Catalyst
 
+    # Bin Flip
 
+    # Ah
 class Rarity(str, Enum):
     VERY_SPECIAL = "VERY_SPECIAL"
     SPECIAL = "SPECIAL"
@@ -210,7 +210,9 @@ def get_dict():
     for product_data in bz_data['products'].values():
         if product_data['quick_status']['productId'] != "BAZAAR_COOKIE":
             items[tiers[product_data['quick_status']['productId']]][product_data['quick_status']['productId']] = {
-                'value': product_data['quick_status']['buyPrice'] + 0.1}
+                'value': product_data['quick_status']['buyPrice'] + 0.1,
+                'name': product_data['quick_status']['productId']
+                }
 
     # adds npc_sell_price to all items that are in resource_data["items"]
     for item in resource_data["items"]:
@@ -313,12 +315,10 @@ class Pet:
         for level in range(100):
             if self.name.format(level) in items[rarity]:
                 values.append(items[rarity][self.name.format(level)]['value'])
-
         try:
             return min(values)
         except ValueError:
-            print(f"{self.name.format(1)} of the rarity {rarity} has no auctions")
-            return None
+            pass
 
 
 @dataclass
