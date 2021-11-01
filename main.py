@@ -153,14 +153,18 @@ def main():
         if potential > 0:
             print(f"for selling {item['name']} to npc you earn {potential:.1f} per")
 
-    print("------- FORGE PROFIT: -------")  # ForgeResult("", [["", 2]], (0, 0, 0)).calculate(items, tiers)
+    print("--------- FORGE PROFIT: ---------")  # ForgeResult("", [["", 2]], (0, 0, 0)).calculate(items, tiers)
     ForgeResult("REFINED_DIAMOND", [["ENCHANTED_DIAMOND_BLOCK", 2]], (6, 43, 12)).calculate(items, tiers)
 
-    # Hyper Catalyst
-
+    print("--------- COMMING SOON: ---------")
+    print("Hyper Catalyst coins/exp for Melon Minions (maybe other Minions later)")
+    print("1. to 2. lowest BIN")
+    print("Ending soon to BIN")
     # Bin Flip
 
-    # Ah
+    # Ah Flips
+
+
 class Rarity(str, Enum):
     VERY_SPECIAL = "VERY_SPECIAL"
     SPECIAL = "SPECIAL"
