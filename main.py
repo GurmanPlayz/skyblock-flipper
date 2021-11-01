@@ -12,17 +12,30 @@ import time
 
 
 def main():
-    update = "n"
-    if os.path.getsize('items.json') == 0 or time.time() - os.path.getmtime('items.json') > 300 or update == "f":
-        print("updating...")
+    update = False
+    if not os.path.isfile('items.json') or not os.path.isfile('tiers.json'):
+        update = True
+    elif time.time() - os.path.getmtime('items.json') > 300 or os.path.getsize('items.json') == 0 or os.path.getsize(
+            'tiers.json') == 0:
+        update = True
+
+    if update:
+        print("Updating...\nThis can take up to 60 seconds")
         items, tiers = get_dict()
+
+        with open('items.json', 'w', encoding="utf-8") as f:
+            json.dump(items, f, indent=4, sort_keys=True)
+
+        with open('tiers.json', 'w', encoding="utf-8") as f:
+            json.dump(tiers, f, indent=4, sort_keys=True)
+
     else:
         with open('items.json', 'r', encoding="utf-8") as f:
             items = json.load(f)
         with open('tiers.json', 'r', encoding="utf-8") as f:
             tiers = json.load(f)
 
-    print("--------- PET CRAFTING: ---------")
+    print("\n--------- PET CRAFTING: ---------")
     Pet('Armadillo', Rarity.COMMON, 1, 1e+4, 'None', 0, ).pets_profit_calc(items, tiers)
     Pet('Armadillo', Rarity.UNCOMMON, 1, 3e+4, 'None', 0).pets_profit_calc(items, tiers)
     Pet('Armadillo', Rarity.RARE, 2, 25e+4, 'None', 0).pets_profit_calc(items, tiers)
@@ -142,7 +155,7 @@ def main():
     Pet('Wolf', Rarity.EPIC, 5, 25e+4, 'ENCHANTED_SPRUCE_LOG', 512).pets_profit_calc(items, tiers)
     Pet('Zombie', Rarity.EPIC, 10, 25e+4, 'ZOMBIE_HEART', 8).pets_profit_calc(items, tiers)
 
-    print("--------- BAZAAR TO NPC: ---------")
+    print("\n--------- BAZAAR TO NPC: ---------")
     bz_to_npc = []
     for rarity in items.values():
         for item in rarity.values():
@@ -153,16 +166,13 @@ def main():
         if potential > 0:
             print(f"for selling {item['name']} to npc you earn {potential:.1f} per")
 
-    print("--------- FORGE PROFIT: ---------")  # ForgeResult("", [["", 2]], (0, 0, 0)).calculate(items, tiers)
+    print("\n--------- FORGE PROFIT: ---------")  # ForgeResult("", [["", 2]], (0, 0, 0)).calculate(items, tiers)
     ForgeResult("REFINED_DIAMOND", [["ENCHANTED_DIAMOND_BLOCK", 2]], (6, 43, 12)).calculate(items, tiers)
 
-    print("--------- COMMING SOON: ---------")
+    print("\n--------- COMING SOON: ---------")
     print("Hyper Catalyst coins/exp for Melon Minions (maybe other Minions later)")
     print("1. to 2. lowest BIN")
     print("Ending soon to BIN")
-    # Bin Flip
-
-    # Ah Flips
 
 
 class Rarity(str, Enum):
@@ -200,15 +210,13 @@ def get_dict():
     bz_data = requests.get("https://api.hypixel.net/skyblock/bazaar").json()
     resource_data = requests.get("https://api.hypixel.net/resources/skyblock/items").json()
 
+    # sometimes you dont have the tier but just the item
     tiers = {
         item['id']: item.get('tier', 'COMMON')
         for item in resource_data['items']
     }
-
+    # adds auction items
     items = get_items(get_auction(urls))
-
-    with open('items.json', 'w', encoding="utf-8") as f:
-        json.dump(items, f, indent=4, sort_keys=True)
 
     # adds bazaar items to items
     for product_data in bz_data['products'].values():
@@ -216,7 +224,7 @@ def get_dict():
             items[tiers[product_data['quick_status']['productId']]][product_data['quick_status']['productId']] = {
                 'value': product_data['quick_status']['buyPrice'] + 0.1,
                 'name': product_data['quick_status']['productId']
-                }
+            }
 
     # adds npc_sell_price to all items that are in resource_data["items"]
     for item in resource_data["items"]:
@@ -229,12 +237,6 @@ def get_dict():
     # filler item
     for rarity in Rarity:
         items[Rarity[rarity]]['None'] = {'value': 0}
-
-    with open('items.json', 'w', encoding="utf-8") as f:
-        json.dump(items, f, indent=4, sort_keys=True)
-
-    with open('tiers.json', 'w', encoding="utf-8") as f:
-        json.dump(tiers, f, indent=4, sort_keys=True)
 
     return items, tiers
 
@@ -287,17 +289,20 @@ class Pet:
         self.name = f"[Lvl {{}}] {name_raw}"
 
     def pets_profit_calc(self, items, tiers):
+        """
+        calculates if a given Pet craft is profit
+        :return: prints out pets that make profit
+        """
         rarity_lower_cost = Pet.pets_lowest_bin(self, items, self.rarity)
         rarity_higher_cost = Pet.pets_lowest_bin(self, items, self.next_rarity)
         kat_flower_cost = items['SPECIAL']['KAT_FLOWER']['value'] * self.kat_flowers_needed
         coins_needed = self.cost
         if rarity_lower_cost is None or rarity_higher_cost is None:  # check if pets have active auctions
-            return
+            return None
         if self.item_needed != "None":  # check if pet needs item to upgrade
             item_price_n_quantity = items[tiers[self.item_needed]][self.item_needed]['value'] * self.item_amount
         else:
             item_price_n_quantity = 0
-
         money_after_kat = rarity_higher_cost - (
                 rarity_lower_cost
                 + kat_flower_cost
@@ -312,7 +317,7 @@ class Pet:
     def pets_lowest_bin(self, items, rarity):
         """
         :returns the lowest bin of a pet of a specific rarity
-        not done!!! add  \u2726 and Bal doesnt work
+        not done!!! need to add \u2726 and Bal doesnt work
         """
         values = []
 
