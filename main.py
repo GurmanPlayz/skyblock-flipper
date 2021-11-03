@@ -86,7 +86,7 @@ class Rarity(str, Enum):
             Rarity.SPECIAL: Rarity.VERY_SPECIAL
         }
         return next_tiers[self]
-
+    
 
 def get_dict():
     """

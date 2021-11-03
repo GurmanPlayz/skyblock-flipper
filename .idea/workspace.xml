@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42bc73f0-d789-484c-8ad3-e28e416da06e" name="Changes" comment="everything works. need to add Forge stuff and maybe other features">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items.json" beforeDir="false" afterPath="$PROJECT_DIR$/items.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skyblock-flipper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/skyblock-flipper.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiers.json" beforeDir="false" afterPath="$PROJECT_DIR$/tiers.json" afterDir="false" />
-    </list>
+    <list default="true" id="42bc73f0-d789-484c-8ad3-e28e416da06e" name="Changes" comment="everything works. need to add Forge stuff and maybe other features" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -197,7 +190,7 @@
       <workItem from="1635780698040" duration="44000" />
       <workItem from="1635781183372" duration="661000" />
       <workItem from="1635782246119" duration="4562000" />
-      <workItem from="1635934078620" duration="7458000" />
+      <workItem from="1635934078620" duration="7765000" />
     </task>
     <task id="LOCAL-00001" summary="everything works. need to add Forge stuff and maybe other features">
       <created>1635759088605</created>
@@ -237,7 +230,7 @@
     <SUITE FILE_PATH="coverage/kat_calculator$main.coverage" NAME="main Coverage Results" MODIFIED="1635362716962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/skyblock_flipper$main.coverage" NAME="main Coverage Results" MODIFIED="1635512683912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/kat_calculator$konkat.coverage" NAME="konkat Coverage Results" MODIFIED="1634724798530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/Users/theodor/Documents/NetBeansProjects/konkat" />
-    <SUITE FILE_PATH="coverage/workspace_xml$main.coverage" NAME="main Coverage Results" MODIFIED="1635946375428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/workspace_xml$main.coverage" NAME="main Coverage Results" MODIFIED="1635950381336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/kat_calculator$Bazaar_to_NPC_Calculator.coverage" NAME="Bazaar_to_NPC_Calculator Coverage Results" MODIFIED="1634759807270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/Users/theodor/Documents/NetBeansProjects/Bazaar_to_NPC_Calculator" />
   </component>
 </project>

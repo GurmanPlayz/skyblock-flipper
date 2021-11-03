@@ -63,10 +63,10 @@
             "sell_price": 90000
         },
         "BLAZE_ROD": {
-            "buy_price": 33.00011233325532,
+            "buy_price": 31.188131369320462,
             "name": "BLAZE_ROD",
             "npc_sell_price": 9,
-            "sell_price": 24.94783634112972
+            "sell_price": 24.97106723022058
         },
         "BLOOD_GOD_CREST": {
             "name": "Blood God Crest",
@@ -77,7 +77,7 @@
             "buy_price": 5.7,
             "name": "BONE",
             "npc_sell_price": 2,
-            "sell_price": 5.146674096965398
+            "sell_price": 3.458466621006406
         },
         "BOW:96": {
             "name": "null",
@@ -89,10 +89,10 @@
             "sell_price": 450000
         },
         "BROWN_MUSHROOM": {
-            "buy_price": 23.9,
+            "buy_price": 23.896146451558973,
             "name": "BROWN_MUSHROOM",
             "npc_sell_price": 4,
-            "sell_price": 14.9
+            "sell_price": 14.93148089850188
         },
         "BUNNY_PERSONALITY": {
             "name": "Bunny Minion Skin",
@@ -100,10 +100,10 @@
             "sell_price": 300000
         },
         "CACTUS": {
-            "buy_price": 0.9995357842545833,
+            "buy_price": 0.9996906659307047,
             "name": "CACTUS",
             "npc_sell_price": 1,
-            "sell_price": 0.46893951311597903
+            "sell_price": 0.46386291895369647
         },
         "CANDY_BOWL": {
             "name": "Candy Bowl",
@@ -115,16 +115,16 @@
             "sell_price": 350000
         },
         "CARROT_BAIT": {
-            "buy_price": 39.976745870106356,
+            "buy_price": 39.99864449753766,
             "name": "CARROT_BAIT",
             "npc_sell_price": 7,
-            "sell_price": 15.102751660159926
+            "sell_price": 15.6
         },
         "CARROT_ITEM": {
-            "buy_price": 4.057098378035854,
+            "buy_price": 4.216072668143738,
             "name": "CARROT_ITEM",
             "npc_sell_price": 1,
-            "sell_price": 2.3367334778794753
+            "sell_price": 2.36478598916202
         },
         "CAULDRON": {
             "name": "Cauldron",
@@ -142,7 +142,7 @@
             "sell_price": 50000
         },
         "CLAY_BALL": {
-            "buy_price": 3.4974001601225884,
+            "buy_price": 3.5,
             "name": "CLAY_BALL",
             "npc_sell_price": 3,
             "sell_price": 2.8000000000000003
@@ -153,13 +153,13 @@
             "sell_price": 32000000
         },
         "COAL": {
-            "buy_price": 5.245368025440879,
+            "buy_price": 5.262436392068396,
             "name": "COAL",
             "npc_sell_price": 2,
-            "sell_price": 3.8667238921307137
+            "sell_price": 4.1
         },
         "COBBLESTONE": {
-            "buy_price": 7.8998690359258275,
+            "buy_price": 7.894520156974671,
             "name": "COBBLESTONE",
             "npc_sell_price": 1,
             "sell_price": 7.5
@@ -189,16 +189,21 @@
             "sell_price": 99999
         },
         "DARK_BAIT": {
-            "buy_price": 1076.1772604588396,
+            "buy_price": 1076.3296979865772,
             "name": "DARK_BAIT",
             "npc_sell_price": 8,
-            "sell_price": 795.3569562003327
+            "sell_price": 795.1338032628129
         },
         "DIAMOND": {
-            "buy_price": 8.495032689676146,
+            "buy_price": 8.5,
             "name": "DIAMOND",
             "npc_sell_price": 8,
-            "sell_price": 7.3
+            "sell_price": 7.3999999999999995
+        },
+        "DIAMOND_BLOCK": {
+            "name": "Block of Diamond",
+            "npc_sell_price": 72,
+            "sell_price": 18000
         },
         "DINING_CHAIR": {
             "name": "Dining Chair",
@@ -216,16 +221,16 @@
             "sell_price": 3999999
         },
         "EMERALD": {
-            "buy_price": 6.464579098037588,
+            "buy_price": 6.469472284285562,
             "name": "EMERALD",
             "npc_sell_price": 6,
             "sell_price": 3.7
         },
         "ENCHANTED_BONE": {
-            "buy_price": 1018.771492132393,
+            "buy_price": 1018.4669775280898,
             "name": "ENCHANTED_BONE",
             "npc_sell_price": 320,
-            "sell_price": 801.4666726052617
+            "sell_price": 803.2865746463399
         },
         "ENCHANTED_BOOK": {
             "name": "Enchanted Book",
@@ -236,19 +241,19 @@
             "buy_price": 79.0,
             "name": "ENCHANTED_BREAD",
             "npc_sell_price": 60,
-            "sell_price": 58.82142674320817
+            "sell_price": 58.9921293625613
         },
         "ENCHANTED_BROWN_MUSHROOM": {
-            "buy_price": 938.4495179666959,
+            "buy_price": 938.5202137998058,
             "name": "ENCHANTED_BROWN_MUSHROOM",
             "npc_sell_price": 640,
-            "sell_price": 623.8804549854792
+            "sell_price": 623.8744628354067
         },
         "ENCHANTED_ENDSTONE": {
-            "buy_price": 967.2060064935065,
+            "buy_price": 967.3319093851131,
             "name": "ENCHANTED_ENDSTONE",
             "npc_sell_price": 320,
-            "sell_price": 814.2318727818728
+            "sell_price": 814.092873018225
         },
         "ENCHANTED_HUGE_MUSHROOM_1": {
             "buy_price": 12993.044897959182,
@@ -257,31 +262,31 @@
             "sell_price": 10361.9
         },
         "ENCHANTED_HUGE_MUSHROOM_2": {
-            "buy_price": 54580.5,
+            "buy_price": 54580.49509803922,
             "name": "ENCHANTED_HUGE_MUSHROOM_2",
             "npc_sell_price": 2300,
-            "sell_price": 22617.619221967965
+            "sell_price": 22620.43389248952
         },
         "ENCHANTED_RED_MUSHROOM": {
-            "buy_price": 4245.750918005424,
+            "buy_price": 4245.635843995047,
             "name": "ENCHANTED_RED_MUSHROOM",
             "npc_sell_price": 640,
-            "sell_price": 3801.0316966759005
+            "sell_price": 3801.0308193991536
         },
         "ENCHANTED_ROTTEN_FLESH": {
-            "buy_price": 1920.4825649178592,
+            "buy_price": 1912.9079697919178,
             "name": "ENCHANTED_ROTTEN_FLESH",
             "npc_sell_price": 320,
-            "sell_price": 1709.5241970711445
+            "sell_price": 1709.8756840886058
         },
         "ENCHANTED_SEEDS": {
-            "buy_price": 80.13336025597216,
+            "buy_price": 80.23073638921066,
             "name": "ENCHANTED_SEEDS",
             "npc_sell_price": 80,
-            "sell_price": 70.28726424141678
+            "sell_price": 70.28680663642083
         },
         "ENDER_PEARL": {
-            "buy_price": 6.999262326150975,
+            "buy_price": 7.0,
             "name": "ENDER_PEARL",
             "npc_sell_price": 7,
             "sell_price": 5.8
@@ -297,10 +302,10 @@
             "sell_price": 3.7
         },
         "EXP_BOTTLE": {
-            "buy_price": 39.98302660901135,
+            "buy_price": 39.9827791885667,
             "name": "EXP_BOTTLE",
             "npc_sell_price": 5,
-            "sell_price": 30.5
+            "sell_price": 30.50356273049892
         },
         "FANCY_FLOWER_POT": {
             "name": "Flower Pot",
@@ -318,10 +323,10 @@
             "sell_price": 100000
         },
         "FEATHER": {
-            "buy_price": 2.9855660796985792,
+            "buy_price": 2.9856377824914238,
             "name": "FEATHER",
             "npc_sell_price": 3,
-            "sell_price": 1.425732009578088
+            "sell_price": 1.4251598063979005
         },
         "FIREPLACE": {
             "name": "Fireplace",
@@ -334,13 +339,13 @@
             "sell_price": 32400
         },
         "FISH_BAIT": {
-            "buy_price": 103.81710627283452,
+            "buy_price": 103.85100319686994,
             "name": "FISH_BAIT",
             "npc_sell_price": 20,
-            "sell_price": 83.93311472200469
+            "sell_price": 83.96884332464523
         },
         "FLINT": {
-            "buy_price": 14.294312297394015,
+            "buy_price": 14.299974338869486,
             "name": "FLINT",
             "npc_sell_price": 4,
             "sell_price": 13.1
@@ -406,22 +411,22 @@
             "sell_price": 40000
         },
         "GLOWSTONE_DUST": {
-            "buy_price": 15.999171082144134,
+            "buy_price": 15.431164606376056,
             "name": "GLOWSTONE_DUST",
             "npc_sell_price": 2,
-            "sell_price": 6.326835919745471
+            "sell_price": 6.3
         },
         "GOLD_INGOT": {
-            "buy_price": 10.96955943316664,
+            "buy_price": 10.976778815498292,
             "name": "GOLD_INGOT",
             "npc_sell_price": 4,
-            "sell_price": 7.999999999999999
+            "sell_price": 7.934974054654581
         },
         "GRAVEL": {
-            "buy_price": 7.5,
+            "buy_price": 7.499555802332038,
             "name": "GRAVEL",
             "npc_sell_price": 3,
-            "sell_price": 5.322990112685071
+            "sell_price": 5.245841230032632
         },
         "GRINCH_PERSONALITY": {
             "name": "Grinch Minion Skin",
@@ -431,18 +436,18 @@
         "HALLOWEEN_CANDLES": {
             "name": "Halloween Candles",
             "npc_sell_price": 0,
-            "sell_price": 25000
+            "sell_price": 28000
         },
         "HANDY_BLOOD_CHALICE": {
             "name": "Handy Blood Chalice",
             "npc_sell_price": 0,
-            "sell_price": 7000000
+            "sell_price": 6700000
         },
         "HARD_STONE": {
-            "buy_price": 4.050163360084735,
+            "buy_price": 4.054312884842711,
             "name": "HARD_STONE",
             "npc_sell_price": 1,
-            "sell_price": 3.0
+            "sell_price": 3.1098493321075122
         },
         "HAY_BED": {
             "name": "Hay Bed",
@@ -450,10 +455,10 @@
             "sell_price": 750000
         },
         "HAY_BLOCK": {
-            "buy_price": 47.71811237199003,
+            "buy_price": 47.78533156693898,
             "name": "HAY_BLOCK",
             "npc_sell_price": 9,
-            "sell_price": 28.5
+            "sell_price": 28.50735835172921
         },
         "HAY_BLOCK:1": {
             "name": "null",
@@ -481,10 +486,10 @@
             "sell_price": 43.0490434150852
         },
         "ICE": {
-            "buy_price": 7.318033217110937,
+            "buy_price": 7.330947001660451,
             "name": "ICE",
             "npc_sell_price": 0.5,
-            "sell_price": 4.60015126147451
+            "sell_price": 4.600127514425069
         },
         "ICE_CREAM_PERSONALITY": {
             "name": "Ice Cream Minion Skin",
@@ -499,7 +504,7 @@
         "ILLUSION_GLASS": {
             "name": "Illusion Glass",
             "npc_sell_price": 0,
-            "sell_price": 20000
+            "sell_price": 350000
         },
         "INFLATABLE_JERRY": {
             "name": "Inflatable Jerry",
@@ -507,28 +512,28 @@
             "sell_price": 49999
         },
         "INK_SACK": {
-            "buy_price": 917.8990396927016,
+            "buy_price": 917.9439088191332,
             "name": "INK_SACK",
             "npc_sell_price": 2,
-            "sell_price": 750.7242706961587
+            "sell_price": 750.7823628223421
         },
         "INK_SACK:3": {
-            "buy_price": 3.2954412340750965,
+            "buy_price": 3.2955287663052606,
             "name": "INK_SACK:3",
             "npc_sell_price": 3,
             "sell_price": 2.0
         },
         "INK_SACK:4": {
-            "buy_price": 3.3982113461857146,
+            "buy_price": 3.4,
             "name": "INK_SACK:4",
             "npc_sell_price": 1,
-            "sell_price": 2.452280316829497
+            "sell_price": 2.3819544946997495
         },
         "IRON_INGOT": {
-            "buy_price": 8.10733178411969,
+            "buy_price": 8.125990953947369,
             "name": "IRON_INGOT",
             "npc_sell_price": 3,
-            "sell_price": 6.542246954678326
+            "sell_price": 6.460637930319656
         },
         "KALHUIKI_MASK": {
             "name": "Clean Kalhuiki Mask",
@@ -560,28 +565,28 @@
             "sell_price": 1000000
         },
         "LEATHER": {
-            "buy_price": 27.274140122555064,
+            "buy_price": 26.936852506760975,
             "name": "LEATHER",
             "npc_sell_price": 3,
-            "sell_price": 15.518781825559934
+            "sell_price": 15.5
         },
         "LIGHT_BAIT": {
-            "buy_price": 90.0,
+            "buy_price": 89.99970745531837,
             "name": "LIGHT_BAIT",
             "npc_sell_price": 16,
-            "sell_price": 40.7073979295103
+            "sell_price": 40.706056343531436
         },
         "LOG": {
-            "buy_price": 8.715201415102943,
+            "buy_price": 8.680136064190707,
             "name": "LOG",
             "npc_sell_price": 2,
             "sell_price": 5.6
         },
         "LOG:1": {
-            "buy_price": 7.697863497521324,
+            "buy_price": 7.698128838976385,
             "name": "LOG:1",
             "npc_sell_price": 2,
-            "sell_price": 6.335767002472415
+            "sell_price": 6.331709087342455
         },
         "LOG:2": {
             "buy_price": 2.9,
@@ -590,22 +595,22 @@
             "sell_price": 1.3
         },
         "LOG:3": {
-            "buy_price": 9.492329507089805,
+            "buy_price": 9.448967039680117,
             "name": "LOG:3",
             "npc_sell_price": 2,
-            "sell_price": 4.8
+            "sell_price": 4.819105345619672
         },
         "LOG_2": {
-            "buy_price": 2.7978475336322868,
+            "buy_price": 2.8,
             "name": "LOG_2",
             "npc_sell_price": 2,
             "sell_price": 1.5
         },
         "LOG_2:1": {
-            "buy_price": 3.2000000000000006,
+            "buy_price": 3.1999999999999997,
             "name": "LOG_2:1",
             "npc_sell_price": 2,
-            "sell_price": 1.3617601710060625
+            "sell_price": 1.347178874648933
         },
         "LOG_2:2": {
             "name": "null",
@@ -628,7 +633,7 @@
             "buy_price": 9.8,
             "name": "MAGMA_CREAM",
             "npc_sell_price": 8,
-            "sell_price": 5.460772916908849
+            "sell_price": 5.6
         },
         "MAP": {
             "name": "Map",
@@ -666,10 +671,10 @@
             "sell_price": 6000000
         },
         "MELON": {
-            "buy_price": 3.8550173317320815,
+            "buy_price": 3.6993193342816038,
             "name": "MELON",
             "npc_sell_price": 0.5,
-            "sell_price": 2.490649149078031
+            "sell_price": 2.4735956333863998
         },
         "MELON_PERSONALITY": {
             "name": "Melon Minion Skin",
@@ -687,16 +692,16 @@
             "sell_price": 125000
         },
         "MINNOW_BAIT": {
-            "buy_price": 18.79243230995808,
+            "buy_price": 18.800046495408576,
             "name": "MINNOW_BAIT",
             "npc_sell_price": 12,
             "sell_price": 8.299999999999999
         },
         "MITHRIL_ORE": {
-            "buy_price": 11.929855207546563,
+            "buy_price": 10.162800661455202,
             "name": "MITHRIL_ORE",
             "npc_sell_price": 10,
-            "sell_price": 7.85912567259025
+            "sell_price": 8.567109735073707
         },
         "MONSTER_EGG": {
             "name": "Spawn Egg",
@@ -712,22 +717,22 @@
             "sell_price": 450000
         },
         "MUTTON": {
-            "buy_price": 23.5,
+            "buy_price": 23.942970213563132,
             "name": "MUTTON",
             "npc_sell_price": 5,
             "sell_price": 16.400000000000002
         },
         "NETHERRACK": {
-            "buy_price": 5.230406908282088,
+            "buy_price": 5.233196991687557,
             "name": "NETHERRACK",
             "npc_sell_price": 1,
-            "sell_price": 1.070240221887928
+            "sell_price": 1.1046346798084112
         },
         "NETHER_STALK": {
-            "buy_price": 6.130094647317466,
+            "buy_price": 6.2407411513902264,
             "name": "NETHER_STALK",
             "npc_sell_price": 3,
-            "sell_price": 3.2470488105876845
+            "sell_price": 3.7559270650910213
         },
         "NETHER_WART_ISLAND": {
             "name": "Nether Wart Island",
@@ -743,20 +748,20 @@
             "sell_price": 0
         },
         "OBSIDIAN": {
-            "buy_price": 15.273824969156683,
+            "buy_price": 15.25568985619899,
             "name": "OBSIDIAN",
             "npc_sell_price": 7,
-            "sell_price": 12.3
+            "sell_price": 12.299999999999999
         },
         "OBSIDIAN:8": {
             "name": "null",
             "sell_price": 1000000
         },
         "PACKED_ICE": {
-            "buy_price": 66.21040546496255,
+            "buy_price": 65.03510776292157,
             "name": "PACKED_ICE",
             "npc_sell_price": 4.5,
-            "sell_price": 56.85794016302954
+            "sell_price": 56.62490163302045
         },
         "PARTY_HAT_CRAB": {
             "name": "Demonic Black Crab Hat of Celebration",
@@ -776,7 +781,7 @@
         "PERSONAL_BANK_ITEM": {
             "name": "Personal Bank Item",
             "npc_sell_price": 0,
-            "sell_price": 100000
+            "sell_price": 85000
         },
         "PET_ITEM_ALL_SKILLS_BOOST_COMMON": {
             "name": "All Skills Exp Boost",
@@ -796,7 +801,7 @@
         "PET_ITEM_FORAGING_SKILL_BOOST_COMMON": {
             "name": "Foraging Exp Boost",
             "npc_sell_price": 0,
-            "sell_price": 399000
+            "sell_price": 398000
         },
         "PET_ITEM_IRON_CLAWS_COMMON": {
             "name": "Iron Claws",
@@ -823,6 +828,11 @@
             "npc_sell_price": 0,
             "sell_price": 750000
         },
+        "POISONOUS_POTATO": {
+            "name": "Poisonous Potato",
+            "npc_sell_price": 10,
+            "sell_price": 10
+        },
         "POLISHED_PEBBLE": {
             "name": "Polished Pebble",
             "npc_sell_price": 0,
@@ -834,7 +844,7 @@
             "sell_price": 100000
         },
         "PORK": {
-            "buy_price": 15.157217128038416,
+            "buy_price": 15.045337183456377,
             "name": "PORK",
             "npc_sell_price": 5,
             "sell_price": 10.0
@@ -844,10 +854,10 @@
             "sell_price": 300000
         },
         "POTATO_ITEM": {
-            "buy_price": 2.347422585046599,
+            "buy_price": 2.659154856782543,
             "name": "POTATO_ITEM",
             "npc_sell_price": 1,
-            "sell_price": 1.6
+            "sell_price": 1.504618779178495
         },
         "POTATO_TALISMAN": {
             "name": "Itchy Potato Talisman",
@@ -872,23 +882,19 @@
         "PRESENT_PERSONALITY": {
             "name": "Present Minion Skin",
             "npc_sell_price": 0,
-            "sell_price": 35000000
-        },
-        "PRISMARINE:7": {
-            "name": "null",
-            "sell_price": 1800000
+            "sell_price": 750000
         },
         "PRISMARINE_CRYSTALS": {
-            "buy_price": 6.441917618553132,
+            "buy_price": 6.442707970762269,
             "name": "PRISMARINE_CRYSTALS",
             "npc_sell_price": 5,
-            "sell_price": 4.210315280676699
+            "sell_price": 4.204948782759079
         },
         "PRISMARINE_SHARD": {
-            "buy_price": 17.724415637440032,
+            "buy_price": 17.629180966515168,
             "name": "PRISMARINE_SHARD",
             "npc_sell_price": 5,
-            "sell_price": 5.015638149254231
+            "sell_price": 4.852747548807359
         },
         "PULPOUS_ORANGE_JUICE": {
             "name": "Pulpous Orange Juice",
@@ -896,10 +902,10 @@
             "sell_price": 1999000
         },
         "PUMPKIN": {
-            "buy_price": 6.891066317998676,
+            "buy_price": 6.886470138588853,
             "name": "PUMPKIN",
             "npc_sell_price": 4,
-            "sell_price": 4.701348671162237
+            "sell_price": 4.699999999999999
         },
         "PUMPKIN_PERSONALITY": {
             "name": "Pumpkin Minion Skin",
@@ -910,19 +916,19 @@
             "buy_price": 9.5,
             "name": "QUARTZ",
             "npc_sell_price": 4,
-            "sell_price": 6.2
+            "sell_price": 6.300000000000001
         },
         "RABBIT": {
-            "buy_price": 9.751063753453163,
+            "buy_price": 9.777802306550452,
             "name": "RABBIT",
             "npc_sell_price": 4,
             "sell_price": 4.5
         },
         "RABBIT_FOOT": {
-            "buy_price": 22.709049360146253,
+            "buy_price": 22.466132301455684,
             "name": "RABBIT_FOOT",
             "npc_sell_price": 5,
-            "sell_price": 17.206316433186622
+            "sell_price": 17.596583579315624
         },
         "RABBIT_HIDE": {
             "buy_price": 33.51190828402367,
@@ -936,28 +942,28 @@
             "sell_price": 70000
         },
         "RAW_BEEF": {
-            "buy_price": 4.5,
+            "buy_price": 4.499522562513971,
             "name": "RAW_BEEF",
             "npc_sell_price": 4,
-            "sell_price": 3.4
+            "sell_price": 3.365490115803018
         },
         "RAW_CHICKEN": {
-            "buy_price": 8.499179592359955,
+            "buy_price": 8.492306759477092,
             "name": "RAW_CHICKEN",
             "npc_sell_price": 4,
             "sell_price": 4.1
         },
         "RAW_FISH": {
-            "buy_price": 19.052603953393145,
+            "buy_price": 19.0,
             "name": "RAW_FISH",
             "npc_sell_price": 6,
-            "sell_price": 14.397426798243481
+            "sell_price": 14.35393312873526
         },
         "RAW_FISH:1": {
-            "buy_price": 13.69961954709431,
+            "buy_price": 13.69962489238716,
             "name": "RAW_FISH:1",
             "npc_sell_price": 10,
-            "sell_price": 9.223494167184372
+            "sell_price": 9.135188916250032
         },
         "RAW_FISH:2": {
             "buy_price": 21.6775144238266,
@@ -966,19 +972,19 @@
             "sell_price": 17.900000000000002
         },
         "RAW_FISH:3": {
-            "buy_price": 18.510352313608735,
+            "buy_price": 18.557502342390578,
             "name": "RAW_FISH:3",
             "npc_sell_price": 15,
-            "sell_price": 10.625474385917615
+            "sell_price": 10.617118774572933
         },
         "REDSTONE": {
             "buy_price": 2.0,
             "name": "REDSTONE",
             "npc_sell_price": 1,
-            "sell_price": 1.0
+            "sell_price": 1.0000000000000002
         },
         "RED_MUSHROOM": {
-            "buy_price": 29.746759153968615,
+            "buy_price": 29.679822363926213,
             "name": "RED_MUSHROOM",
             "npc_sell_price": 4,
             "sell_price": 19.400000000000002
@@ -1023,58 +1029,58 @@
             "sell_price": 10000000
         },
         "ROTTEN_FLESH": {
-            "buy_price": 14.230284545678927,
+            "buy_price": 14.14484494350382,
             "name": "ROTTEN_FLESH",
             "npc_sell_price": 2,
-            "sell_price": 9.871253072394678
+            "sell_price": 9.406546296126223
         },
         "ROUGH_AMBER_GEM": {
-            "buy_price": 4.445568113160607,
+            "buy_price": 4.445576031133936,
             "name": "ROUGH_AMBER_GEM",
             "npc_sell_price": 4,
-            "sell_price": 3.2500597027720457
+            "sell_price": 3.6637811866490013
         },
         "ROUGH_AMETHYST_GEM": {
             "buy_price": 4.566966486955108,
             "name": "ROUGH_AMETHYST_GEM",
             "npc_sell_price": 4,
-            "sell_price": 3.18686436688191
+            "sell_price": 3.3563890640171925
         },
         "ROUGH_JADE_GEM": {
-            "buy_price": 64.40750558451228,
+            "buy_price": 64.41198153250429,
             "name": "ROUGH_JADE_GEM",
             "npc_sell_price": 4,
-            "sell_price": 3.2160540624873595
+            "sell_price": 3.5
         },
         "ROUGH_JASPER_GEM": {
-            "buy_price": 15.14841784989858,
+            "buy_price": 15.148858910640024,
             "name": "ROUGH_JASPER_GEM",
             "npc_sell_price": 4,
-            "sell_price": 9.8
+            "sell_price": 9.799999999999999
         },
         "ROUGH_RUBY_GEM": {
-            "buy_price": 4.880440037988891,
+            "buy_price": 4.881518246913225,
             "name": "ROUGH_RUBY_GEM",
             "npc_sell_price": 4,
-            "sell_price": 3.1
+            "sell_price": 3.105913933966998
         },
         "ROUGH_SAPPHIRE_GEM": {
-            "buy_price": 7.201318602165528,
+            "buy_price": 7.201355794365378,
             "name": "ROUGH_SAPPHIRE_GEM",
             "npc_sell_price": 4,
-            "sell_price": 3.1002655583015053
+            "sell_price": 3.2671176805002844
         },
         "ROUGH_TOPAZ_GEM": {
             "buy_price": 4.5,
             "name": "ROUGH_TOPAZ_GEM",
             "npc_sell_price": 4,
-            "sell_price": 3.1750448057696876
+            "sell_price": 3.3000000000000003
         },
         "SAND": {
-            "buy_price": 4.976604965668486,
+            "buy_price": 4.1,
             "name": "SAND",
             "npc_sell_price": 2,
-            "sell_price": 2.6
+            "sell_price": 2.112682110984804
         },
         "SAND:2": {
             "name": "null",
@@ -1101,7 +1107,7 @@
         "SCARECROW": {
             "name": "Scarecrow",
             "npc_sell_price": 0,
-            "sell_price": 800000
+            "sell_price": 990000
         },
         "SCARECROW_PERSONALITY": {
             "name": "Scarecrow Minion Skin",
@@ -1114,10 +1120,10 @@
             "sell_price": 13000
         },
         "SEEDS": {
-            "buy_price": 0.9,
+            "buy_price": 0.8999836432037511,
             "name": "SEEDS",
             "npc_sell_price": 0.5,
-            "sell_price": 0.30000000000000004
+            "sell_price": 0.3042225534028813
         },
         "SHARK_PERSONALITY": {
             "name": "Shark Minion Skin",
@@ -1153,7 +1159,7 @@
             "sell_price": 196000
         },
         "SLIME_BALL": {
-            "buy_price": 14.322426837716023,
+            "buy_price": 14.207724061662837,
             "name": "SLIME_BALL",
             "npc_sell_price": 5,
             "sell_price": 10.5
@@ -1169,44 +1175,44 @@
             "sell_price": 300000
         },
         "SNOW_BALL": {
-            "buy_price": 0.8831839637799662,
+            "buy_price": 0.88637519872814,
             "name": "SNOW_BALL",
             "npc_sell_price": 1,
-            "sell_price": 0.4
+            "sell_price": 0.5
         },
         "SNOW_BLOCK": {
-            "buy_price": 6.472340883992782,
+            "buy_price": 6.449697009018362,
             "name": "SNOW_BLOCK",
             "npc_sell_price": 4,
-            "sell_price": 3.4999999999999996
+            "sell_price": 3.6
         },
         "SPIDER_EYE": {
-            "buy_price": 3.8795915917718196,
+            "buy_price": 3.8800731400130495,
             "name": "SPIDER_EYE",
             "npc_sell_price": 3,
-            "sell_price": 2.2690063534113105
+            "sell_price": 2.2802271892836083
         },
         "SPIKED_BAIT": {
-            "buy_price": 155.21320594027785,
+            "buy_price": 153.69466666666665,
             "name": "SPIKED_BAIT",
             "npc_sell_price": 20,
-            "sell_price": 68.01103653453679
+            "sell_price": 68.70044650379106
         },
         "SPONGE": {
-            "buy_price": 56.0,
+            "buy_price": 55.99889336016096,
             "name": "SPONGE",
             "npc_sell_price": 50,
-            "sell_price": 50.54277138422794
+            "sell_price": 50.539305053439215
         },
         "SPONGE:7": {
             "name": "null",
             "sell_price": 8888888
         },
         "SPOOKY_BAIT": {
-            "buy_price": 69.99952611547974,
+            "buy_price": 69.99553612658929,
             "name": "SPOOKY_BAIT",
             "npc_sell_price": 10,
-            "sell_price": 42.45006766408541
+            "sell_price": 42.4492104156311
         },
         "STACKED_PUMPKINS": {
             "name": "Stacked Pumpkins",
@@ -1251,22 +1257,22 @@
             "sell_price": 1000000
         },
         "STRING": {
-            "buy_price": 6.098575584839589,
+            "buy_price": 6.1,
             "name": "STRING",
             "npc_sell_price": 3,
-            "sell_price": 3.8817996754064414
+            "sell_price": 3.8588090193470563
         },
         "SUGAR_CANE": {
-            "buy_price": 3.7507008356815463,
+            "buy_price": 3.754237660909503,
             "name": "SUGAR_CANE",
             "npc_sell_price": 2,
-            "sell_price": 1.9
+            "sell_price": 1.9000822962809238
         },
         "SULPHUR": {
             "buy_price": 18.0,
             "name": "SULPHUR",
             "npc_sell_price": 4,
-            "sell_price": 11.9
+            "sell_price": 11.90148943540007
         },
         "SUN_PERSONALITY": {
             "name": "Sun Minion Skin",
@@ -1296,17 +1302,17 @@
         "UNDEAD_PERSONALITY": {
             "name": "Undead Minion Skin",
             "npc_sell_price": 0,
-            "sell_price": 100000
+            "sell_price": 95000
         },
         "WATER": {
             "name": "Water (No Spread)",
             "sell_price": 1000000
         },
         "WATER_LILY": {
-            "buy_price": 269.18228212509814,
+            "buy_price": 275.44049803407603,
             "name": "WATER_LILY",
             "npc_sell_price": 10,
-            "sell_price": 170.85284629981024
+            "sell_price": 170.85626384463663
         },
         "WATER_TROUGH": {
             "name": "Water Trough",
@@ -1314,16 +1320,16 @@
             "sell_price": 508000
         },
         "WHEAT": {
-            "buy_price": 3.9992657464569192,
+            "buy_price": 3.9985389209225697,
             "name": "WHEAT",
             "npc_sell_price": 1,
-            "sell_price": 3.0163822448017
+            "sell_price": 2.996061526032429
         },
         "WHITE_GIFT": {
-            "buy_price": 6299.726211996714,
+            "buy_price": 6299.855411255412,
             "name": "WHITE_GIFT",
             "npc_sell_price": 0,
-            "sell_price": 5792.152364110201
+            "sell_price": 5792.135915825234
         },
         "WOOD:9": {
             "name": "null",
@@ -1366,6 +1372,18 @@
             "name": "[Lvl 15] Squid",
             "sell_price": 260000
         },
+        "[Lvl 16] Blue Whale": {
+            "name": "[Lvl 16] Blue Whale",
+            "sell_price": 30000
+        },
+        "[Lvl 17] Blue Whale": {
+            "name": "[Lvl 17] Blue Whale",
+            "sell_price": 30000
+        },
+        "[Lvl 18] Blue Whale": {
+            "name": "[Lvl 18] Blue Whale",
+            "sell_price": 30000
+        },
         "[Lvl 1] Armadillo": {
             "name": "[Lvl 1] Armadillo",
             "sell_price": 10000
@@ -1384,7 +1402,7 @@
         },
         "[Lvl 1] Dolphin": {
             "name": "[Lvl 1] Dolphin",
-            "sell_price": 50000
+            "sell_price": 45000
         },
         "[Lvl 1] Elephant": {
             "name": "[Lvl 1] Elephant",
@@ -1396,7 +1414,7 @@
         },
         "[Lvl 1] Endermite": {
             "name": "[Lvl 1] Endermite",
-            "sell_price": 100000
+            "sell_price": 199000
         },
         "[Lvl 1] Giraffe": {
             "name": "[Lvl 1] Giraffe",
@@ -1424,7 +1442,7 @@
         },
         "[Lvl 1] Rabbit": {
             "name": "[Lvl 1] Rabbit",
-            "sell_price": 9000
+            "sell_price": 10000
         },
         "[Lvl 1] Rabbit \u2726": {
             "name": "[Lvl 1] Rabbit \u2726",
@@ -1473,10 +1491,6 @@
         "[Lvl 27] Bee": {
             "name": "[Lvl 27] Bee",
             "sell_price": 69999
-        },
-        "[Lvl 28] Griffin": {
-            "name": "[Lvl 28] Griffin",
-            "sell_price": 120000
         },
         "[Lvl 30] Jerry": {
             "name": "[Lvl 30] Jerry",
@@ -1564,11 +1578,7 @@
         },
         "[Lvl 74] Griffin": {
             "name": "[Lvl 74] Griffin",
-            "sell_price": 150000
-        },
-        "[Lvl 75] Griffin": {
-            "name": "[Lvl 75] Griffin",
-            "sell_price": 50000
+            "sell_price": 300000
         },
         "[Lvl 77] Griffin": {
             "name": "[Lvl 77] Griffin",
@@ -1686,7 +1696,7 @@
         "ARMOR_OF_THE_RESISTANCE_LEGGINGS": {
             "name": "Leggings of the Rising Sun",
             "npc_sell_price": 14,
-            "sell_price": 850000
+            "sell_price": 8000000
         },
         "ARMOR_OF_YOG_BOOTS": {
             "name": "Necrotic Yog Boots",
@@ -1733,7 +1743,7 @@
         "BAT_RING": {
             "name": "Bat Ring",
             "npc_sell_price": 0,
-            "sell_price": 409000
+            "sell_price": 400000
         },
         "BAT_TALISMAN": {
             "name": "Bat Talisman",
@@ -1779,7 +1789,7 @@
         "BLACK_CAT_PLUSH": {
             "name": "Black Cat Plush",
             "npc_sell_price": 0,
-            "sell_price": 269998
+            "sell_price": 189000
         },
         "BLAZE_BOOTS": {
             "name": "Blaze Boots",
@@ -1901,10 +1911,10 @@
             "sell_price": 4000000
         },
         "COLOSSAL_EXP_BOTTLE": {
-            "buy_price": 867992.0,
+            "buy_price": 867991.6,
             "name": "COLOSSAL_EXP_BOTTLE",
             "npc_sell_price": 5000,
-            "sell_price": 301995.15351686365
+            "sell_price": 301572.1969272937
         },
         "CONJURING_SWORD": {
             "name": "Heroic Conjuring",
@@ -1913,7 +1923,7 @@
         "CORLEONITE": {
             "name": "Corleonite",
             "npc_sell_price": 0,
-            "sell_price": 2900000
+            "sell_price": 4444444
         },
         "CROCHET_TIGER_PLUSHIE": {
             "name": "Crochet Tiger Plushie",
@@ -2057,7 +2067,7 @@
             "sell_price": 435000
         },
         "ENCHANTED_ANCIENT_CLAW": {
-            "buy_price": 5996.374420677362,
+            "buy_price": 5996.376186131387,
             "name": "ENCHANTED_ANCIENT_CLAW",
             "npc_sell_price": 0,
             "sell_price": 3699.2
@@ -2067,22 +2077,22 @@
             "sell_price": 5000000
         },
         "ENCHANTED_LAVA_BUCKET": {
-            "buy_price": 259875.75853658534,
+            "buy_price": 259875.5,
             "name": "ENCHANTED_LAVA_BUCKET",
             "npc_sell_price": 50000,
-            "sell_price": 253665.02926829268
+            "sell_price": 249062.0215116279
         },
         "ENCHANTED_SHARK_FIN": {
-            "buy_price": 18994.173642645605,
+            "buy_price": 18994.17844374343,
             "name": "ENCHANTED_SHARK_FIN",
             "npc_sell_price": 0,
-            "sell_price": 12282.182887367766
+            "sell_price": 12264.80980746089
         },
         "ENCHANTED_TITANIUM": {
-            "buy_price": 11852.068983739839,
+            "buy_price": 11850.474668275032,
             "name": "ENCHANTED_TITANIUM",
             "npc_sell_price": 3200,
-            "sell_price": 9999.396443148687
+            "sell_price": 9985.440504648075
         },
         "ENDERPACK": {
             "name": "Enderpack Skin",
@@ -2110,9 +2120,9 @@
             "sell_price": 150000
         },
         "END_LEGGINGS": {
-            "name": "Clean Ender Leggings",
+            "name": "Godly Ender Leggings",
             "npc_sell_price": 10000,
-            "sell_price": 220000
+            "sell_price": 1400000
         },
         "END_STONE_BOW": {
             "name": "End Stone Bow",
@@ -2179,10 +2189,6 @@
             "name": "Shaded Feather Artifact",
             "sell_price": 5300000
         },
-        "FEL_PEARL": {
-            "name": "Fel Pearl",
-            "sell_price": 199999
-        },
         "FEL_SWORD": {
             "name": "Fel Sword",
             "npc_sell_price": 20000,
@@ -2213,46 +2219,46 @@
             "sell_price": 400000
         },
         "FLAWLESS_AMBER_GEM": {
-            "buy_price": 2338516.4833333334,
+            "buy_price": 2338516.4125,
             "name": "FLAWLESS_AMBER_GEM",
             "npc_sell_price": 2048000,
-            "sell_price": 289226.2445175438
+            "sell_price": 286517.28535871155
         },
         "FLAWLESS_AMETHYST_GEM": {
-            "buy_price": 2231229.275,
+            "buy_price": 2231229.1,
             "name": "FLAWLESS_AMETHYST_GEM",
             "npc_sell_price": 2048000,
             "sell_price": 1051554.5638297873
         },
         "FLAWLESS_JADE_GEM": {
-            "buy_price": 2087378.6722222222,
+            "buy_price": 2087378.619047619,
             "name": "FLAWLESS_JADE_GEM",
             "npc_sell_price": 2048000,
-            "sell_price": 879229.23
+            "sell_price": 874621.8502008033
         },
         "FLAWLESS_JASPER_GEM": {
-            "buy_price": 5745345.099999999,
+            "buy_price": 5745345.074999999,
             "name": "FLAWLESS_JASPER_GEM",
             "npc_sell_price": 2048000,
             "sell_price": 24777.743412086547
         },
         "FLAWLESS_RUBY_GEM": {
-            "buy_price": 2094320.1891304345,
+            "buy_price": 2094320.2000000002,
             "name": "FLAWLESS_RUBY_GEM",
             "npc_sell_price": 2048000,
-            "sell_price": 37680.585598551275
+            "sell_price": 36928.96789664378
         },
         "FLAWLESS_SAPPHIRE_GEM": {
             "buy_price": 2133592.0,
             "name": "FLAWLESS_SAPPHIRE_GEM",
             "npc_sell_price": 2048000,
-            "sell_price": 1568199.6845410627
+            "sell_price": 1480579.3203703703
         },
         "FLAWLESS_TOPAZ_GEM": {
-            "buy_price": 2226903.5944444444,
+            "buy_price": 2226903.5,
             "name": "FLAWLESS_TOPAZ_GEM",
             "npc_sell_price": 2048000,
-            "sell_price": 2026707.7283950618
+            "sell_price": 2026707.7892473121
         },
         "FLYCATCHER_UPGRADE": {
             "name": "Flycatcher",
@@ -2278,10 +2284,10 @@
             "sell_price": 18700000
         },
         "FUMING_POTATO_BOOK": {
-            "buy_price": 1073236.3772727272,
+            "buy_price": 1070630.447368421,
             "name": "FUMING_POTATO_BOOK",
             "npc_sell_price": 0,
-            "sell_price": 1047659.9232484077
+            "sell_price": 1047659.927936508
         },
         "GEMSTONE_CHAMBER": {
             "name": "Gemstone Chamber",
@@ -2324,7 +2330,7 @@
         "GIANT_FRAGMENT_DIAMOND": {
             "name": "Diamante's Handle",
             "npc_sell_price": 0,
-            "sell_price": 1800000
+            "sell_price": 2000000
         },
         "GIANT_FRAGMENT_LASER": {
             "name": "L.A.S.R.'s Eye",
@@ -2334,7 +2340,7 @@
         "GIANT_TOOTH": {
             "name": "Giant Tooth",
             "npc_sell_price": 1,
-            "sell_price": 800000
+            "sell_price": 500000
         },
         "GLACITE_BOOTS": {
             "name": "Glacite Boots",
@@ -2371,12 +2377,12 @@
         },
         "GOBLIN_LEGGINGS": {
             "name": "Goblin Leggings",
-            "sell_price": 50000
+            "sell_price": 3000000
         },
         "GOLDEN_BALL": {
             "name": "Golden Ball",
             "npc_sell_price": 1,
-            "sell_price": 1500000
+            "sell_price": 1800000
         },
         "GOLDEN_POWDER": {
             "name": "Golden Powder",
@@ -2440,7 +2446,7 @@
         "HARP": {
             "name": "Personal Harp",
             "npc_sell_price": 0,
-            "sell_price": 2000000
+            "sell_price": 1500000
         },
         "HEALING_TISSUE": {
             "name": "Healing Tissue",
@@ -2457,10 +2463,10 @@
             "sell_price": 210000000
         },
         "HOLY_FRAGMENT": {
-            "buy_price": 3710.3878243512972,
+            "buy_price": 3709.9000000000005,
             "name": "HOLY_FRAGMENT",
             "npc_sell_price": 0,
-            "sell_price": 2392.3055497655027
+            "sell_price": 2390.828024665904
         },
         "HOPE_OF_THE_RESISTANCE": {
             "name": "Staff of the Rising Sun",
@@ -2473,10 +2479,10 @@
             "sell_price": 24500000
         },
         "HOT_POTATO_BOOK": {
-            "buy_price": 30216.23607214428,
+            "buy_price": 30197.41472868217,
             "name": "HOT_POTATO_BOOK",
             "npc_sell_price": 13000,
-            "sell_price": 28446.653507014023
+            "sell_price": 28468.48053435114
         },
         "HUB_CASTLE_TRAVEL_SCROLL": {
             "name": "Travel Scroll to Hub Castle",
@@ -2503,10 +2509,10 @@
             "sell_price": 1500000
         },
         "HYPER_CATALYST": {
-            "buy_price": 139253.44578426753,
+            "buy_price": 139253.40914205345,
             "name": "HYPER_CATALYST",
             "npc_sell_price": 500,
-            "sell_price": 134082.99844107253
+            "sell_price": 134082.39781021897
         },
         "HYPER_CLEAVER": {
             "name": "Fabled Hyper Cleaver \u272a\u272a\u272a\u272a\u272a",
@@ -2579,7 +2585,7 @@
         "LARGE_BACKPACK": {
             "name": "Large Backpack",
             "npc_sell_price": 0,
-            "sell_price": 305000
+            "sell_price": 440000
         },
         "LEAPING_SWORD": {
             "name": "Leaping Sword",
@@ -2724,7 +2730,7 @@
         "NETHER_FORTRESS_BOSS_TRAVEL_SCROLL": {
             "name": "Travel Scroll to Magma Fields",
             "npc_sell_price": 0,
-            "sell_price": 380000
+            "sell_price": 280000
         },
         "NULL_EDGE": {
             "name": "Null Edge",
@@ -2745,10 +2751,10 @@
             "sell_price": 179999000
         },
         "OLD_FRAGMENT": {
-            "buy_price": 9993.17311827957,
+            "buy_price": 9992.7986013986,
             "name": "OLD_FRAGMENT",
             "npc_sell_price": 0,
-            "sell_price": 5227.731714452897
+            "sell_price": 5226.68532056294
         },
         "ORNATE_ZOMBIE_SWORD": {
             "name": "Ornate Zombie Sword",
@@ -2779,6 +2785,11 @@
             "name": "Perfect Boots - Tier IV",
             "npc_sell_price": 1638400,
             "sell_price": 4000000
+        },
+        "PERFECT_BOOTS_6": {
+            "name": "Perfect Boots - Tier VI",
+            "npc_sell_price": 2457600,
+            "sell_price": 5500000
         },
         "PERFECT_CHESTPLATE_4": {
             "name": "Heavy Perfect Chestplate - Tier IV \u272a\u272a\u272a\u272a\u272a",
@@ -2818,7 +2829,7 @@
         "PET_ITEM_EXP_SHARE": {
             "name": "Exp Share",
             "npc_sell_price": 0,
-            "sell_price": 1750000
+            "sell_price": 1250000
         },
         "PET_ITEM_EXP_SHARE_DROP": {
             "name": "Exp Share Core",
@@ -2868,7 +2879,7 @@
         "PET_SKIN_ELEPHANT_MONOCHROME": {
             "name": "Monochrome Elephant Skin",
             "npc_sell_price": 0,
-            "sell_price": 37000000
+            "sell_price": 36500000
         },
         "PET_SKIN_ENDERMAN": {
             "name": "Spooky Enderman Skin",
@@ -2948,10 +2959,10 @@
             "sell_price": 240000
         },
         "POWER_CRYSTAL": {
-            "buy_price": 99999.99802955666,
+            "buy_price": 99999.97132867134,
             "name": "POWER_CRYSTAL",
             "npc_sell_price": 1920,
-            "sell_price": 86103.56370466322
+            "sell_price": 86103.54442995043
         },
         "PRECURSOR_GEAR": {
             "name": "Precursor Gear",
@@ -2964,10 +2975,10 @@
             "sell_price": 295000000
         },
         "PROTECTOR_FRAGMENT": {
-            "buy_price": 20100.0,
+            "buy_price": 20099.6,
             "name": "PROTECTOR_FRAGMENT",
             "npc_sell_price": 0,
-            "sell_price": 5031.466774500476
+            "sell_price": 5001.01876472461
         },
         "PUMPKIN_LAUNCHER": {
             "name": "Pumpkin Launcher",
@@ -2975,10 +2986,10 @@
             "sell_price": 5600000
         },
         "PURPLE_CANDY": {
-            "buy_price": 8355.932136722777,
+            "buy_price": 8359.073674042853,
             "name": "PURPLE_CANDY",
             "npc_sell_price": 0,
-            "sell_price": 8018.989993476843
+            "sell_price": 8018.981186059774
         },
         "PURPLE_EGG": {
             "name": "Purple Egged Skin",
@@ -3021,16 +3032,16 @@
             "sell_price": 1200000
         },
         "REFINED_DIAMOND": {
-            "buy_price": 431126.8232876713,
+            "buy_price": 431127.3143939394,
             "name": "REFINED_DIAMOND",
             "npc_sell_price": 4096,
-            "sell_price": 89642.03546957641
+            "sell_price": 89406.92067518597
         },
         "REFINED_MITHRIL": {
-            "buy_price": 319994.3,
+            "buy_price": 311999.8,
             "name": "REFINED_MITHRIL",
             "npc_sell_price": 256000,
-            "sell_price": 127195.91955103767
+            "sell_price": 127391.987129802
         },
         "REFINED_TITANIUM_PICKAXE": {
             "name": "Fleet Refined Titanium Pickaxe",
@@ -3044,7 +3055,7 @@
         "REMNANT_OF_THE_EYE": {
             "name": "Remnant of the Eye",
             "npc_sell_price": 0,
-            "sell_price": 70000
+            "sell_price": 66666
         },
         "REVENANT_BOOTS": {
             "name": "Revenant Boots",
@@ -3108,7 +3119,7 @@
         "SAPPHIRE_POWER_SCROLL": {
             "name": "Sapphire Power Scroll",
             "npc_sell_price": 0,
-            "sell_price": 610000
+            "sell_price": 700000
         },
         "SCARF_FRAGMENT": {
             "name": "Scarf Fragment",
@@ -3122,7 +3133,7 @@
         "SCORPION_BOW": {
             "name": "Scorpion Bow",
             "npc_sell_price": 0,
-            "sell_price": 10900000
+            "sell_price": 9500000
         },
         "SCORPION_FOIL": {
             "name": "Scorpion Foil",
@@ -3182,7 +3193,7 @@
         "SHADOW_WARP_SCROLL": {
             "name": "Shadow Warp",
             "npc_sell_price": 1,
-            "sell_price": 6000000
+            "sell_price": 8100000
         },
         "SHAMAN_SWORD": {
             "name": "Shaman Sword",
@@ -3229,9 +3240,9 @@
             "sell_price": 350000
         },
         "SKELETON_GRUNT_LEGGINGS": {
-            "name": "Light Skeleton Grunt Leggings",
+            "name": "Mythic Skeleton Grunt Leggings",
             "npc_sell_price": 1,
-            "sell_price": 120000
+            "sell_price": 70000
         },
         "SKELETON_LORD_BOOTS": {
             "name": "Fierce Skeleton Lord Boots",
@@ -3279,9 +3290,9 @@
             "sell_price": 50000
         },
         "SKELETON_SOLDIER_CHESTPLATE": {
-            "name": "Smart Skeleton Soldier Chestplate",
+            "name": "Pure Skeleton Soldier Chestplate",
             "npc_sell_price": 1,
-            "sell_price": 22222
+            "sell_price": 50000
         },
         "SKELETON_SOLDIER_HELMET": {
             "name": "Wise Skeleton Soldier Helmet",
@@ -3386,10 +3397,10 @@
             "sell_price": 5100000
         },
         "SOUL_FRAGMENT": {
-            "buy_price": 1089594.7,
+            "buy_price": 1089594.8,
             "name": "SOUL_FRAGMENT",
             "npc_sell_price": 0,
-            "sell_price": 14179.95083550493
+            "sell_price": 11165.781783885746
         },
         "SPEEDSTER_BOOTS": {
             "name": "Speedster Boots",
@@ -3527,7 +3538,7 @@
         "STARRED_STONE_BLADE": {
             "name": "\u269a Sharp Adaptive Blade \u272a\u272a\u272a",
             "npc_sell_price": 20000,
-            "sell_price": 2900000
+            "sell_price": 2200000
         },
         "STARRED_VENOMS_TOUCH": {
             "name": "\u269a Rapid Venom's Touch",
@@ -3537,13 +3548,13 @@
         "STEEL_CHESTPLATE": {
             "name": "Steel Chestplate",
             "npc_sell_price": 0,
-            "sell_price": 9000000
+            "sell_price": 7900000
         },
         "STOCK_OF_STONKS": {
-            "buy_price": 709196.9867513612,
+            "buy_price": 709196.9881818182,
             "name": "STOCK_OF_STONKS",
             "npc_sell_price": 0,
-            "sell_price": 404841.98655316187
+            "sell_price": 404802.62648040033
         },
         "STONE_BLADE": {
             "name": "Adaptive Blade",
@@ -3561,16 +3572,16 @@
             "sell_price": 300000000
         },
         "STRONG_FRAGMENT": {
-            "buy_price": 24371.743109540635,
+            "buy_price": 24371.01359223301,
             "name": "STRONG_FRAGMENT",
             "npc_sell_price": 0,
-            "sell_price": 20025.185329553504
+            "sell_price": 20025.196874999998
         },
         "SUMMONING_EYE": {
-            "buy_price": 1094441.02601626,
+            "buy_price": 1095813.7942857142,
             "name": "SUMMONING_EYE",
             "npc_sell_price": 0,
-            "sell_price": 1055833.6180094788
+            "sell_price": 1055300.7847058824
         },
         "SUPERB_CARROT_CANDY": {
             "name": "Superb Carrot Candy",
@@ -3583,15 +3594,15 @@
             "sell_price": 698000000
         },
         "SUPERIOR_FRAGMENT": {
-            "buy_price": 152319.99555555556,
+            "buy_price": 152318.94,
             "name": "SUPERIOR_FRAGMENT",
             "npc_sell_price": 0,
-            "sell_price": 126666.5516966068
+            "sell_price": 126761.44237110915
         },
         "SUPER_HEAVY_BOOTS": {
-            "name": "Clean Super Heavy Boots",
+            "name": "Fierce Super Heavy Boots",
             "npc_sell_price": 1,
-            "sell_price": 799999
+            "sell_price": 110000
         },
         "SUPER_HEAVY_CHESTPLATE": {
             "name": "Smart Super Heavy Chestplate",
@@ -3670,10 +3681,10 @@
             "sell_price": 8699999
         },
         "TIGER_SHARK_TOOTH": {
-            "buy_price": 9849.298386257158,
+            "buy_price": 9849.298283038503,
             "name": "TIGER_SHARK_TOOTH",
             "npc_sell_price": 0,
-            "sell_price": 7200.502728482698
+            "sell_price": 7116.612970829794
         },
         "TITANIUM_ARTIFACT": {
             "name": "Titanium Artifact",
@@ -3707,7 +3718,7 @@
         "TRANSMISSION_TUNER": {
             "name": "Transmission Tuner",
             "npc_sell_price": 45000,
-            "sell_price": 180000
+            "sell_price": 135000
         },
         "TREASURE_RING": {
             "name": "Keen Treasure Ring",
@@ -3718,7 +3729,7 @@
             "buy_price": 16077.6,
             "name": "TREASURITE",
             "npc_sell_price": 5000,
-            "sell_price": 14990.10112874461
+            "sell_price": 14990.101055033438
         },
         "TREECAPITATOR_AXE": {
             "name": "Treecapitator",
@@ -3731,10 +3742,10 @@
             "sell_price": 350000000
         },
         "UNSTABLE_FRAGMENT": {
-            "buy_price": 3992.7202679626953,
+            "buy_price": 3499.8788247213784,
             "name": "UNSTABLE_FRAGMENT",
             "npc_sell_price": 0,
-            "sell_price": 2495.3027523548667
+            "sell_price": 2495.3038591107697
         },
         "VAMPIRE_WITCH_MASK": {
             "name": "Titanic Vampire Witch Mask",
@@ -3780,10 +3791,10 @@
             "sell_price": 700000000
         },
         "WISE_FRAGMENT": {
-            "buy_price": 32696.26820728291,
+            "buy_price": 32768.558404558404,
             "name": "WISE_FRAGMENT",
             "npc_sell_price": 0,
-            "sell_price": 22006.730190114067
+            "sell_price": 22007.476192322603
         },
         "WITCH_BROOMSTICK": {
             "name": "Witch's Broomstick",
@@ -3826,10 +3837,10 @@
             "sell_price": 900000
         },
         "YOUNG_FRAGMENT": {
-            "buy_price": 4094.6666666666665,
+            "buy_price": 4094.8,
             "name": "YOUNG_FRAGMENT",
             "npc_sell_price": 0,
-            "sell_price": 3310.565833070369
+            "sell_price": 3314.949233788782
         },
         "ZOMBIE_BOOTS": {
             "name": "Zombie Boots",
@@ -3917,9 +3928,9 @@
             "sell_price": 50000
         },
         "ZOMBIE_SOLDIER_CHESTPLATE": {
-            "name": "Heavy Zombie Soldier Chestplate",
+            "name": "Wise Zombie Soldier Chestplate",
             "npc_sell_price": 1,
-            "sell_price": 37000
+            "sell_price": 400000
         },
         "ZOMBIE_SOLDIER_CUTLASS": {
             "name": "Gentle Zombie Soldier Cutlass",
@@ -3949,7 +3960,7 @@
         },
         "[Lvl 100] Ender Dragon": {
             "name": "[Lvl 100] Ender Dragon",
-            "sell_price": 420000000
+            "sell_price": 399000000
         },
         "[Lvl 100] Enderman": {
             "name": "[Lvl 100] Enderman",
@@ -4213,11 +4224,11 @@
         },
         "[Lvl 1] Enderman": {
             "name": "[Lvl 1] Enderman",
-            "sell_price": 620000
+            "sell_price": 90000
         },
         "[Lvl 1] Endermite": {
             "name": "[Lvl 1] Endermite",
-            "sell_price": 1400000
+            "sell_price": 1300000
         },
         "[Lvl 1] Flying Fish": {
             "name": "[Lvl 1] Flying Fish",
@@ -4269,7 +4280,7 @@
         },
         "[Lvl 1] Mithril Golem": {
             "name": "[Lvl 1] Mithril Golem",
-            "sell_price": 250000
+            "sell_price": 340000
         },
         "[Lvl 1] Monkey": {
             "name": "[Lvl 1] Monkey",
@@ -4309,7 +4320,7 @@
         },
         "[Lvl 1] Sheep": {
             "name": "[Lvl 1] Sheep",
-            "sell_price": 1600000
+            "sell_price": 800000
         },
         "[Lvl 1] Silverfish": {
             "name": "[Lvl 1] Silverfish",
@@ -4483,14 +4494,6 @@
             "name": "[Lvl 2] Hound",
             "sell_price": 990000
         },
-        "[Lvl 2] Megalodon": {
-            "name": "[Lvl 2] Megalodon",
-            "sell_price": 500000
-        },
-        "[Lvl 2] Tarantula": {
-            "name": "[Lvl 2] Tarantula",
-            "sell_price": 99999
-        },
         "[Lvl 30] Chicken": {
             "name": "[Lvl 30] Chicken",
             "sell_price": 3700000
@@ -4594,6 +4597,10 @@
         "[Lvl 35] Tarantula": {
             "name": "[Lvl 35] Tarantula",
             "sell_price": 200000
+        },
+        "[Lvl 36] Baby Yeti": {
+            "name": "[Lvl 36] Baby Yeti",
+            "sell_price": 17499999
         },
         "[Lvl 36] Guardian": {
             "name": "[Lvl 36] Guardian",
@@ -4803,6 +4810,10 @@
             "name": "[Lvl 43] Tiger",
             "sell_price": 3200000
         },
+        "[Lvl 44] Baby Yeti": {
+            "name": "[Lvl 44] Baby Yeti",
+            "sell_price": 15800000
+        },
         "[Lvl 44] Bal": {
             "name": "[Lvl 44] Bal",
             "sell_price": 9000000
@@ -4991,13 +5002,13 @@
             "name": "[Lvl 4] Enderman",
             "sell_price": 100000
         },
-        "[Lvl 4] Rock": {
-            "name": "[Lvl 4] Rock",
-            "sell_price": 2500000
-        },
         "[Lvl 4] Sheep": {
             "name": "[Lvl 4] Sheep",
             "sell_price": 1700000
+        },
+        "[Lvl 4] Silverfish": {
+            "name": "[Lvl 4] Silverfish",
+            "sell_price": 80000
         },
         "[Lvl 50] Baby Yeti": {
             "name": "[Lvl 50] Baby Yeti",
@@ -5029,7 +5040,7 @@
         },
         "[Lvl 51] Armadillo": {
             "name": "[Lvl 51] Armadillo",
-            "sell_price": 900000
+            "sell_price": 1000000
         },
         "[Lvl 51] Baby Yeti": {
             "name": "[Lvl 51] Baby Yeti",
@@ -5179,10 +5190,6 @@
             "name": "[Lvl 56] Armadillo",
             "sell_price": 800000
         },
-        "[Lvl 56] Blaze": {
-            "name": "[Lvl 56] Blaze",
-            "sell_price": 7700000
-        },
         "[Lvl 56] Enderman": {
             "name": "[Lvl 56] Enderman",
             "sell_price": 600000
@@ -5241,7 +5248,7 @@
         },
         "[Lvl 58] Tiger": {
             "name": "[Lvl 58] Tiger",
-            "sell_price": 2500000
+            "sell_price": 3000000
         },
         "[Lvl 59] Enderman": {
             "name": "[Lvl 59] Enderman",
@@ -5403,10 +5410,6 @@
             "name": "[Lvl 65] Hound",
             "sell_price": 2749999
         },
-        "[Lvl 65] Lion": {
-            "name": "[Lvl 65] Lion",
-            "sell_price": 2900000
-        },
         "[Lvl 65] Mithril Golem": {
             "name": "[Lvl 65] Mithril Golem",
             "sell_price": 1000000
@@ -5430,6 +5433,10 @@
         "[Lvl 66] Enderman": {
             "name": "[Lvl 66] Enderman",
             "sell_price": 1400000
+        },
+        "[Lvl 66] Flying Fish": {
+            "name": "[Lvl 66] Flying Fish",
+            "sell_price": 2600000
         },
         "[Lvl 66] Hound": {
             "name": "[Lvl 66] Hound",
@@ -5549,7 +5556,11 @@
         },
         "[Lvl 71] Baby Yeti": {
             "name": "[Lvl 71] Baby Yeti",
-            "sell_price": 22000000
+            "sell_price": 21000000
+        },
+        "[Lvl 71] Bal": {
+            "name": "[Lvl 71] Bal",
+            "sell_price": 9000000
         },
         "[Lvl 71] Blue Whale": {
             "name": "[Lvl 71] Blue Whale",
@@ -5634,6 +5645,10 @@
         "[Lvl 73] Silverfish": {
             "name": "[Lvl 73] Silverfish",
             "sell_price": 1100000
+        },
+        "[Lvl 73] Tiger": {
+            "name": "[Lvl 73] Tiger",
+            "sell_price": 2300000
         },
         "[Lvl 74] Blue Whale": {
             "name": "[Lvl 74] Blue Whale",
@@ -5747,10 +5762,6 @@
             "name": "[Lvl 78] Armadillo",
             "sell_price": 1200000
         },
-        "[Lvl 78] Griffin": {
-            "name": "[Lvl 78] Griffin",
-            "sell_price": 9999999
-        },
         "[Lvl 78] Lion": {
             "name": "[Lvl 78] Lion",
             "sell_price": 6300000
@@ -5766,10 +5777,6 @@
         "[Lvl 78] Wither Skeleton": {
             "name": "[Lvl 78] Wither Skeleton",
             "sell_price": 2100000
-        },
-        "[Lvl 79] Baby Yeti": {
-            "name": "[Lvl 79] Baby Yeti",
-            "sell_price": 25000000
         },
         "[Lvl 79] Blue Whale": {
             "name": "[Lvl 79] Blue Whale",
@@ -5854,10 +5861,6 @@
         "[Lvl 81] Skeleton": {
             "name": "[Lvl 81] Skeleton",
             "sell_price": 6000000
-        },
-        "[Lvl 81] Tiger": {
-            "name": "[Lvl 81] Tiger",
-            "sell_price": 4600000
         },
         "[Lvl 81] Turtle": {
             "name": "[Lvl 81] Turtle",
@@ -6021,7 +6024,7 @@
         },
         "[Lvl 88] Baby Yeti": {
             "name": "[Lvl 88] Baby Yeti",
-            "sell_price": 24000000
+            "sell_price": 25999000
         },
         "[Lvl 88] Megalodon": {
             "name": "[Lvl 88] Megalodon",
@@ -6139,9 +6142,13 @@
             "name": "[Lvl 91] Sheep",
             "sell_price": 3500000
         },
+        "[Lvl 91] Skeleton": {
+            "name": "[Lvl 91] Skeleton",
+            "sell_price": 9000000
+        },
         "[Lvl 91] Tiger": {
             "name": "[Lvl 91] Tiger",
-            "sell_price": 5000000
+            "sell_price": 7300000
         },
         "[Lvl 91] Wither Skeleton": {
             "name": "[Lvl 91] Wither Skeleton",
@@ -6150,6 +6157,10 @@
         "[Lvl 92] Baby Yeti": {
             "name": "[Lvl 92] Baby Yeti",
             "sell_price": 27300000
+        },
+        "[Lvl 92] Blaze": {
+            "name": "[Lvl 92] Blaze",
+            "sell_price": 22000000
         },
         "[Lvl 92] Blue Whale": {
             "name": "[Lvl 92] Blue Whale",
@@ -6309,7 +6320,7 @@
         },
         "[Lvl 97] Tiger": {
             "name": "[Lvl 97] Tiger",
-            "sell_price": 13500000
+            "sell_price": 9500000
         },
         "[Lvl 98] Armadillo": {
             "name": "[Lvl 98] Armadillo",
@@ -6431,9 +6442,9 @@
             "sell_price": 1500000
         },
         "BAT_PERSON_LEGGINGS": {
-            "name": "Ancient Bat Person Leggings",
+            "name": "Bat Person Leggings",
             "npc_sell_price": 0,
-            "sell_price": 1599999
+            "sell_price": 1100000
         },
         "BAT_WAND": {
             "name": "Heroic Spirit Sceptre \u272a\u272a\u272a\u272a",
@@ -6460,10 +6471,10 @@
             "sell_price": 12000000
         },
         "BOOSTER_COOKIE": {
-            "buy_price": 3564998.7816406256,
+            "buy_price": 3564999.0391304353,
             "name": "BOOSTER_COOKIE",
             "npc_sell_price": 0,
-            "sell_price": 3471007.4781553405
+            "sell_price": 3468024.1034210534
         },
         "BOOTS_OF_THE_PACK": {
             "name": "Ancient Boots of the Pack",
@@ -6513,7 +6524,7 @@
         },
         "DEATH_BOW": {
             "name": "Spiritual Death Bow \u272a\u272a\u272a\u272a\u272a",
-            "sell_price": 17999000
+            "sell_price": 15000000
         },
         "DIGESTED_MOSQUITO": {
             "name": "Digested Mosquito",
@@ -6573,7 +6584,7 @@
         "DUNGEON_STONE": {
             "name": "Dungeon Orb",
             "npc_sell_price": 0,
-            "sell_price": 100000
+            "sell_price": 29000
         },
         "EARTH_SHARD": {
             "name": "Spicy Earth Shard",
@@ -6782,7 +6793,7 @@
             "sell_price": 5000000
         },
         "GREAT_WHITE_SHARK_TOOTH": {
-            "buy_price": 709444.9558441559,
+            "buy_price": 709444.8868421052,
             "name": "GREAT_WHITE_SHARK_TOOTH",
             "npc_sell_price": 0,
             "sell_price": 680500.4
@@ -6824,7 +6835,7 @@
         "HOLY_DRAGON_CHESTPLATE": {
             "name": "Holy Dragon Chestplate",
             "npc_sell_price": 100000,
-            "sell_price": 490000
+            "sell_price": 400000
         },
         "HOLY_DRAGON_HELMET": {
             "name": "Holy Dragon Helmet",
@@ -6832,9 +6843,9 @@
             "sell_price": 950000
         },
         "HOLY_DRAGON_LEGGINGS": {
-            "name": "Wise Holy Dragon Leggings \u272a\u272a\u272a\u272a\u272a",
+            "name": "Holy Dragon Leggings",
             "npc_sell_price": 100000,
-            "sell_price": 2000000
+            "sell_price": 499999
         },
         "HOT_STUFF": {
             "name": "Hot Stuff",
@@ -6851,7 +6862,7 @@
             "sell_price": 4500000
         },
         "JERRY_BOX_GOLDEN": {
-            "buy_price": 977999.9764705882,
+            "buy_price": 977990.0014925373,
             "name": "JERRY_BOX_GOLDEN",
             "npc_sell_price": 0,
             "sell_price": 929503.3290540541
@@ -6881,7 +6892,7 @@
         "JUMBO_BACKPACK": {
             "name": "Jumbo Backpack",
             "npc_sell_price": 0,
-            "sell_price": 2600000
+            "sell_price": 4500000
         },
         "JUNGLE_HEART": {
             "name": "Jungle Heart",
@@ -6915,10 +6926,10 @@
             "sell_price": 16999999
         },
         "MAGMA_BUCKET": {
-            "buy_price": 1969997.8933333333,
+            "buy_price": 1969997.9,
             "name": "MAGMA_BUCKET",
             "npc_sell_price": 50000,
-            "sell_price": 1872942.6857142856
+            "sell_price": 1874852.6474747474
         },
         "MENDER_CROWN": {
             "name": "Ancient Mender Crown \u272a\u272a\u272a\u272a\u272a",
@@ -6990,9 +7001,9 @@
             "sell_price": 670000
         },
         "OLD_DRAGON_CHESTPLATE": {
-            "name": "Titanic Old Dragon Chestplate \u272a\u272a\u272a\u272a\u272a",
+            "name": "Giant Old Dragon Chestplate \u272a\u272a\u272a\u272a\u272a",
             "npc_sell_price": 100000,
-            "sell_price": 2500000
+            "sell_price": 1999000
         },
         "OLD_DRAGON_HELMET": {
             "name": "Heavy Old Dragon Helmet \u272a\u272a",
@@ -7000,22 +7011,22 @@
             "sell_price": 799000
         },
         "OLD_DRAGON_LEGGINGS": {
-            "name": "Fierce Old Dragon Leggings",
+            "name": "Heavy Old Dragon Leggings \u272a\u272a\u272a\u272a\u272a",
             "npc_sell_price": 100000,
-            "sell_price": 20000000
+            "sell_price": 2000000
         },
         "OVERFLUX_POWER_ORB": {
             "name": "Overflux Power Orb",
             "sell_price": 200000000
         },
         "PERFECT_AMBER_GEM": {
-            "buy_price": 14488096.1,
+            "buy_price": 14488114.7,
             "name": "PERFECT_AMBER_GEM",
             "npc_sell_price": 10240000,
-            "sell_price": 1772672.7887703017
+            "sell_price": 1776520.5485696613
         },
         "PERFECT_AMETHYST_GEM": {
-            "buy_price": 12507317.4,
+            "buy_price": 12333093.6,
             "name": "PERFECT_AMETHYST_GEM",
             "npc_sell_price": 10240000,
             "sell_price": 1841040.770537143
@@ -7066,16 +7077,16 @@
             "sell_price": 9000000
         },
         "PERFECT_JADE_GEM": {
-            "buy_price": 12904690.649999999,
+            "buy_price": 12818913.375,
             "name": "PERFECT_JADE_GEM",
             "npc_sell_price": 10240000,
-            "sell_price": 1377523.026046786
+            "sell_price": 1373326.5999606687
         },
         "PERFECT_JASPER_GEM": {
             "buy_price": 31656123.6,
             "name": "PERFECT_JASPER_GEM",
             "npc_sell_price": 10240000,
-            "sell_price": 1398571.0636417891
+            "sell_price": 1399514.289814999
         },
         "PERFECT_LEGGINGS_12": {
             "name": "Giant Perfect Leggings - Tier XII \u272a\u272a\u272a\u272a\u272a",
@@ -7083,7 +7094,7 @@
             "sell_price": 15700000
         },
         "PERFECT_RUBY_GEM": {
-            "buy_price": 12607701.5,
+            "buy_price": 12607701.300000003,
             "name": "PERFECT_RUBY_GEM",
             "npc_sell_price": 10240000,
             "sell_price": 207654.7882232375
@@ -7095,10 +7106,10 @@
             "sell_price": 1132647.9646221441
         },
         "PERFECT_TOPAZ_GEM": {
-            "buy_price": 10556261.785454547,
+            "buy_price": 10556261.784848485,
             "name": "PERFECT_TOPAZ_GEM",
             "npc_sell_price": 10240000,
-            "sell_price": 1339798.8915633047
+            "sell_price": 1342892.30596561
         },
         "PERSONAL_COMPACTOR_7000": {
             "name": "Personal Compactor 7000",
@@ -7123,12 +7134,12 @@
         "PET_ITEM_TOY_JERRY": {
             "name": "Jerry 3D Glasses",
             "npc_sell_price": 0,
-            "sell_price": 199000
+            "sell_price": 180000
         },
         "PET_ITEM_VAMPIRE_FANG": {
             "name": "Vampire Fang",
             "npc_sell_price": 0,
-            "sell_price": 4700000
+            "sell_price": 5000000
         },
         "PET_SKIN_DRAGON_NEON_BLUE": {
             "name": "Neon Blue Ender Dragon Skin",
@@ -7143,7 +7154,7 @@
         "PET_SKIN_DRAGON_NEON_RED": {
             "name": "Neon Red Ender Dragon Skin",
             "npc_sell_price": 0,
-            "sell_price": 129000000
+            "sell_price": 80000000
         },
         "PET_SKIN_DRAGON_PASTEL": {
             "name": "Pastel Ender Dragon Skin",
@@ -7185,9 +7196,9 @@
             "sell_price": 222000000
         },
         "POOCH_SWORD": {
-            "name": "Sharp Pooch Sword",
+            "name": "Fabled Pooch Sword",
             "npc_sell_price": 0,
-            "sell_price": 5750000
+            "sell_price": 8600000
         },
         "POWER_WITHER_BOOTS": {
             "name": "Ancient Necron's Boots \u272a\u272a\u272a\u272a\u272a",
@@ -7229,9 +7240,9 @@
             "sell_price": 3000000
         },
         "PROTECTOR_DRAGON_HELMET": {
-            "name": "Fierce Protector Dragon Helmet",
+            "name": "Giant Protector Dragon Helmet \u272a\u272a\u272a\u272a\u272a \u2726",
             "npc_sell_price": 100000,
-            "sell_price": 500000
+            "sell_price": 60000000
         },
         "PROTECTOR_DRAGON_LEGGINGS": {
             "name": "Godly Protector Dragon Leggings",
@@ -7287,20 +7298,20 @@
             "sell_price": 15100000
         },
         "RECOMBOBULATOR_3000": {
-            "buy_price": 6157285.6375,
+            "buy_price": 6157284.9952380955,
             "name": "RECOMBOBULATOR_3000",
             "npc_sell_price": 0,
-            "sell_price": 5090822.139121621
+            "sell_price": 5090702.034829202
         },
         "RED_CLAW_ARTIFACT": {
             "name": "Strong Red Claw Artifact",
             "sell_price": 15000000
         },
         "REFINED_TITANIUM": {
-            "buy_price": 269161.41625,
+            "buy_price": 269170.9911949686,
             "name": "REFINED_TITANIUM",
             "npc_sell_price": 51200,
-            "sell_price": 260841.34708926262
+            "sell_price": 257928.14304291288
         },
         "ROD_OF_THE_SEA": {
             "name": "Salty Rod of the Sea",
@@ -7352,9 +7363,9 @@
             "sell_price": 8990000
         },
         "SHADOW_FURY": {
-            "name": "Shadow Fury",
+            "name": "Fabled Shadow Fury \u272a\u272a",
             "npc_sell_price": 500000,
-            "sell_price": 31850000
+            "sell_price": 38000000
         },
         "SHADOW_GOGGLES": {
             "name": "Necrotic Shadow Goggles \u272a\u272a\u272a\u272a\u272a",
@@ -7366,9 +7377,9 @@
             "sell_price": 19000000
         },
         "SHARK_SCALE_BOOTS": {
-            "name": "Shark Scale Boots",
+            "name": "Fierce Shark Scale Boots",
             "npc_sell_price": 32000,
-            "sell_price": 900000
+            "sell_price": 1500000
         },
         "SHARK_SCALE_CHESTPLATE": {
             "name": "Submerged Shark Scale Chestplate",
@@ -7407,7 +7418,7 @@
         "SILK_EDGE_SWORD": {
             "name": "Silk-Edge Sword",
             "npc_sell_price": 375000,
-            "sell_price": 4650000
+            "sell_price": 4800000
         },
         "SKELETON_GRUNT_CHESTPLATE": {
             "name": "Wise Skeleton Grunt Chestplate",
@@ -7446,8 +7457,8 @@
             "sell_price": 150000
         },
         "SKELETON_SOLDIER_HELMET": {
-            "name": "Wise Skeleton Soldier Helmet",
-            "sell_price": 50000
+            "name": "Pure Skeleton Soldier Helmet",
+            "sell_price": 299000
         },
         "SKELETON_SOLDIER_LEGGINGS": {
             "name": "Reinforced Skeleton Soldier Leggings",
@@ -7541,6 +7552,10 @@
         "STARRED_ADAPTIVE_HELMET": {
             "name": "\u269a Fierce Adaptive Helm \u272a\u272a\u272a\u272a\u272a",
             "sell_price": 6990000
+        },
+        "STARRED_ADAPTIVE_LEGGINGS": {
+            "name": "\u269a Fierce Adaptive Leggings \u272a\u272a\u272a\u272a",
+            "sell_price": 5500000
         },
         "STARRED_LAST_BREATH": {
             "name": "\u269a Spiritual Last Breath \u272a\u272a\u272a\u272a\u272a",
@@ -7637,8 +7652,8 @@
             "sell_price": 750000
         },
         "SUPER_HEAVY_LEGGINGS": {
-            "name": "Smart Super Heavy Leggings",
-            "sell_price": 79999
+            "name": "Reinforced Super Heavy Leggings \u272a\u272a\u272a\u272a\u272a",
+            "sell_price": 900000
         },
         "SWORD_OF_REVELATIONS": {
             "name": "Fabled Thick Sword of Revelations",
@@ -7650,9 +7665,9 @@
             "sell_price": 4300000
         },
         "TANK_WITHER_CHESTPLATE": {
-            "name": "Goldor's Chestplate \u272a\u272a\u272a\u272a",
+            "name": "Giant Goldor's Chestplate",
             "npc_sell_price": 0,
-            "sell_price": 25500000
+            "sell_price": 22500000
         },
         "TANK_WITHER_HELMET": {
             "name": "Goldor's Helmet \u272a",
@@ -7702,7 +7717,7 @@
         "THE_ART_OF_WAR": {
             "name": "The Art of War",
             "npc_sell_price": 0,
-            "sell_price": 18300000
+            "sell_price": 16900000
         },
         "THE_SHREDDER": {
             "name": "Shredder",
@@ -7784,7 +7799,7 @@
         "WAND_OF_ATONEMENT": {
             "name": "Wand of Atonement",
             "npc_sell_price": 0,
-            "sell_price": 6900000
+            "sell_price": 4830000
         },
         "WARDEN_HEART": {
             "name": "Warden Heart",
@@ -7799,7 +7814,7 @@
         "WASHED_UP_SOUVENIR": {
             "name": "Washed-up Souvenir",
             "npc_sell_price": 0,
-            "sell_price": 1000000
+            "sell_price": 1399000
         },
         "WATER_HYDRA_HEAD": {
             "name": "Water Hydra Head",
@@ -7828,7 +7843,7 @@
         "WISE_DRAGON_BOOTS": {
             "name": "Necrotic Wise Dragon Boots \u272a\u272a\u272a\u272a\u272a",
             "npc_sell_price": 100000,
-            "sell_price": 6000000
+            "sell_price": 2323000
         },
         "WISE_DRAGON_CHESTPLATE": {
             "name": "Very Wise Dragon Chestplate",
@@ -7890,12 +7905,12 @@
         "WITHER_HELMET": {
             "name": "Wither Helmet",
             "npc_sell_price": 5000,
-            "sell_price": 6999999
+            "sell_price": 5000000
         },
         "WITHER_LEGGINGS": {
-            "name": "Wither Leggings",
+            "name": "Wither Leggings \u272a\u272a\u272a\u272a\u272a",
             "npc_sell_price": 5000,
-            "sell_price": 6800000
+            "sell_price": 11599000
         },
         "WITHER_RELIC": {
             "name": "Strong Wither Relic",
@@ -7944,21 +7959,25 @@
             "name": "Titanic Zombie Commander Chestplate",
             "sell_price": 500000
         },
+        "ZOMBIE_COMMANDER_HELMET": {
+            "name": "Wise Zombie Commander Helmet",
+            "sell_price": 200000
+        },
         "ZOMBIE_COMMANDER_LEGGINGS": {
-            "name": "Titanic Zombie Commander Leggings",
-            "sell_price": 340000
+            "name": "Fierce Zombie Commander Leggings",
+            "sell_price": 4990000
         },
         "ZOMBIE_COMMANDER_WHIP": {
             "name": "Legendary Zombie Commander Whip",
             "sell_price": 4000000
         },
         "ZOMBIE_KNIGHT_BOOTS": {
-            "name": "Ancient Zombie Knight Boots \u272a\u272a\u272a\u272a\u272a",
-            "sell_price": 10000000
+            "name": "Smart Zombie Knight Boots",
+            "sell_price": 500000
         },
         "ZOMBIE_KNIGHT_CHESTPLATE": {
             "name": "Ancient Zombie Knight Chestplate \u272a\u272a\u272a\u272a\u272a",
-            "sell_price": 2100000
+            "sell_price": 1200000
         },
         "ZOMBIE_KNIGHT_HELMET": {
             "name": "Clean Zombie Knight Helmet",
@@ -8134,7 +8153,7 @@
         },
         "[Lvl 100] Lion": {
             "name": "[Lvl 100] Lion",
-            "sell_price": 53000000
+            "sell_price": 58000000
         },
         "[Lvl 100] Magma Cube": {
             "name": "[Lvl 100] Magma Cube",
@@ -8388,10 +8407,6 @@
             "name": "[Lvl 19] Ammonite",
             "sell_price": 1198000
         },
-        "[Lvl 19] Flying Fish": {
-            "name": "[Lvl 19] Flying Fish",
-            "sell_price": 2900000
-        },
         "[Lvl 19] Wither Skeleton": {
             "name": "[Lvl 19] Wither Skeleton",
             "sell_price": 2500000
@@ -8482,7 +8497,7 @@
         },
         "[Lvl 1] Hound": {
             "name": "[Lvl 1] Hound",
-            "sell_price": 3999000
+            "sell_price": 4099999
         },
         "[Lvl 1] Jellyfish": {
             "name": "[Lvl 1] Jellyfish",
@@ -8562,7 +8577,7 @@
         },
         "[Lvl 1] Skeleton": {
             "name": "[Lvl 1] Skeleton",
-            "sell_price": 1099999
+            "sell_price": 990000
         },
         "[Lvl 1] Skeleton Horse": {
             "name": "[Lvl 1] Skeleton Horse",
@@ -8880,10 +8895,6 @@
             "name": "[Lvl 32] Wolf",
             "sell_price": 2500000
         },
-        "[Lvl 33] Ammonite": {
-            "name": "[Lvl 33] Ammonite",
-            "sell_price": 2800000
-        },
         "[Lvl 33] Armadillo": {
             "name": "[Lvl 33] Armadillo",
             "sell_price": 2399999
@@ -8948,6 +8959,10 @@
             "name": "[Lvl 35] Enderman",
             "sell_price": 42400000
         },
+        "[Lvl 35] Flying Fish": {
+            "name": "[Lvl 35] Flying Fish",
+            "sell_price": 2800000
+        },
         "[Lvl 35] Ghoul": {
             "name": "[Lvl 35] Ghoul",
             "sell_price": 3000000
@@ -8990,7 +9005,7 @@
         },
         "[Lvl 37] Ammonite": {
             "name": "[Lvl 37] Ammonite",
-            "sell_price": 2500000
+            "sell_price": 1200000
         },
         "[Lvl 37] Blue Whale": {
             "name": "[Lvl 37] Blue Whale",
@@ -9019,6 +9034,10 @@
         "[Lvl 38] Spirit": {
             "name": "[Lvl 38] Spirit",
             "sell_price": 4999999
+        },
+        "[Lvl 38] Wither Skeleton": {
+            "name": "[Lvl 38] Wither Skeleton",
+            "sell_price": 2100000
         },
         "[Lvl 38] Wolf": {
             "name": "[Lvl 38] Wolf",
@@ -9139,14 +9158,6 @@
         "[Lvl 42] Spirit": {
             "name": "[Lvl 42] Spirit",
             "sell_price": 5000000
-        },
-        "[Lvl 42] Squid": {
-            "name": "[Lvl 42] Squid",
-            "sell_price": 14000000
-        },
-        "[Lvl 42] Wither Skeleton": {
-            "name": "[Lvl 42] Wither Skeleton",
-            "sell_price": 1949000
         },
         "[Lvl 43] Ammonite": {
             "name": "[Lvl 43] Ammonite",
@@ -10026,7 +10037,7 @@
         },
         "[Lvl 65] Hound": {
             "name": "[Lvl 65] Hound",
-            "sell_price": 8900000
+            "sell_price": 7000000
         },
         "[Lvl 65] Hound \u2726": {
             "name": "[Lvl 65] Hound \u2726",
@@ -10087,6 +10098,10 @@
         "[Lvl 66] Chicken \u2726": {
             "name": "[Lvl 66] Chicken \u2726",
             "sell_price": 49999999
+        },
+        "[Lvl 66] Elephant": {
+            "name": "[Lvl 66] Elephant",
+            "sell_price": 18500000
         },
         "[Lvl 66] Monkey": {
             "name": "[Lvl 66] Monkey",
@@ -10268,17 +10283,9 @@
             "name": "[Lvl 69] Spirit",
             "sell_price": 8500000
         },
-        "[Lvl 69] Tiger": {
-            "name": "[Lvl 69] Tiger",
-            "sell_price": 26000000
-        },
         "[Lvl 69] Wither Skeleton": {
             "name": "[Lvl 69] Wither Skeleton",
             "sell_price": 3250000
-        },
-        "[Lvl 69] Wolf": {
-            "name": "[Lvl 69] Wolf",
-            "sell_price": 3000000
         },
         "[Lvl 6] Giraffe": {
             "name": "[Lvl 6] Giraffe",
@@ -10316,13 +10323,13 @@
             "name": "[Lvl 70] Phoenix",
             "sell_price": 63000000
         },
-        "[Lvl 70] Sheep": {
-            "name": "[Lvl 70] Sheep",
-            "sell_price": 5200000
-        },
         "[Lvl 70] Skeleton Horse": {
             "name": "[Lvl 70] Skeleton Horse",
             "sell_price": 7000000
+        },
+        "[Lvl 70] Spider": {
+            "name": "[Lvl 70] Spider",
+            "sell_price": 6600000
         },
         "[Lvl 70] Tarantula": {
             "name": "[Lvl 70] Tarantula",
@@ -10362,7 +10369,7 @@
         },
         "[Lvl 71] Skeleton": {
             "name": "[Lvl 71] Skeleton",
-            "sell_price": 3200000
+            "sell_price": 3000000
         },
         "[Lvl 71] Snowman": {
             "name": "[Lvl 71] Snowman",
@@ -10463,6 +10470,10 @@
         "[Lvl 73] Monkey": {
             "name": "[Lvl 73] Monkey",
             "sell_price": 26000000
+        },
+        "[Lvl 73] Ocelot": {
+            "name": "[Lvl 73] Ocelot",
+            "sell_price": 7200000
         },
         "[Lvl 73] Sheep": {
             "name": "[Lvl 73] Sheep",
@@ -10764,10 +10775,6 @@
             "name": "[Lvl 78] Black Cat",
             "sell_price": 25696969
         },
-        "[Lvl 78] Black Cat \u2726": {
-            "name": "[Lvl 78] Black Cat \u2726",
-            "sell_price": 37500000
-        },
         "[Lvl 78] Blue Whale": {
             "name": "[Lvl 78] Blue Whale",
             "sell_price": 24000000
@@ -11004,6 +11011,10 @@
             "name": "[Lvl 81] Flying Fish",
             "sell_price": 11500000
         },
+        "[Lvl 81] Griffin": {
+            "name": "[Lvl 81] Griffin",
+            "sell_price": 42500000
+        },
         "[Lvl 81] Hound": {
             "name": "[Lvl 81] Hound",
             "sell_price": 16000000
@@ -11128,13 +11139,9 @@
             "name": "[Lvl 83] Chicken",
             "sell_price": 7700000
         },
-        "[Lvl 83] Dolphin": {
-            "name": "[Lvl 83] Dolphin",
-            "sell_price": 27000000
-        },
         "[Lvl 83] Elephant": {
             "name": "[Lvl 83] Elephant",
-            "sell_price": 20100000
+            "sell_price": 20500000
         },
         "[Lvl 83] Endermite": {
             "name": "[Lvl 83] Endermite",
@@ -11198,7 +11205,7 @@
         },
         "[Lvl 84] Bal": {
             "name": "[Lvl 84] Bal",
-            "sell_price": 20500000
+            "sell_price": 19500000
         },
         "[Lvl 84] Black Cat": {
             "name": "[Lvl 84] Black Cat",
@@ -11292,9 +11299,9 @@
             "name": "[Lvl 84] Wither Skeleton",
             "sell_price": 8298998
         },
-        "[Lvl 84] Wolf \u2726": {
-            "name": "[Lvl 84] Wolf \u2726",
-            "sell_price": 30000000
+        "[Lvl 85] Baby Yeti": {
+            "name": "[Lvl 85] Baby Yeti",
+            "sell_price": 18800000
         },
         "[Lvl 85] Golem": {
             "name": "[Lvl 85] Golem",
@@ -11366,7 +11373,7 @@
         },
         "[Lvl 86] Elephant": {
             "name": "[Lvl 86] Elephant",
-            "sell_price": 23000000
+            "sell_price": 22400000
         },
         "[Lvl 86] Flying Fish": {
             "name": "[Lvl 86] Flying Fish",
@@ -11414,7 +11421,7 @@
         },
         "[Lvl 87] Armadillo": {
             "name": "[Lvl 87] Armadillo",
-            "sell_price": 4000000
+            "sell_price": 5000000
         },
         "[Lvl 87] Baby Yeti": {
             "name": "[Lvl 87] Baby Yeti",
@@ -11439,14 +11446,6 @@
         "[Lvl 87] Blue Whale": {
             "name": "[Lvl 87] Blue Whale",
             "sell_price": 29000000
-        },
-        "[Lvl 87] Elephant": {
-            "name": "[Lvl 87] Elephant",
-            "sell_price": 22500000
-        },
-        "[Lvl 87] Elephant \u2726": {
-            "name": "[Lvl 87] Elephant \u2726",
-            "sell_price": 27000000
         },
         "[Lvl 87] Ender Dragon": {
             "name": "[Lvl 87] Ender Dragon",
@@ -11648,6 +11647,10 @@
             "name": "[Lvl 89] Silverfish",
             "sell_price": 1950000
         },
+        "[Lvl 89] Skeleton": {
+            "name": "[Lvl 89] Skeleton",
+            "sell_price": 4500000
+        },
         "[Lvl 89] Snowman": {
             "name": "[Lvl 89] Snowman",
             "sell_price": 29900000
@@ -11692,6 +11695,10 @@
             "name": "[Lvl 90] Blue Whale",
             "sell_price": 32999999
         },
+        "[Lvl 90] Elephant": {
+            "name": "[Lvl 90] Elephant",
+            "sell_price": 20880000
+        },
         "[Lvl 90] Elephant \u2726": {
             "name": "[Lvl 90] Elephant \u2726",
             "sell_price": 180000000
@@ -11735,10 +11742,6 @@
         "[Lvl 90] Ocelot": {
             "name": "[Lvl 90] Ocelot",
             "sell_price": 15500000
-        },
-        "[Lvl 90] Pig": {
-            "name": "[Lvl 90] Pig",
-            "sell_price": 11222222
         },
         "[Lvl 90] Rabbit": {
             "name": "[Lvl 90] Rabbit",
@@ -11878,7 +11881,7 @@
         },
         "[Lvl 91] Wither Skeleton": {
             "name": "[Lvl 91] Wither Skeleton",
-            "sell_price": 9098998
+            "sell_price": 7800000
         },
         "[Lvl 91] Zombie": {
             "name": "[Lvl 91] Zombie",
@@ -11922,7 +11925,7 @@
         },
         "[Lvl 92] Lion": {
             "name": "[Lvl 92] Lion",
-            "sell_price": 30000000
+            "sell_price": 27999777
         },
         "[Lvl 92] Mithril Golem": {
             "name": "[Lvl 92] Mithril Golem",
@@ -12023,10 +12026,6 @@
         "[Lvl 93] Elephant \u2726": {
             "name": "[Lvl 93] Elephant \u2726",
             "sell_price": 55555555
-        },
-        "[Lvl 93] Ender Dragon \u2726": {
-            "name": "[Lvl 93] Ender Dragon \u2726",
-            "sell_price": 430000000
         },
         "[Lvl 93] Griffin": {
             "name": "[Lvl 93] Griffin",
@@ -12151,6 +12150,10 @@
         "[Lvl 94] Ocelot": {
             "name": "[Lvl 94] Ocelot",
             "sell_price": 17000000
+        },
+        "[Lvl 94] Parrot": {
+            "name": "[Lvl 94] Parrot",
+            "sell_price": 27000000
         },
         "[Lvl 94] Rabbit": {
             "name": "[Lvl 94] Rabbit",
@@ -12542,7 +12545,7 @@
         },
         "[Lvl 98] Wither Skeleton": {
             "name": "[Lvl 98] Wither Skeleton",
-            "sell_price": 7800000
+            "sell_price": 9400000
         },
         "[Lvl 99] Bal": {
             "name": "[Lvl 99] Bal",
@@ -12571,6 +12574,10 @@
         "[Lvl 99] Tiger": {
             "name": "[Lvl 99] Tiger",
             "sell_price": 30303030
+        },
+        "[Lvl 99] Wolf": {
+            "name": "[Lvl 99] Wolf",
+            "sell_price": 16500000
         }
     },
     "MYTHIC": {
@@ -12736,7 +12743,7 @@
             "sell_price": 20000000
         },
         "FROZEN_BLAZE_BOOTS": {
-            "name": "Ancient Frozen Blaze Boots \u272a\u272a\u272a\u272a\u272a",
+            "name": "Ancient Frozen Blaze Boots",
             "sell_price": 50000000
         },
         "FROZEN_BLAZE_CHESTPLATE": {
@@ -12757,7 +12764,7 @@
         },
         "GIANTS_SWORD": {
             "name": "Fabled Giant's Sword \u272a\u272a\u272a\u272a\u272a",
-            "sell_price": 181000000
+            "sell_price": 180700000
         },
         "HEGEMONY_ARTIFACT": {
             "name": "Strong Hegemony Artifact",
@@ -12813,8 +12820,8 @@
             "sell_price": 7100000
         },
         "NECROMANCER_LORD_LEGGINGS": {
-            "name": "Giant Necromancer Lord Leggings \u272a\u272a\u272a\u272a\u272a",
-            "sell_price": 14990000
+            "name": "Necrotic Necromancer Lord Leggings \u272a\u272a\u272a\u272a\u272a",
+            "sell_price": 11000000
         },
         "NECROMANCER_SWORD": {
             "name": "Fabled Necromancer Sword \u272a\u272a\u272a\u272a\u272a",
@@ -12891,10 +12898,10 @@
             "sell_price": 600000000
         },
         "PLASMA_BUCKET": {
-            "buy_price": 5407412.556521738,
+            "buy_price": 5407412.154166667,
             "name": "PLASMA_BUCKET",
             "npc_sell_price": 50000,
-            "sell_price": 5153500.154320989
+            "sell_price": 5194520.137974682
         },
         "POOCH_SWORD": {
             "name": "Spicy Pooch Sword",
@@ -13044,7 +13051,7 @@
         },
         "SORROW_HELMET": {
             "name": "Jaded Sorrow Helmet",
-            "sell_price": 40000000
+            "sell_price": 20000000
         },
         "SORROW_LEGGINGS": {
             "name": "Ancient Sorrow Leggings",
@@ -13181,16 +13188,16 @@
             "sell_price": 25000000
         },
         "TREASURE_ARTIFACT": {
-            "name": "Shaded Treasure Artifact",
-            "sell_price": 38888888
+            "name": "Strong Treasure Artifact",
+            "sell_price": 42000000
         },
         "UNSTABLE_DRAGON_CHESTPLATE": {
             "name": "Ancient Unstable Dragon Chestplate",
             "sell_price": 30000000
         },
         "UNSTABLE_DRAGON_HELMET": {
-            "name": "Renowned Unstable Dragon Helmet \u272a\u272a\u272a\u272a\u272a \u2726",
-            "sell_price": 199990000
+            "name": "Unstable Dragon Helmet \u2726",
+            "sell_price": 145555555
         },
         "UNSTABLE_DRAGON_LEGGINGS": {
             "name": "Fierce Unstable Dragon Leggings",
@@ -13501,7 +13508,7 @@
         },
         "[Lvl 81] Enderman": {
             "name": "[Lvl 81] Enderman",
-            "sell_price": 44000000
+            "sell_price": 51500000
         },
         "[Lvl 81] Enderman \u2726": {
             "name": "[Lvl 81] Enderman \u2726",
@@ -13571,6 +13578,10 @@
             "name": "[Lvl 96] Enderman",
             "sell_price": 56420696
         },
+        "[Lvl 96] Enderman \u2726": {
+            "name": "[Lvl 96] Enderman \u2726",
+            "sell_price": 52000000
+        },
         "[Lvl 97] Enderman": {
             "name": "[Lvl 97] Enderman",
             "sell_price": 50000000
@@ -13582,7 +13593,7 @@
             "sell_price": 269696969
         },
         "ABSOLUTE_ENDER_PEARL": {
-            "buy_price": 11787.583217922607,
+            "buy_price": 11787.497317073172,
             "name": "ABSOLUTE_ENDER_PEARL",
             "npc_sell_price": 11200,
             "sell_price": 10864.9
@@ -13598,7 +13609,7 @@
             "sell_price": 100000
         },
         "ANCIENT_CLAW": {
-            "buy_price": 310.22584378013505,
+            "buy_price": 310.6124046657694,
             "name": "ANCIENT_CLAW",
             "npc_sell_price": 200,
             "sell_price": 175.10022479487466
@@ -13656,7 +13667,7 @@
         "BATTLE_DISC": {
             "name": "Battle Disc",
             "npc_sell_price": 1,
-            "sell_price": 70000
+            "sell_price": 1000
         },
         "BAT_FIREWORK": {
             "name": "Bat Firework",
@@ -13681,7 +13692,7 @@
         "BEACH_CHAIR": {
             "name": "Beach Chair",
             "npc_sell_price": 0,
-            "sell_price": 6000000
+            "sell_price": 20000
         },
         "BEACH_CHAIR_PLUS": {
             "name": "Beach Chair+",
@@ -13734,7 +13745,7 @@
             "sell_price": 18000
         },
         "BLUE_SHARK_TOOTH": {
-            "buy_price": 1141.6728658318427,
+            "buy_price": 1141.6429123434705,
             "name": "BLUE_SHARK_TOOTH",
             "npc_sell_price": 0,
             "sell_price": 820.7
@@ -13805,10 +13816,10 @@
             "sell_price": 8000000
         },
         "CATALYST": {
-            "buy_price": 119008.1365625,
+            "buy_price": 119008.20675039246,
             "name": "CATALYST",
             "npc_sell_price": 500,
-            "sell_price": 111757.73915651698
+            "sell_price": 111807.97378310664
         },
         "CHALLENGE_ROD": {
             "name": "Challenging Rod",
@@ -13841,10 +13852,10 @@
             "sell_price": 3500000
         },
         "CONCENTRATED_STONE": {
-            "buy_price": 1299997.5958333334,
+            "buy_price": 1299997.6,
             "name": "CONCENTRATED_STONE",
             "npc_sell_price": 200000,
-            "sell_price": 4074.630194057669
+            "sell_price": 4057.8290994559184
         },
         "CONJURING_SWORD": {
             "name": "Sharp Conjuring",
@@ -13854,7 +13865,7 @@
         "CONTROL_SWITCH": {
             "name": "Control Switch",
             "npc_sell_price": 0,
-            "sell_price": 225000
+            "sell_price": 255000
         },
         "CREEPER_LEGGINGS": {
             "name": "Pure Creeper Pants",
@@ -13934,7 +13945,7 @@
         "DIAMOND_SPREADING": {
             "name": "Diamond Spreading",
             "npc_sell_price": 640,
-            "sell_price": 19999
+            "sell_price": 7000
         },
         "DIAMONITE": {
             "name": "Diamonite",
@@ -13954,7 +13965,7 @@
         "DIVER_FRAGMENT": {
             "name": "Emperor's Skull",
             "npc_sell_price": 100,
-            "sell_price": 300000
+            "sell_price": 180000
         },
         "DRAGON_CLAW": {
             "name": "Dragon Claw",
@@ -13996,10 +14007,10 @@
             "sell_price": 5699999
         },
         "DWARVEN_COMPACTOR": {
-            "buy_price": 712039.2239999999,
+            "buy_price": 712039.2374999999,
             "name": "DWARVEN_COMPACTOR",
             "npc_sell_price": 100000,
-            "sell_price": 673971.8312499999
+            "sell_price": 673971.807142857
         },
         "EASTER_BASKET": {
             "name": "Easter Basket",
@@ -14007,10 +14018,10 @@
             "sell_price": 36000000
         },
         "ECTOPLASM": {
-            "buy_price": 59763.45472849298,
+            "buy_price": 59763.41283950617,
             "name": "ECTOPLASM",
             "npc_sell_price": 0,
-            "sell_price": 33623.22258627375
+            "sell_price": 38671.75085388994
         },
         "EDIBLE_MACE": {
             "name": "Fabled Edible Mace",
@@ -14030,7 +14041,7 @@
         "ELECTRON_TRANSMITTER": {
             "name": "Electron Transmitter",
             "npc_sell_price": 0,
-            "sell_price": 399000
+            "sell_price": 400000
         },
         "EMBER_FRAGMENT": {
             "name": "Ember Fragment",
@@ -14053,25 +14064,25 @@
             "sell_price": 1099999
         },
         "ENCHANTED_CACTUS": {
-            "buy_price": 61193.588846880906,
+            "buy_price": 61193.58707865168,
             "name": "ENCHANTED_CACTUS",
             "npc_sell_price": 25600,
-            "sell_price": 47642.07697127938
+            "sell_price": 47610.08195615515
         },
         "ENCHANTED_COAL_BLOCK": {
-            "buy_price": 122660.32926421406,
+            "buy_price": 122947.98870588237,
             "name": "ENCHANTED_COAL_BLOCK",
             "npc_sell_price": 51000,
-            "sell_price": 120064.51508379889
+            "sell_price": 120064.1924130664
         },
         "ENCHANTED_COOKED_FISH": {
-            "buy_price": 462250.6,
+            "buy_price": 460999.9,
             "name": "ENCHANTED_COOKED_FISH",
             "npc_sell_price": 150000,
-            "sell_price": 305733.9435245901
+            "sell_price": 305862.68824974407
         },
         "ENCHANTED_COOKED_MUTTON": {
-            "buy_price": 133567.68139240507,
+            "buy_price": 133567.68053097345,
             "name": "ENCHANTED_COOKED_MUTTON",
             "npc_sell_price": 128000,
             "sell_price": 80852.69991336367
@@ -14083,34 +14094,34 @@
             "sell_price": 28130.484554774514
         },
         "ENCHANTED_COOKIE": {
-            "buy_price": 68261.67652173914,
+            "buy_price": 68261.32153846155,
             "name": "ENCHANTED_COOKIE",
             "npc_sell_price": 61500,
-            "sell_price": 63476.6037037037
+            "sell_price": 63476.601169590635
         },
         "ENCHANTED_DIAMOND_BLOCK": {
-            "buy_price": 205069.89464769646,
+            "buy_price": 204967.77394209354,
             "name": "ENCHANTED_DIAMOND_BLOCK",
             "npc_sell_price": 204800,
-            "sell_price": 179549.83907291928
+            "sell_price": 179512.90541626303
         },
         "ENCHANTED_EGG": {
-            "buy_price": 1565.3235576923078,
+            "buy_price": 1565.3183285849952,
             "name": "ENCHANTED_EGG",
             "npc_sell_price": 432,
-            "sell_price": 1352.7031142112307
+            "sell_price": 1352.7027946365558
         },
         "ENCHANTED_EMERALD_BLOCK": {
             "buy_price": 178235.9,
             "name": "ENCHANTED_EMERALD_BLOCK",
             "npc_sell_price": 153600,
-            "sell_price": 158017.5183745583
+            "sell_price": 158017.5104636433
         },
         "ENCHANTED_FIREWORK_ROCKET": {
             "buy_price": 499989.7,
             "name": "ENCHANTED_FIREWORK_ROCKET",
             "npc_sell_price": 41000,
-            "sell_price": 23897.566245834525
+            "sell_price": 23779.996447405996
         },
         "ENCHANTED_GLISTERING_MELON": {
             "buy_price": 7167.861637931034,
@@ -14119,16 +14130,16 @@
             "sell_price": 5004.0
         },
         "ENCHANTED_GOLD_BLOCK": {
-            "buy_price": 175363.58793481672,
+            "buy_price": 175467.93747980613,
             "name": "ENCHANTED_GOLD_BLOCK",
             "npc_sell_price": 102000,
-            "sell_price": 127320.75241962213
+            "sell_price": 126881.20103369279
         },
         "ENCHANTED_GRILLED_PORK": {
             "buy_price": 204201.772243346,
             "name": "ENCHANTED_GRILLED_PORK",
             "npc_sell_price": 128000,
-            "sell_price": 186028.81545988255
+            "sell_price": 186107.56099744246
         },
         "ENCHANTED_HOPPER": {
             "name": "Enchanted Hopper",
@@ -14136,82 +14147,82 @@
             "sell_price": 1300000
         },
         "ENCHANTED_IRON_BLOCK": {
-            "buy_price": 196599.91504761906,
+            "buy_price": 196599.94927835054,
             "name": "ENCHANTED_IRON_BLOCK",
             "npc_sell_price": 76800,
-            "sell_price": 186767.81617149306
+            "sell_price": 186870.20033783786
         },
         "ENCHANTED_LAPIS_LAZULI_BLOCK": {
-            "buy_price": 41137.28180737218,
+            "buy_price": 41137.198484848486,
             "name": "ENCHANTED_LAPIS_LAZULI_BLOCK",
             "npc_sell_price": 25600,
-            "sell_price": 39108.22728022431
+            "sell_price": 39108.70046089587
         },
         "ENCHANTED_MELON_BLOCK": {
-            "buy_price": 25698.994379521424,
+            "buy_price": 25698.998086956522,
             "name": "ENCHANTED_MELON_BLOCK",
             "npc_sell_price": 25600,
-            "sell_price": 25178.712739912346
+            "sell_price": 25178.396365582626
         },
         "ENCHANTED_MITHRIL": {
-            "buy_price": 1618.7674748415286,
+            "buy_price": 1618.7,
             "name": "ENCHANTED_MITHRIL",
             "npc_sell_price": 1600,
-            "sell_price": 1571.749784059678
+            "sell_price": 1571.8213707130892
         },
         "ENCHANTED_PACKED_ICE": {
-            "buy_price": 186515.04074074072,
+            "buy_price": 186514.39846153845,
             "name": "ENCHANTED_PACKED_ICE",
             "npc_sell_price": 12800,
-            "sell_price": 117617.89110857142
+            "sell_price": 117439.1770378875
         },
         "ENCHANTED_QUARTZ_BLOCK": {
-            "buy_price": 153152.08365695793,
+            "buy_price": 153378.33161209067,
             "name": "ENCHANTED_QUARTZ_BLOCK",
             "npc_sell_price": 102400,
-            "sell_price": 56095.34233280008
+            "sell_price": 56010.71049858598
         },
         "ENCHANTED_RABBIT_FOOT": {
-            "buy_price": 3449.4482427055705,
+            "buy_price": 3449.4239709443095,
             "name": "ENCHANTED_RABBIT_FOOT",
             "npc_sell_price": 800,
-            "sell_price": 3000.1294757145365
+            "sell_price": 3000.1240537294843
         },
         "ENCHANTED_RABBIT_HIDE": {
-            "buy_price": 21597.70452995616,
+            "buy_price": 21597.66185468451,
             "name": "ENCHANTED_RABBIT_HIDE",
             "npc_sell_price": 2880,
             "sell_price": 20226.1
         },
         "ENCHANTED_REDSTONE_BLOCK": {
-            "buy_price": 38992.683620689655,
+            "buy_price": 38992.728897338406,
             "name": "ENCHANTED_REDSTONE_BLOCK",
             "npc_sell_price": 25600,
-            "sell_price": 37064.02475090674
+            "sell_price": 37076.702082229735
         },
         "ENCHANTED_REDSTONE_LAMP": {
-            "buy_price": 60688.24285714286,
+            "buy_price": 60688.26000000001,
             "name": "ENCHANTED_REDSTONE_LAMP",
             "npc_sell_price": 30720,
             "sell_price": 48979.1412125121
         },
         "ENCHANTED_SLIME_BLOCK": {
-            "buy_price": 297631.55403508776,
+            "buy_price": 297619.60582822084,
             "name": "ENCHANTED_SLIME_BLOCK",
             "npc_sell_price": 128000,
-            "sell_price": 108359.20114550329
+            "sell_price": 108719.34420886844
         },
         "ENCHANTED_SUGAR_CANE": {
-            "buy_price": 59949.46139912555,
+            "buy_price": 59941.77910743802,
             "name": "ENCHANTED_SUGAR_CANE",
             "npc_sell_price": 51200,
-            "sell_price": 54356.501983959475
+            "sell_price": 54401.60936170213
         },
         "ENCHANTED_WET_SPONGE": {
-            "buy_price": 96089.38243243244,
+            "buy_price": 96379.0155339806,
             "name": "ENCHANTED_WET_SPONGE",
             "npc_sell_price": 80000,
-            "sell_price": 85244.45119705342
+            "sell_price": 85244.99560067682
         },
         "ENCHANTING_PLUS": {
             "name": "Enchanting Table+",
@@ -14246,7 +14257,7 @@
         "END_PORTAL_FUMES_MIXIN": {
             "name": "End Portal Fumes",
             "npc_sell_price": 0,
-            "sell_price": 700000
+            "sell_price": 750000
         },
         "ETERNAL_HOOF": {
             "name": "Eternal Hoof",
@@ -14286,7 +14297,7 @@
         "FARMING_1_TRAVEL_SCROLL": {
             "name": "Travel Scroll to the Barn",
             "npc_sell_price": 0,
-            "sell_price": 2500000
+            "sell_price": 200000
         },
         "FARMING_2_TRAVEL_SCROLL": {
             "name": "Travel Scroll to Mushroom Island",
@@ -14308,11 +14319,6 @@
             "npc_sell_price": 3200,
             "sell_price": 220000
         },
-        "FARM_ARMOR_LEGGINGS": {
-            "name": "Farm Armor Leggings",
-            "npc_sell_price": 4500,
-            "sell_price": 300000
-        },
         "FEATHER_ARTIFACT": {
             "name": "Feather Artifact",
             "npc_sell_price": 32000,
@@ -14324,46 +14330,46 @@
             "sell_price": 250000
         },
         "FINE_AMBER_GEM": {
-            "buy_price": 28692.856058751528,
+            "buy_price": 28692.867684478373,
             "name": "FINE_AMBER_GEM",
             "npc_sell_price": 25600,
-            "sell_price": 26455.583735705208
+            "sell_price": 26475.3565920398
         },
         "FINE_AMETHYST_GEM": {
-            "buy_price": 29295.1,
+            "buy_price": 29294.76139534884,
             "name": "FINE_AMETHYST_GEM",
             "npc_sell_price": 25600,
-            "sell_price": 27233.5
+            "sell_price": 27234.662886597936
         },
         "FINE_JADE_GEM": {
-            "buy_price": 26994.700000000004,
+            "buy_price": 26994.358828382836,
             "name": "FINE_JADE_GEM",
             "npc_sell_price": 25600,
-            "sell_price": 25191.667110036273
+            "sell_price": 25250.887889908252
         },
         "FINE_JASPER_GEM": {
-            "buy_price": 68262.90869565216,
+            "buy_price": 68264.96421663443,
             "name": "FINE_JASPER_GEM",
             "npc_sell_price": 25600,
-            "sell_price": 65172.14489097905
+            "sell_price": 65172.13896048109
         },
         "FINE_RUBY_GEM": {
-            "buy_price": 26347.330331753554,
+            "buy_price": 26392.89331210191,
             "name": "FINE_RUBY_GEM",
             "npc_sell_price": 25600,
-            "sell_price": 25025.906043876912
+            "sell_price": 25025.780778483448
         },
         "FINE_SAPPHIRE_GEM": {
-            "buy_price": 27411.897854336657,
+            "buy_price": 27411.914658881382,
             "name": "FINE_SAPPHIRE_GEM",
             "npc_sell_price": 25600,
-            "sell_price": 25760.124175824178
+            "sell_price": 25754.13373860182
         },
         "FINE_TOPAZ_GEM": {
-            "buy_price": 28691.082376237628,
+            "buy_price": 28691.009688122096,
             "name": "FINE_TOPAZ_GEM",
             "npc_sell_price": 25600,
-            "sell_price": 8593.208191653786
+            "sell_price": 8814.481530035018
         },
         "FISH_AFFINITY_TALISMAN": {
             "name": "Fish Affinity Talisman",
@@ -14381,10 +14387,10 @@
             "sell_price": 120000
         },
         "FOUL_FLESH": {
-            "buy_price": 25993.4,
+            "buy_price": 25993.400000000005,
             "name": "FOUL_FLESH",
             "npc_sell_price": 25000,
-            "sell_price": 24814.81414606095
+            "sell_price": 24814.836377629555
         },
         "FROZEN_CHICKEN": {
             "name": "Frozen Chicken",
@@ -14484,7 +14490,7 @@
         "GOBLIN_LEGGINGS": {
             "name": "Goblin Leggings",
             "npc_sell_price": 1500,
-            "sell_price": 20000
+            "sell_price": 34000
         },
         "GOBLIN_OMELETTE": {
             "name": "Goblin Omelette",
@@ -14514,13 +14520,13 @@
         "GOLDEN_PLATE": {
             "name": "Golden Plate",
             "npc_sell_price": 3068,
-            "sell_price": 1489999
+            "sell_price": 1190000
         },
         "GOLDEN_TOOTH": {
-            "buy_price": 122617.79896907216,
+            "buy_price": 122617.3,
             "name": "GOLDEN_TOOTH",
             "npc_sell_price": 128,
-            "sell_price": 100930.84986725665
+            "sell_price": 101312.77263843648
         },
         "GOLD_CHEST": {
             "name": "Gold Chest+",
@@ -14550,7 +14556,7 @@
         "GOLEM_POPPY": {
             "name": "Ancient Rose",
             "npc_sell_price": 0,
-            "sell_price": 400000
+            "sell_price": 349000
         },
         "GOLEM_SWORD": {
             "name": "Epic Golem Sword",
@@ -14563,10 +14569,10 @@
             "sell_price": 179000
         },
         "GRIFFIN_FEATHER": {
-            "buy_price": 62083.54442818315,
+            "buy_price": 61140.66579210894,
             "name": "GRIFFIN_FEATHER",
             "npc_sell_price": 1000,
-            "sell_price": 56149.73944636678
+            "sell_price": 56149.71452229299
         },
         "GRIFFIN_UPGRADE_STONE_RARE": {
             "name": "Griffin Upgrade Stone",
@@ -14604,10 +14610,10 @@
             "sell_price": 550000
         },
         "HAMSTER_WHEEL": {
-            "buy_price": 23218.298075259518,
+            "buy_price": 23225.833311374616,
             "name": "HAMSTER_WHEEL",
             "npc_sell_price": 20000,
-            "sell_price": 20205.700542118433
+            "sell_price": 20205.72815388798
         },
         "HARDENED_DIAMOND_BOOTS": {
             "name": "Hardened Diamond Boots",
@@ -14622,7 +14628,7 @@
         "HARDENED_DIAMOND_HELMET": {
             "name": "Hardened Diamond Helmet",
             "npc_sell_price": 3200,
-            "sell_price": 120000
+            "sell_price": 14000
         },
         "HARDENED_DIAMOND_LEGGINGS": {
             "name": "Hardened Diamond Leggings",
@@ -14632,12 +14638,12 @@
         "HASTE_RING": {
             "name": "Haste Ring",
             "npc_sell_price": 20500,
-            "sell_price": 340000
+            "sell_price": 499999
         },
         "HAY_BALE": {
             "name": "Hay Bale",
             "npc_sell_price": 0,
-            "sell_price": 1900000
+            "sell_price": 60000000
         },
         "HEALING_TISSUE": {
             "name": "Healing Tissue",
@@ -14670,7 +14676,7 @@
             "sell_price": 79000
         },
         "HEAVY_CHESTPLATE": {
-            "name": "Mythic Heavy Chestplate",
+            "name": "Wise Heavy Chestplate",
             "npc_sell_price": 1,
             "sell_price": 49000
         },
@@ -14702,7 +14708,7 @@
         "ICE_ROD": {
             "name": "Ice Rod",
             "npc_sell_price": 20000,
-            "sell_price": 2000000
+            "sell_price": 990000
         },
         "ICE_SPRAY_WAND": {
             "name": "Heroic Ice Spray Wand \u272a\u272a\u272a\u272a\u272a",
@@ -14745,7 +14751,7 @@
             "sell_price": 20000000
         },
         "JERRY_BOX_BLUE": {
-            "buy_price": 127030.65319148937,
+            "buy_price": 127030.75286624201,
             "name": "JERRY_BOX_BLUE",
             "npc_sell_price": 0,
             "sell_price": 111090.60642652477
@@ -14850,7 +14856,7 @@
         "MENDER_HELMET": {
             "name": "Mender Helmet",
             "npc_sell_price": 1,
-            "sell_price": 80000
+            "sell_price": 350000
         },
         "MERCENARY_AXE": {
             "name": "Heroic Mercenary Axe",
@@ -14868,9 +14874,9 @@
             "sell_price": 1000000
         },
         "MERCENARY_HELMET": {
-            "name": "Reinforced Mercenary Helmet",
+            "name": "Mercenary Helmet",
             "npc_sell_price": 10000,
-            "sell_price": 100000
+            "sell_price": 148000
         },
         "MERCENARY_LEGGINGS": {
             "name": "Mercenary Leggings",
@@ -14885,7 +14891,7 @@
         "MIMIC_FRAGMENT": {
             "name": "Mimic Fragment",
             "npc_sell_price": 1000,
-            "sell_price": 14000
+            "sell_price": 32000
         },
         "MINERAL_TALISMAN": {
             "name": "Mineral Talisman",
@@ -14895,7 +14901,7 @@
         "MINING_1_TRAVEL_SCROLL": {
             "name": "Travel Scroll to the Gold Mine",
             "npc_sell_price": 0,
-            "sell_price": 299000
+            "sell_price": 3333333
         },
         "MINING_2_TRAVEL_SCROLL": {
             "name": "Travel Scroll to Deep Caverns",
@@ -14940,7 +14946,7 @@
         "MITHRIL_PLATE": {
             "name": "Mithril Plate",
             "npc_sell_price": 10108,
-            "sell_price": 3900000
+            "sell_price": 24600000
         },
         "MOLTEN_CUBE": {
             "name": "Molten Cube",
@@ -14950,13 +14956,13 @@
         "MUMMY_CANDLE": {
             "name": "Mummy Candle",
             "npc_sell_price": 0,
-            "sell_price": 15000
+            "sell_price": 350000
         },
         "MUTANT_NETHER_STALK": {
-            "buy_price": 76806.18766805748,
+            "buy_price": 76806.23339517624,
             "name": "MUTANT_NETHER_STALK",
             "npc_sell_price": 76800,
-            "sell_price": 76165.26195627928
+            "sell_price": 76166.89120924905
         },
         "NECROMANCER_BROOCH": {
             "name": "Necromancer's Brooch",
@@ -14968,16 +14974,16 @@
             "sell_price": 4500000
         },
         "NULL_ATOM": {
-            "buy_price": 46630.829113924054,
+            "buy_price": 46630.816049382716,
             "name": "NULL_ATOM",
             "npc_sell_price": 33333,
-            "sell_price": 32552.982460732987
+            "sell_price": 32552.98076165463
         },
         "NULL_OVOID": {
-            "buy_price": 323883.01961503207,
+            "buy_price": 323882.5459047619,
             "name": "NULL_OVOID",
             "npc_sell_price": 0,
-            "sell_price": 118476.11880268366
+            "sell_price": 117769.21206941208
         },
         "None": {
             "sell_price": 0
@@ -15005,7 +15011,7 @@
         "PERFECT_CHESTPLATE_1": {
             "name": "Perfect Chestplate - Tier I",
             "npc_sell_price": 819200,
-            "sell_price": 999999
+            "sell_price": 1500000
         },
         "PERFECT_CHESTPLATE_3": {
             "name": "Giant Perfect Chestplate - Tier III \u272a\u272a\u272a",
@@ -15098,17 +15104,12 @@
         "PET_SKIN_RABBIT_AQUAMARINE": {
             "name": "Aquamarine Rabbit Skin",
             "npc_sell_price": 0,
-            "sell_price": 47999999
+            "sell_price": 44000000
         },
         "PET_SKIN_RABBIT_ROSE": {
             "name": "Rose Rabbit Skin",
             "npc_sell_price": 0,
             "sell_price": 53000000
-        },
-        "PET_SKIN_ROCK_COOL": {
-            "name": "Cool Rock Skin",
-            "npc_sell_price": 0,
-            "sell_price": 2147483647
         },
         "PET_SKIN_ROCK_LAUGH": {
             "name": "Laughing Rock Skin",
@@ -15151,10 +15152,10 @@
             "sell_price": 95000
         },
         "POLISHED_PUMPKIN": {
-            "buy_price": 179997.27948717945,
+            "buy_price": 179997.2739495798,
             "name": "POLISHED_PUMPKIN",
             "npc_sell_price": 102400,
-            "sell_price": 101061.5563777778
+            "sell_price": 100820.25304114491
         },
         "PREMIUM_FLESH": {
             "name": "Premium Flesh",
@@ -15184,7 +15185,7 @@
         "RECLUSE_FANG": {
             "name": "Recluse Fang",
             "npc_sell_price": 0,
-            "sell_price": 520000
+            "sell_price": 490000
         },
         "REDSTONE_CHEST": {
             "name": "Redstone Chest+",
@@ -15197,10 +15198,10 @@
             "sell_price": 1700000
         },
         "RED_GIFT": {
-            "buy_price": 69249.32664756446,
+            "buy_price": 69249.26863823933,
             "name": "RED_GIFT",
             "npc_sell_price": 0,
-            "sell_price": 61797.80839085126
+            "sell_price": 61797.963626666664
         },
         "RED_NOSE": {
             "name": "Red Nose",
@@ -15218,10 +15219,10 @@
             "sell_price": 300000
         },
         "REFINED_MINERAL": {
-            "buy_price": 43349.099849397586,
+            "buy_price": 43349.098125000004,
             "name": "REFINED_MINERAL",
             "npc_sell_price": 0,
-            "sell_price": 20452.89052038953
+            "sell_price": 20497.42537403657
         },
         "REFINED_MITHRIL_PICKAXE": {
             "name": "Refined Mithril Pickaxe",
@@ -15244,10 +15245,10 @@
             "sell_price": 1000000
         },
         "REVENANT_VISCERA": {
-            "buy_price": 39989.831897265954,
+            "buy_price": 39989.82867956266,
             "name": "REVENANT_VISCERA",
             "npc_sell_price": 128,
-            "sell_price": 36995.039232019495
+            "sell_price": 37010.19837781266
         },
         "ROBOTRON_REFLECTOR": {
             "name": "Robotron Reflector",
@@ -15257,7 +15258,7 @@
         "ROCK_CANDY": {
             "name": "Rock Candy",
             "npc_sell_price": 770,
-            "sell_price": 4000000
+            "sell_price": 3900000
         },
         "ROCK_GEMSTONE": {
             "name": "Rock Gemstone",
@@ -15265,9 +15266,9 @@
             "sell_price": 1300000
         },
         "ROTTEN_BOOTS": {
-            "name": "Heavy Rotten Boots",
+            "name": "Fierce Rotten Boots",
             "npc_sell_price": 1,
-            "sell_price": 95000
+            "sell_price": 750000
         },
         "ROTTEN_CHESTPLATE": {
             "name": "Clean Rotten Chestplate",
@@ -15292,7 +15293,7 @@
         "SALMON_BOOTS_NEW": {
             "name": "Salmon Boots",
             "npc_sell_price": 100,
-            "sell_price": 50000
+            "sell_price": 62000
         },
         "SALMON_CHESTPLATE_NEW": {
             "name": "Salmon Chestplate",
@@ -15300,9 +15301,9 @@
             "sell_price": 50000
         },
         "SALMON_HELMET_NEW": {
-            "name": "Fierce Salmon Helmet",
+            "name": "Salmon Helmet",
             "npc_sell_price": 125,
-            "sell_price": 50000
+            "sell_price": 70000
         },
         "SALMON_LEGGINGS_NEW": {
             "name": "Salmon Leggings",
@@ -15327,7 +15328,7 @@
         "SCARF_STUDIES": {
             "name": "Scarf's Studies",
             "npc_sell_price": 1000,
-            "sell_price": 750000
+            "sell_price": 640000
         },
         "SEA_CREATURE_ARTIFACT": {
             "name": "Sea Creature Artifact",
@@ -15340,10 +15341,10 @@
             "sell_price": 15666666
         },
         "SHARK_FIN": {
-            "buy_price": 133.18099180911682,
+            "buy_price": 131.56141345427056,
             "name": "SHARK_FIN",
             "npc_sell_price": 0,
-            "sell_price": 71.57179562138634
+            "sell_price": 71.62176485639353
         },
         "SILENT_DEATH": {
             "name": "Gentle Silent Death",
@@ -15411,7 +15412,7 @@
             "sell_price": 3450000
         },
         "SOULFLOW": {
-            "buy_price": 17370.648402091807,
+            "buy_price": 17370.652389937106,
             "name": "SOULFLOW",
             "npc_sell_price": 1,
             "sell_price": 16120.658282142474
@@ -15429,10 +15430,10 @@
         "SOUL_STRING": {
             "name": "Soul String",
             "npc_sell_price": 0,
-            "sell_price": 99999
+            "sell_price": 288887
         },
         "SPEED_ARTIFACT": {
-            "name": "Shaded Speed Artifact",
+            "name": "Speed Artifact",
             "npc_sell_price": 1400000,
             "sell_price": 3300000
         },
@@ -15467,10 +15468,10 @@
             "sell_price": 40000
         },
         "STARFALL": {
-            "buy_price": 66.81223863953164,
+            "buy_price": 66.81410361112098,
             "name": "STARFALL",
             "npc_sell_price": 15,
-            "sell_price": 43.546480687859386
+            "sell_price": 42.02545291753186
         },
         "STARLIGHT_BOOTS": {
             "name": "Starlight Boots",
@@ -15490,7 +15491,7 @@
         "STARLIGHT_LEGGINGS": {
             "name": "Starlight Leggings",
             "npc_sell_price": 22500,
-            "sell_price": 140000
+            "sell_price": 150000
         },
         "STARLIGHT_WAND": {
             "name": "Starlight Wand",
@@ -15525,7 +15526,7 @@
         "SUPERBOOM_TNT": {
             "name": "Superboom TNT",
             "npc_sell_price": 2,
-            "sell_price": 128000
+            "sell_price": 4000
         },
         "SUPERLITE_MOTOR": {
             "name": "Superlite Motor",
@@ -15538,16 +15539,16 @@
             "sell_price": 149000
         },
         "SUPER_COMPACTOR_3000": {
-            "buy_price": 591269.2,
+            "buy_price": 591269.0921052631,
             "name": "SUPER_COMPACTOR_3000",
             "npc_sell_price": 50000,
-            "sell_price": 575045.6018518518
+            "sell_price": 574910.3258883249
         },
         "SUPER_EGG": {
-            "buy_price": 224352.07880690735,
+            "buy_price": 224425.46073211316,
             "name": "SUPER_EGG",
             "npc_sell_price": 0,
-            "sell_price": 105565.33121420389
+            "sell_price": 104923.2247262248
         },
         "SUPER_MAGIC_MUSHROOM_SOUP": {
             "name": "Mystical Mushroom Soup",
@@ -15587,7 +15588,7 @@
         "TANK_MINER_HELMET": {
             "name": "Miner Helmet",
             "npc_sell_price": 2000,
-            "sell_price": 110000
+            "sell_price": 100000
         },
         "TANK_MINER_LEGGINGS": {
             "name": "Miner Leggings",
@@ -15595,10 +15596,10 @@
             "sell_price": 50000
         },
         "TARANTULA_SILK": {
-            "buy_price": 107580.47664473685,
+            "buy_price": 107580.48820093459,
             "name": "TARANTULA_SILK",
             "npc_sell_price": 128,
-            "sell_price": 87298.2619351409
+            "sell_price": 87331.87502625133
         },
         "TIGHTLY_TIED_HAY_BALE": {
             "buy_price": 453226.3,
@@ -15607,10 +15608,10 @@
             "sell_price": 34486.01050611906
         },
         "TITANIC_EXP_BOTTLE": {
-            "buy_price": 255130.36443418017,
+            "buy_price": 255130.6,
             "name": "TITANIC_EXP_BOTTLE",
             "npc_sell_price": 5000,
-            "sell_price": 147431.8167254211
+            "sell_price": 146974.8163092662
         },
         "TITANIUM_DRILL_ENGINE": {
             "name": "Titanium-Plated Drill Engine",
@@ -15623,7 +15624,7 @@
             "sell_price": 18888888
         },
         "TITANIUM_ORE": {
-            "buy_price": 73.99838704257536,
+            "buy_price": 71.3,
             "name": "TITANIUM_ORE",
             "npc_sell_price": 20,
             "sell_price": 63.9
@@ -15704,16 +15705,16 @@
             "sell_price": 3899900
         },
         "WEREWOLF_SKIN": {
-            "buy_price": 25051.166317854804,
+            "buy_price": 25051.269936485533,
             "name": "WEREWOLF_SKIN",
             "npc_sell_price": 0,
-            "sell_price": 18735.793630363034
+            "sell_price": 18751.0
         },
         "WHALE_BAIT": {
-            "buy_price": 1913.6634479069144,
+            "buy_price": 1908.2943476683006,
             "name": "WHALE_BAIT",
             "npc_sell_price": 80,
-            "sell_price": 1802.5420585379386
+            "sell_price": 1802.5361185701831
         },
         "WINTER_DISC": {
             "name": "Winter Disc",
@@ -15780,9 +15781,9 @@
             "sell_price": 30000
         },
         "ZOMBIE_SWORD": {
-            "name": "Zombie Sword \u272a\u272a\u272a\u272a\u272a",
+            "name": "Heroic Zombie Sword \u272a\u272a\u272a\u272a\u272a",
             "npc_sell_price": 300000,
-            "sell_price": 2000000
+            "sell_price": 1000000
         },
         "[Lvl 100] Armadillo": {
             "name": "[Lvl 100] Armadillo",
@@ -15802,7 +15803,7 @@
         },
         "[Lvl 100] Griffin": {
             "name": "[Lvl 100] Griffin",
-            "sell_price": 5999998
+            "sell_price": 6000000
         },
         "[Lvl 100] Scatha": {
             "name": "[Lvl 100] Scatha",
@@ -15854,11 +15855,11 @@
         },
         "[Lvl 1] Elephant": {
             "name": "[Lvl 1] Elephant",
-            "sell_price": 200000
+            "sell_price": 250000
         },
         "[Lvl 1] Enderman": {
             "name": "[Lvl 1] Enderman",
-            "sell_price": 9000
+            "sell_price": 10000
         },
         "[Lvl 1] Flying Fish": {
             "name": "[Lvl 1] Flying Fish",
@@ -15932,10 +15933,6 @@
             "name": "[Lvl 25] Blue Whale",
             "sell_price": 230000
         },
-        "[Lvl 25] Giraffe": {
-            "name": "[Lvl 25] Giraffe",
-            "sell_price": 150000
-        },
         "[Lvl 25] Guardian": {
             "name": "[Lvl 25] Guardian",
             "sell_price": 999999
@@ -15963,6 +15960,10 @@
         "[Lvl 30] Silverfish": {
             "name": "[Lvl 30] Silverfish",
             "sell_price": 100000
+        },
+        "[Lvl 32] Dolphin": {
+            "name": "[Lvl 32] Dolphin",
+            "sell_price": 1000000
         },
         "[Lvl 33] Tiger": {
             "name": "[Lvl 33] Tiger",
@@ -16132,10 +16133,6 @@
             "name": "[Lvl 56] Tiger",
             "sell_price": 1100000
         },
-        "[Lvl 57] Dolphin": {
-            "name": "[Lvl 57] Dolphin",
-            "sell_price": 2000000
-        },
         "[Lvl 57] Enderman": {
             "name": "[Lvl 57] Enderman",
             "sell_price": 500000
@@ -16179,6 +16176,10 @@
         "[Lvl 60] Scatha": {
             "name": "[Lvl 60] Scatha",
             "sell_price": 320000000
+        },
+        "[Lvl 61] Blue Whale": {
+            "name": "[Lvl 61] Blue Whale",
+            "sell_price": 500000
         },
         "[Lvl 61] Lion": {
             "name": "[Lvl 61] Lion",
@@ -16340,6 +16341,10 @@
             "name": "[Lvl 85] Dolphin",
             "sell_price": 5999999
         },
+        "[Lvl 85] Griffin": {
+            "name": "[Lvl 85] Griffin",
+            "sell_price": 4400000
+        },
         "[Lvl 85] Scatha": {
             "name": "[Lvl 85] Scatha",
             "sell_price": 330000000
@@ -16407,6 +16412,10 @@
         "[Lvl 91] Guardian": {
             "name": "[Lvl 91] Guardian",
             "sell_price": 2000000
+        },
+        "[Lvl 92] Dolphin": {
+            "name": "[Lvl 92] Dolphin",
+            "sell_price": 3900000
         },
         "[Lvl 92] Griffin": {
             "name": "[Lvl 92] Griffin",
@@ -16536,7 +16545,7 @@
         "GOD_POTION_2": {
             "name": "God Potion",
             "npc_sell_price": 0,
-            "sell_price": 699000
+            "sell_price": 10000000
         },
         "GOLDOR_THE_FISH": {
             "name": "Goldor the Fish",
@@ -16554,9 +16563,9 @@
             "sell_price": 700000
         },
         "GOLD_LIVID_HEAD": {
-            "name": "Golden Livid Head",
+            "name": "Ancient Golden Livid Head \u272a\u272a\u272a\u272a\u272a",
             "npc_sell_price": 0,
-            "sell_price": 480000
+            "sell_price": 5999999
         },
         "GOLD_NECRON_HEAD": {
             "name": "Ancient Golden Necron Head \u272a\u272a\u272a\u272a\u272a",
@@ -16601,7 +16610,7 @@
         "KAT_FLOWER": {
             "name": "Kat Flower",
             "npc_sell_price": 1,
-            "sell_price": 292000
+            "sell_price": 199000
         },
         "MAXOR_THE_FISH": {
             "name": "Maxor the Fish",
@@ -16634,7 +16643,7 @@
         "SHRIMP_THE_FISH": {
             "name": "Shrimp the Fish",
             "npc_sell_price": 0,
-            "sell_price": 18000000
+            "sell_price": 19999999
         },
         "SNOWFLAKE_THE_FISH": {
             "name": "Flake the Fish",
@@ -16649,7 +16658,7 @@
         "STORM_THE_FISH": {
             "name": "Storm the Fish",
             "npc_sell_price": 0,
-            "sell_price": 1000000
+            "sell_price": 220000
         },
         "TALISMAN_ENRICHMENT_ATTACK_SPEED": {
             "name": "Attack Speed Enrichment",
@@ -16684,7 +16693,7 @@
         "TALISMAN_ENRICHMENT_INTELLIGENCE": {
             "name": "Intelligence Enrichment",
             "npc_sell_price": 0,
-            "sell_price": 2200000
+            "sell_price": 3900000
         },
         "TALISMAN_ENRICHMENT_MAGIC_FIND": {
             "name": "Magic Find Enrichment",
@@ -16719,7 +16728,7 @@
         "ULTIMATE_CARROT_CANDY_UPGRADE": {
             "name": "Ultimate Carrot Candy Upgrade",
             "npc_sell_price": 0,
-            "sell_price": 3700000
+            "sell_price": 2750000
         },
         "XXLARGE_ENCHANTED_CHEST": {
             "name": "XX-Large Storage",
@@ -16775,14 +16784,14 @@
             "sell_price": 1938000
         },
         "BLESSED_BAIT": {
-            "buy_price": 299.9989619564238,
+            "buy_price": 299.9985600490196,
             "name": "BLESSED_BAIT",
             "npc_sell_price": 42,
-            "sell_price": 154.70605638610144
+            "sell_price": 154.70510750112905
         },
         "BLOOD_GOD_CREST": {
             "name": "Shaded Blood God Crest",
-            "sell_price": 9000000
+            "sell_price": 12000000
         },
         "CANDY_TALISMAN": {
             "name": "Shaded Candy Talisman",
@@ -16790,10 +16799,10 @@
             "sell_price": 249000
         },
         "COMPACTOR": {
-            "buy_price": 9119.504545454545,
+            "buy_price": 9118.813636363637,
             "name": "COMPACTOR",
             "npc_sell_price": 640,
-            "sell_price": 7986.614130434784
+            "sell_price": 7986.600571428572
         },
         "DECENT_COFFEE": {
             "name": "Decent Coffee",
@@ -16813,7 +16822,7 @@
         "DUNGEON_DECOY": {
             "name": "Decoy",
             "npc_sell_price": 0,
-            "sell_price": 500000
+            "sell_price": 5000
         },
         "DUNGEON_TRAP": {
             "name": "Trap",
@@ -16826,34 +16835,34 @@
             "sell_price": 79999
         },
         "ENCHANTED_ACACIA_LOG": {
-            "buy_price": 482.33573100010176,
+            "buy_price": 482.4430074713248,
             "name": "ENCHANTED_ACACIA_LOG",
             "npc_sell_price": 320,
             "sell_price": 417.70000000000005
         },
         "ENCHANTED_BAKED_POTATO": {
-            "buy_price": 27516.22037593985,
+            "buy_price": 27516.20819434373,
             "name": "ENCHANTED_BAKED_POTATO",
             "npc_sell_price": 25600,
-            "sell_price": 26745.785746606332
+            "sell_price": 26745.724862637366
         },
         "ENCHANTED_BIRCH_LOG": {
-            "buy_price": 372.6271143003588,
+            "buy_price": 372.9943031355008,
             "name": "ENCHANTED_BIRCH_LOG",
             "npc_sell_price": 320,
-            "sell_price": 328.5
+            "sell_price": 328.5007542821225
         },
         "ENCHANTED_BLAZE_POWDER": {
-            "buy_price": 2988.2955963302757,
+            "buy_price": 2988.1479667557146,
             "name": "ENCHANTED_BLAZE_POWDER",
             "npc_sell_price": 1440,
-            "sell_price": 2545.5022883519937
+            "sell_price": 2545.501660571316
         },
         "ENCHANTED_BLAZE_ROD": {
-            "buy_price": 292095.66983865655,
+            "buy_price": 292095.66638242046,
             "name": "ENCHANTED_BLAZE_ROD",
             "npc_sell_price": 230400,
-            "sell_price": 144388.28274128868
+            "sell_price": 144386.73285473895
         },
         "ENCHANTED_BOOK": {
             "name": "Enchanted Book",
@@ -16870,7 +16879,7 @@
             "sell_price": 75000000
         },
         "ENCHANTED_CACTUS_GREEN": {
-            "buy_price": 953.1691883372736,
+            "buy_price": 949.5312582036378,
             "name": "ENCHANTED_CACTUS_GREEN",
             "npc_sell_price": 160,
             "sell_price": 862.2
@@ -16882,10 +16891,10 @@
             "sell_price": 3802.4299110198494
         },
         "ENCHANTED_CARROT": {
-            "buy_price": 352.7546768812554,
+            "buy_price": 353.77968763244894,
             "name": "ENCHANTED_CARROT",
             "npc_sell_price": 160,
-            "sell_price": 330.41943524697336
+            "sell_price": 330.41594249311896
         },
         "ENCHANTED_CARROT_ON_A_STICK": {
             "buy_price": 0.0,
@@ -16900,154 +16909,154 @@
             "sell_price": 16824.680526315788
         },
         "ENCHANTED_CHARCOAL": {
-            "buy_price": 1542.7336206896553,
+            "buy_price": 1546.756812749004,
             "name": "ENCHANTED_CHARCOAL",
             "npc_sell_price": 320,
-            "sell_price": 1302.21151672162
+            "sell_price": 1302.3
         },
         "ENCHANTED_CLAY_BALL": {
-            "buy_price": 478.96275582087054,
+            "buy_price": 479.2628279474349,
             "name": "ENCHANTED_CLAY_BALL",
             "npc_sell_price": 480,
-            "sell_price": 472.0768098614776
+            "sell_price": 471.27573011573503
         },
         "ENCHANTED_CLOWNFISH": {
-            "buy_price": 3200.581578947368,
+            "buy_price": 3200.5775377969762,
             "name": "ENCHANTED_CLOWNFISH",
             "npc_sell_price": 3200,
             "sell_price": 3163.5
         },
         "ENCHANTED_COAL": {
-            "buy_price": 809.4217248189599,
+            "buy_price": 804.9228986316671,
             "name": "ENCHANTED_COAL",
             "npc_sell_price": 320,
-            "sell_price": 726.2143955346102
+            "sell_price": 726.2460835224975
         },
         "ENCHANTED_COBBLESTONE": {
-            "buy_price": 1190.6659372579397,
+            "buy_price": 1190.3785042991403,
             "name": "ENCHANTED_COBBLESTONE",
             "npc_sell_price": 160,
-            "sell_price": 1178.3999999999999
+            "sell_price": 1175.0660356949702
         },
         "ENCHANTED_COCOA": {
             "buy_price": 482.4911178270003,
             "name": "ENCHANTED_COCOA",
             "npc_sell_price": 480,
-            "sell_price": 454.530593435024
+            "sell_price": 454.5304655279308
         },
         "ENCHANTED_DARK_OAK_LOG": {
-            "buy_price": 393.90000000000003,
+            "buy_price": 393.9,
             "name": "ENCHANTED_DARK_OAK_LOG",
             "npc_sell_price": 320,
-            "sell_price": 333.24820562300664
+            "sell_price": 332.95774551859324
         },
         "ENCHANTED_DIAMOND": {
-            "buy_price": 1293.231535931259,
+            "buy_price": 1292.374649872963,
             "name": "ENCHANTED_DIAMOND",
             "npc_sell_price": 1280,
-            "sell_price": 1274.554722227337
+            "sell_price": 1274.8
         },
         "ENCHANTED_EMERALD": {
-            "buy_price": 1072.3484300666032,
+            "buy_price": 1072.7524622716442,
             "name": "ENCHANTED_EMERALD",
             "npc_sell_price": 960,
-            "sell_price": 960.0204253052527
+            "sell_price": 960.0178659787274
         },
         "ENCHANTED_ENDER_PEARL": {
-            "buy_price": 155.0,
+            "buy_price": 154.99911224546412,
             "name": "ENCHANTED_ENDER_PEARL",
             "npc_sell_price": 140,
-            "sell_price": 136.1066313666162
+            "sell_price": 136.1222222222222
         },
         "ENCHANTED_EYE_OF_ENDER": {
-            "buy_price": 6008.262697889182,
+            "buy_price": 6008.001416171769,
             "name": "ENCHANTED_EYE_OF_ENDER",
             "npc_sell_price": 3520,
-            "sell_price": 5122.517131782945
+            "sell_price": 5122.6334393778725
         },
         "ENCHANTED_FEATHER": {
-            "buy_price": 478.2936470979545,
+            "buy_price": 478.29367930805057,
             "name": "ENCHANTED_FEATHER",
             "npc_sell_price": 480,
-            "sell_price": 445.50000000000006
+            "sell_price": 445.23268933773437
         },
         "ENCHANTED_FERMENTED_SPIDER_EYE": {
-            "buy_price": 69999.67985611511,
+            "buy_price": 69999.68026859504,
             "name": "ENCHANTED_FERMENTED_SPIDER_EYE",
             "npc_sell_price": 31000,
-            "sell_price": 56561.65721720592
+            "sell_price": 56561.77370368048
         },
         "ENCHANTED_FLINT": {
-            "buy_price": 2515.82475028728,
+            "buy_price": 2513.704554004554,
             "name": "ENCHANTED_FLINT",
             "npc_sell_price": 640,
-            "sell_price": 2243.6277421834957
+            "sell_price": 2243.5882027835924
         },
         "ENCHANTED_GHAST_TEAR": {
-            "buy_price": 284.8523553423515,
+            "buy_price": 282.9993934511681,
             "name": "ENCHANTED_GHAST_TEAR",
             "npc_sell_price": 80,
-            "sell_price": 240.8704028038503
+            "sell_price": 240.8702265079604
         },
         "ENCHANTED_GLOWSTONE": {
-            "buy_price": 63101.399999999994,
+            "buy_price": 63101.40000000001,
             "name": "ENCHANTED_GLOWSTONE",
             "npc_sell_price": 61000,
-            "sell_price": 62078.536286498624
+            "sell_price": 62078.51854717923
         },
         "ENCHANTED_GLOWSTONE_DUST": {
-            "buy_price": 712.8297489539749,
+            "buy_price": 711.3539113428943,
             "name": "ENCHANTED_GLOWSTONE_DUST",
             "npc_sell_price": 320,
-            "sell_price": 632.2210346611485
+            "sell_price": 632.2569834291512
         },
         "ENCHANTED_GOLD": {
-            "buy_price": 1530.5231901195639,
+            "buy_price": 1534.0,
             "name": "ENCHANTED_GOLD",
             "npc_sell_price": 640,
-            "sell_price": 1443.8945701068749
+            "sell_price": 1443.6399553918418
         },
         "ENCHANTED_GOLDEN_CARROT": {
-            "buy_price": 48583.59906487434,
+            "buy_price": 48583.6,
             "name": "ENCHANTED_GOLDEN_CARROT",
             "npc_sell_price": 20608,
-            "sell_price": 45502.2430742256
+            "sell_price": 45499.9026074074
         },
         "ENCHANTED_GUNPOWDER": {
-            "buy_price": 3993.148575129534,
+            "buy_price": 3992.8112981382305,
             "name": "ENCHANTED_GUNPOWDER",
             "npc_sell_price": 640,
-            "sell_price": 2601.673648307226
+            "sell_price": 2602.0168291098116
         },
         "ENCHANTED_HARD_STONE": {
-            "buy_price": 2306.1060100166947,
+            "buy_price": 2306.071089385475,
             "name": "ENCHANTED_HARD_STONE",
             "npc_sell_price": 576,
-            "sell_price": 2101.0807574446185
+            "sell_price": 2102.2
         },
         "ENCHANTED_HAY_BLOCK": {
-            "buy_price": 4898.426544622425,
+            "buy_price": 4898.439119496856,
             "name": "ENCHANTED_HAY_BLOCK",
             "npc_sell_price": 1300,
-            "sell_price": 4390.16288538874
+            "sell_price": 4382.435201371037
         },
         "ENCHANTED_ICE": {
-            "buy_price": 1062.112381438042,
+            "buy_price": 1066.3327793757326,
             "name": "ENCHANTED_ICE",
             "npc_sell_price": 80,
-            "sell_price": 865.2599712600004
+            "sell_price": 865.2639519823973
         },
         "ENCHANTED_INK_SACK": {
-            "buy_price": 73994.63253833051,
+            "buy_price": 73993.53168604651,
             "name": "ENCHANTED_INK_SACK",
             "npc_sell_price": 160,
-            "sell_price": 40678.48018539977
+            "sell_price": 46937.26800377537
         },
         "ENCHANTED_IRON": {
-            "buy_price": 1313.037422660479,
+            "buy_price": 1307.1120399184458,
             "name": "ENCHANTED_IRON",
             "npc_sell_price": 480,
-            "sell_price": 1198.3245096088808
+            "sell_price": 1198.1736097419541
         },
         "ENCHANTED_JACK_O_LANTERN": {
             "name": "Lantern Helmet",
@@ -17055,81 +17064,81 @@
             "sell_price": 400000
         },
         "ENCHANTED_JUNGLE_LOG": {
-            "buy_price": 1149.9963093207061,
+            "buy_price": 1149.9999926831053,
             "name": "ENCHANTED_JUNGLE_LOG",
             "npc_sell_price": 320,
-            "sell_price": 1011.8663110174924
+            "sell_price": 1011.3877654617686
         },
         "ENCHANTED_LAPIS_LAZULI": {
-            "buy_price": 490.7397526165556,
+            "buy_price": 490.96232565191025,
             "name": "ENCHANTED_LAPIS_LAZULI",
             "npc_sell_price": 160,
-            "sell_price": 462.7294074548952
+            "sell_price": 462.71856312731114
         },
         "ENCHANTED_LEATHER": {
-            "buy_price": 6665.321639482565,
+            "buy_price": 6673.70705882353,
             "name": "ENCHANTED_LEATHER",
             "npc_sell_price": 1700,
-            "sell_price": 6136.554858732878
+            "sell_price": 6253.046857142857
         },
         "ENCHANTED_MAGMA_CREAM": {
             "buy_price": 1309.992007314974,
             "name": "ENCHANTED_MAGMA_CREAM",
             "npc_sell_price": 1280,
-            "sell_price": 1198.3403928074974
+            "sell_price": 1198.4129631845558
         },
         "ENCHANTED_MELON": {
-            "buy_price": 189.67047549191568,
+            "buy_price": 189.64589890993625,
             "name": "ENCHANTED_MELON",
             "npc_sell_price": 160,
-            "sell_price": 168.1
+            "sell_price": 168.0775219188752
         },
         "ENCHANTED_MUTTON": {
-            "buy_price": 3531.5702161547215,
+            "buy_price": 3583.775226273597,
             "name": "ENCHANTED_MUTTON",
             "npc_sell_price": 800,
-            "sell_price": 2641.9456914238817
+            "sell_price": 2678.332243381328
         },
         "ENCHANTED_NETHERRACK": {
-            "buy_price": 398.9989119683482,
+            "buy_price": 398.95779275484415,
             "name": "ENCHANTED_NETHERRACK",
             "npc_sell_price": 160,
             "sell_price": 183.54699860400186
         },
         "ENCHANTED_NETHER_STALK": {
-            "buy_price": 485.1350700580661,
+            "buy_price": 485.19964535577265,
             "name": "ENCHANTED_NETHER_STALK",
             "npc_sell_price": 480,
-            "sell_price": 473.76057222239086
+            "sell_price": 473.7324062780196
         },
         "ENCHANTED_OAK_LOG": {
-            "buy_price": 1289.3041231069858,
+            "buy_price": 1289.9915109034268,
             "name": "ENCHANTED_OAK_LOG",
             "npc_sell_price": 320,
-            "sell_price": 1142.6700392285059
+            "sell_price": 1142.1155915053591
         },
         "ENCHANTED_OBSIDIAN": {
-            "buy_price": 2182.2494772975506,
+            "buy_price": 2181.4902583887506,
             "name": "ENCHANTED_OBSIDIAN",
             "npc_sell_price": 1440,
-            "sell_price": 2103.0027731078167
+            "sell_price": 2103.0
         },
         "ENCHANTED_PAPER": {
-            "buy_price": 547.1574038087836,
+            "buy_price": 547.1813823411906,
             "name": "ENCHANTED_PAPER",
             "npc_sell_price": 384,
-            "sell_price": 356.1004655379414
+            "sell_price": 356.10044114403354
         },
         "ENCHANTED_POISONOUS_POTATO": {
             "name": "Enchanted Poisonous Potato",
             "npc_sell_price": 1600,
-            "sell_price": 256000
+            "sell_price": 31998
         },
         "ENCHANTED_PORK": {
-            "buy_price": 1799.5599714648067,
+            "buy_price": 1798.892548412084,
             "name": "ENCHANTED_PORK",
             "npc_sell_price": 800,
-            "sell_price": 1651.0678673761768
+            "sell_price": 1651.1283430679373
         },
         "ENCHANTED_POTATO": {
             "buy_price": 189.3,
@@ -17144,118 +17153,118 @@
             "sell_price": 400.1
         },
         "ENCHANTED_PRISMARINE_SHARD": {
-            "buy_price": 440.69940774930836,
+            "buy_price": 440.6994119119119,
             "name": "ENCHANTED_PRISMARINE_SHARD",
             "npc_sell_price": 400,
-            "sell_price": 400.29999999999995
+            "sell_price": 400.3
         },
         "ENCHANTED_PUFFERFISH": {
-            "buy_price": 2466.633624345223,
+            "buy_price": 2466.63937996413,
             "name": "ENCHANTED_PUFFERFISH",
             "npc_sell_price": 2400,
-            "sell_price": 2386.3087686567164
+            "sell_price": 2386.3002447980416
         },
         "ENCHANTED_PUMPKIN": {
-            "buy_price": 1000.0,
+            "buy_price": 999.9956035030723,
             "name": "ENCHANTED_PUMPKIN",
             "npc_sell_price": 640,
-            "sell_price": 866.0492294920355
+            "sell_price": 874.7674133300782
         },
         "ENCHANTED_QUARTZ": {
-            "buy_price": 953.9886248638953,
+            "buy_price": 953.9243758254197,
             "name": "ENCHANTED_QUARTZ",
             "npc_sell_price": 640,
-            "sell_price": 887.9351160346474
+            "sell_price": 883.3044416358221
         },
         "ENCHANTED_RABBIT": {
-            "buy_price": 638.1381980870102,
+            "buy_price": 638.109161704077,
             "name": "ENCHANTED_RABBIT",
             "npc_sell_price": 640,
-            "sell_price": 610.6777256208359
+            "sell_price": 610.6599901896665
         },
         "ENCHANTED_RAW_BEEF": {
-            "buy_price": 650.2865644926725,
+            "buy_price": 650.2348608629052,
             "name": "ENCHANTED_RAW_BEEF",
             "npc_sell_price": 640,
-            "sell_price": 596.0181900913691
+            "sell_price": 596.0152308388655
         },
         "ENCHANTED_RAW_CHICKEN": {
-            "buy_price": 676.0071666790188,
+            "buy_price": 677.0104481955763,
             "name": "ENCHANTED_RAW_CHICKEN",
             "npc_sell_price": 640,
-            "sell_price": 643.2049471367228
+            "sell_price": 643.2043361417781
         },
         "ENCHANTED_RAW_FISH": {
-            "buy_price": 2753.320938293302,
+            "buy_price": 2752.8923697458604,
             "name": "ENCHANTED_RAW_FISH",
             "npc_sell_price": 960,
-            "sell_price": 2723.204158456207
+            "sell_price": 2723.2
         },
         "ENCHANTED_RAW_SALMON": {
-            "buy_price": 1620.198524349726,
+            "buy_price": 1620.1986930063852,
             "name": "ENCHANTED_RAW_SALMON",
             "npc_sell_price": 1600,
-            "sell_price": 1530.010344469807
+            "sell_price": 1530.00428448118
         },
         "ENCHANTED_REDSTONE": {
-            "buy_price": 247.71079481821982,
+            "buy_price": 248.10056769340972,
             "name": "ENCHANTED_REDSTONE",
             "npc_sell_price": 160,
-            "sell_price": 208.8218199912919
+            "sell_price": 208.79868338422227
         },
         "ENCHANTED_SAND": {
-            "buy_price": 490.01735729386894,
+            "buy_price": 490.01294410970297,
             "name": "ENCHANTED_SAND",
             "npc_sell_price": 320,
-            "sell_price": 428.1012752646776
+            "sell_price": 428.1218964259665
         },
         "ENCHANTED_SLIME_BALL": {
-            "buy_price": 1797.965713028169,
+            "buy_price": 1798.0858856248917,
             "name": "ENCHANTED_SLIME_BALL",
             "npc_sell_price": 800,
-            "sell_price": 1501.1972304521446
+            "sell_price": 1501.068909451421
         },
         "ENCHANTED_SNOW_BLOCK": {
-            "buy_price": 599.781970990038,
+            "buy_price": 598.6986492853777,
             "name": "ENCHANTED_SNOW_BLOCK",
             "npc_sell_price": 600,
-            "sell_price": 591.7279420565832
+            "sell_price": 591.8894433703338
         },
         "ENCHANTED_SPIDER_EYE": {
-            "buy_price": 825.3705925118139,
+            "buy_price": 820.5240434117155,
             "name": "ENCHANTED_SPIDER_EYE",
             "npc_sell_price": 480,
-            "sell_price": 647.323712145609
+            "sell_price": 647.292769601959
         },
         "ENCHANTED_SPONGE": {
-            "buy_price": 2411.416575342466,
+            "buy_price": 2415.4355853771403,
             "name": "ENCHANTED_SPONGE",
             "npc_sell_price": 2000,
-            "sell_price": 1979.5631993342722
+            "sell_price": 1979.5376484799679
         },
         "ENCHANTED_SPRUCE_LOG": {
-            "buy_price": 1200.1970092510455,
+            "buy_price": 1200.2042558922558,
             "name": "ENCHANTED_SPRUCE_LOG",
             "npc_sell_price": 320,
-            "sell_price": 1087.816761504206
+            "sell_price": 1087.8140734265735
         },
         "ENCHANTED_STRING": {
-            "buy_price": 1095.6975609756098,
+            "buy_price": 1095.6931740568627,
             "name": "ENCHANTED_STRING",
             "npc_sell_price": 576,
-            "sell_price": 1025.9249139507897
+            "sell_price": 1030.361646537313
         },
         "ENCHANTED_SUGAR": {
-            "buy_price": 402.84018264840176,
+            "buy_price": 402.5,
             "name": "ENCHANTED_SUGAR",
             "npc_sell_price": 320,
-            "sell_price": 332.84493754731267
+            "sell_price": 333.1872089304922
         },
         "ENCHANTED_WATER_LILY": {
-            "buy_price": 34758.3,
+            "buy_price": 34758.2,
             "name": "ENCHANTED_WATER_LILY",
             "npc_sell_price": 1600,
-            "sell_price": 27222.906376057257
+            "sell_price": 27222.915012642225
         },
         "ENCHANTED_WOOL": {
             "name": "Enchanted Wool",
@@ -17333,28 +17342,28 @@
             "sell_price": 8500000
         },
         "FLAWED_AMBER_GEM": {
-            "buy_price": 390.6771972049689,
+            "buy_price": 390.9501078016449,
             "name": "FLAWED_AMBER_GEM",
             "npc_sell_price": 320,
-            "sell_price": 320.2741088955471
+            "sell_price": 320.27319463726974
         },
         "FLAWED_AMETHYST_GEM": {
-            "buy_price": 338.9219855178928,
+            "buy_price": 338.9185790631877,
             "name": "FLAWED_AMETHYST_GEM",
             "npc_sell_price": 320,
-            "sell_price": 327.8
+            "sell_price": 327.8054018351244
         },
         "FLAWED_JADE_GEM": {
-            "buy_price": 319.99972227365305,
+            "buy_price": 319.99970114516935,
             "name": "FLAWED_JADE_GEM",
             "npc_sell_price": 320,
-            "sell_price": 311.7860051442031
+            "sell_price": 311.94845590432647
         },
         "FLAWED_JASPER_GEM": {
-            "buy_price": 1091.5418604651163,
+            "buy_price": 999.8884304207119,
             "name": "FLAWED_JASPER_GEM",
             "npc_sell_price": 320,
-            "sell_price": 735.9948942564097
+            "sell_price": 735.8964154203659
         },
         "FLAWED_RUBY_GEM": {
             "buy_price": 329.05553408777257,
@@ -17363,16 +17372,16 @@
             "sell_price": 312.1
         },
         "FLAWED_SAPPHIRE_GEM": {
-            "buy_price": 389.09113656296756,
+            "buy_price": 389.0915001290988,
             "name": "FLAWED_SAPPHIRE_GEM",
             "npc_sell_price": 320,
-            "sell_price": 273.1217443668434
+            "sell_price": 276.24168819982776
         },
         "FLAWED_TOPAZ_GEM": {
-            "buy_price": 457.63738452063234,
+            "buy_price": 457.62160469667316,
             "name": "FLAWED_TOPAZ_GEM",
             "npc_sell_price": 320,
-            "sell_price": 328.9885710959975
+            "sell_price": 329.1453874043239
         },
         "GOBLIN_EGG_GREEN": {
             "name": "Green Goblin Egg",
@@ -17385,22 +17394,22 @@
             "sell_price": 7950000
         },
         "GRAND_EXP_BOTTLE": {
-            "buy_price": 3137.0739011925043,
+            "buy_price": 3136.6141358815985,
             "name": "GRAND_EXP_BOTTLE",
             "npc_sell_price": 480,
-            "sell_price": 2780.0242894174357
+            "sell_price": 999.5980985414442
         },
         "GREEN_CANDY": {
-            "buy_price": 899.0993023940567,
+            "buy_price": 899.159903148811,
             "name": "GREEN_CANDY",
             "npc_sell_price": 0,
-            "sell_price": 871.4999132581571
+            "sell_price": 871.4881848676855
         },
         "GREEN_GIFT": {
             "buy_price": 9500.0,
             "name": "GREEN_GIFT",
             "npc_sell_price": 0,
-            "sell_price": 8428.804871087434
+            "sell_price": 8428.800000000001
         },
         "GRIFFIN_UPGRADE_STONE_UNCOMMON": {
             "name": "Griffin Upgrade Stone",
@@ -17431,7 +17440,7 @@
             "buy_price": 48.95205308408548,
             "name": "ICE_BAIT",
             "npc_sell_price": 3,
-            "sell_price": 29.9272816970893
+            "sell_price": 29.925346784363178
         },
         "ICE_HUNK": {
             "name": "Hunk of Ice",
@@ -17444,13 +17453,13 @@
             "sell_price": 350000
         },
         "JACOBS_TICKET": {
-            "buy_price": 8974.907738814994,
+            "buy_price": 8974.897264189465,
             "name": "JACOBS_TICKET",
             "npc_sell_price": 0,
-            "sell_price": 8769.181310722486
+            "sell_price": 8769.17337579618
         },
         "JERRY_BOX_GREEN": {
-            "buy_price": 71968.03951165371,
+            "buy_price": 71968.53733333333,
             "name": "JERRY_BOX_GREEN",
             "npc_sell_price": 0,
             "sell_price": 68417.1479930192
@@ -17470,20 +17479,20 @@
             "npc_sell_price": 0,
             "sell_price": 3200000
         },
-        "JUNGLE_AXE": {
-            "name": "Jungle Axe",
-            "npc_sell_price": 480,
-            "sell_price": 2485
-        },
         "JUNGLE_PICKAXE": {
             "name": "Jungle Pickaxe",
             "npc_sell_price": 0,
             "sell_price": 9000000
         },
+        "LAPIS_ARMOR_CHESTPLATE": {
+            "name": "Lapis Armor Chestplate",
+            "npc_sell_price": 2000,
+            "sell_price": 10000
+        },
         "LUCKY_HOOF": {
             "name": "Lucky Hoof",
             "npc_sell_price": 0,
-            "sell_price": 225000
+            "sell_price": 189000
         },
         "MASTER_SKULL_TIER_1": {
             "name": "Silky Master Skull - Tier 1",
@@ -17509,16 +17518,16 @@
             "sell_price": 380000
         },
         "NULL_SPHERE": {
-            "buy_price": 1850.176581971192,
+            "buy_price": 1849.9870471523811,
             "name": "NULL_SPHERE",
             "npc_sell_price": 0,
-            "sell_price": 1804.4422988631393
+            "sell_price": 1801.841200715452
         },
         "NURSE_SHARK_TOOTH": {
-            "buy_price": 406.71242358078604,
+            "buy_price": 402.12430330524955,
             "name": "NURSE_SHARK_TOOTH",
             "npc_sell_price": 0,
-            "sell_price": 201.00525409756568
+            "sell_price": 201.0049179930124
         },
         "None": {
             "sell_price": 0
@@ -17601,15 +17610,11 @@
             "name": "Shaded Pocket Espresso Machine",
             "sell_price": 7500000
         },
-        "PREHISTORIC_EGG": {
-            "name": "Prehistoric Egg",
-            "sell_price": 200000
-        },
         "PUMPKIN_GUTS": {
-            "buy_price": 53799.707302533534,
+            "buy_price": 53805.37880597015,
             "name": "PUMPKIN_GUTS",
             "npc_sell_price": 0,
-            "sell_price": 40002.03393100318
+            "sell_price": 40002.05542382928
         },
         "PURPLE_SMALL_BACKPACK": {
             "name": "Small Backpack",
@@ -17622,10 +17627,10 @@
             "sell_price": 50000
         },
         "RAW_SOULFLOW": {
-            "buy_price": 269.8546966502693,
+            "buy_price": 259.7,
             "name": "RAW_SOULFLOW",
             "npc_sell_price": 0,
-            "sell_price": 155.4
+            "sell_price": 155.5
         },
         "RED_CLAW_TALISMAN": {
             "name": "Red Claw Talisman",
@@ -17641,7 +17646,7 @@
             "buy_price": 13.3,
             "name": "REVENANT_FLESH",
             "npc_sell_price": 1,
-            "sell_price": 9.041942013897495
+            "sell_price": 9.164244409796916
         },
         "ROCK_PAPER_SHEARS": {
             "name": "Rock Paper Shears",
@@ -17654,10 +17659,10 @@
             "sell_price": 15490000
         },
         "SHARK_BAIT": {
-            "buy_price": 24.132775068899722,
+            "buy_price": 24.16870572497036,
             "name": "SHARK_BAIT",
             "npc_sell_price": 0,
-            "sell_price": 7.3999999999999995
+            "sell_price": 7.4041802743305025
         },
         "SILVER_FANG": {
             "name": "Silver Fang",
@@ -17665,10 +17670,10 @@
             "sell_price": 640000
         },
         "SLUDGE_JUICE": {
-            "buy_price": 1967.5973424190802,
+            "buy_price": 1967.148006932409,
             "name": "SLUDGE_JUICE",
             "npc_sell_price": 0,
-            "sell_price": 1821.5260094482576
+            "sell_price": 1822.3309148878263
         },
         "SMALL_BACKPACK": {
             "name": "Small Backpack",
@@ -17678,13 +17683,13 @@
         "SPEED_RING": {
             "name": "Speed Ring",
             "npc_sell_price": 18000,
-            "sell_price": 73000
+            "sell_price": 85000
         },
         "TARANTULA_WEB": {
-            "buy_price": 121.59803146808422,
+            "buy_price": 121.72357864608179,
             "name": "TARANTULA_WEB",
             "npc_sell_price": 1,
-            "sell_price": 106.22009492398038
+            "sell_price": 105.93097353154458
         },
         "TELEPORT_PAD": {
             "name": "Teleport Pad",
@@ -17734,13 +17739,13 @@
         "WOLF_PAW": {
             "name": "Wolf Paw",
             "npc_sell_price": 0,
-            "sell_price": 875000
+            "sell_price": 999000
         },
         "WOLF_TOOTH": {
-            "buy_price": 436.09185033316254,
+            "buy_price": 436.09520766773164,
             "name": "WOLF_TOOTH",
             "npc_sell_price": 1,
-            "sell_price": 389.5310562093611
+            "sell_price": 389.4470928772704
         },
         "WOOD_CHEST": {
             "name": "Wood Chest+",
@@ -17753,10 +17758,10 @@
             "sell_price": 6400000
         },
         "YOGGIE": {
-            "buy_price": 1496.839122486289,
+            "buy_price": 1498.9110220440882,
             "name": "YOGGIE",
             "npc_sell_price": 100,
-            "sell_price": 713.4089591930307
+            "sell_price": 712.9379630209966
         },
         "ZOMBIE_RING": {
             "name": "Hurtful Zombie Ring",
@@ -17782,6 +17787,10 @@
         "[Lvl 15] Rock": {
             "name": "[Lvl 15] Rock",
             "sell_price": 50000
+        },
+        "[Lvl 16] Blue Whale": {
+            "name": "[Lvl 16] Blue Whale",
+            "sell_price": 90000
         },
         "[Lvl 18] Chicken": {
             "name": "[Lvl 18] Chicken",
@@ -17813,7 +17822,7 @@
         },
         "[Lvl 1] Elephant": {
             "name": "[Lvl 1] Elephant",
-            "sell_price": 80000
+            "sell_price": 160000
         },
         "[Lvl 1] Enderman": {
             "name": "[Lvl 1] Enderman",
@@ -17931,10 +17940,6 @@
             "name": "[Lvl 52] Bat",
             "sell_price": 500000
         },
-        "[Lvl 52] Giraffe": {
-            "name": "[Lvl 52] Giraffe",
-            "sell_price": 100000
-        },
         "[Lvl 52] Rabbit": {
             "name": "[Lvl 52] Rabbit",
             "sell_price": 25000
@@ -17962,10 +17967,6 @@
         "[Lvl 64] Dolphin": {
             "name": "[Lvl 64] Dolphin",
             "sell_price": 100000
-        },
-        "[Lvl 68] Dolphin": {
-            "name": "[Lvl 68] Dolphin",
-            "sell_price": 2000000
         },
         "[Lvl 70] Rock": {
             "name": "[Lvl 70] Rock",
@@ -17999,13 +18000,21 @@
             "name": "[Lvl 81] Griffin",
             "sell_price": 2000000
         },
+        "[Lvl 84] Griffin": {
+            "name": "[Lvl 84] Griffin",
+            "sell_price": 2400000
+        },
+        "[Lvl 85] Griffin": {
+            "name": "[Lvl 85] Griffin",
+            "sell_price": 2400000
+        },
         "[Lvl 88] Griffin": {
             "name": "[Lvl 88] Griffin",
-            "sell_price": 2300000
+            "sell_price": 2600000
         },
         "[Lvl 89] Griffin": {
             "name": "[Lvl 89] Griffin",
-            "sell_price": 2700000
+            "sell_price": 2699999
         },
         "[Lvl 90] Guardian": {
             "name": "[Lvl 90] Guardian",
